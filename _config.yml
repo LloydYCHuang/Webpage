@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman  
-title: "Lloyd's Blog"  # 網站的名稱  
-subtitle: "記錄、分享成長過程" 
+title: "Soils, statistics, and meditation"  # 網站的名稱  
+description: "The personal blog of Lloyd Huang"
+# https://hexo.io/zh-tw/docs/configuration.html
