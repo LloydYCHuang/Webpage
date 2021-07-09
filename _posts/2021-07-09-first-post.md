@@ -2,7 +2,7 @@
 layout: post
 title:  "Github起步"
 categories: Github
-permalink: Webpages/posts/starting/  
+permalink: Webpage/posts/starting/  
 ---
 
 ## 從零開始真的不簡單!
