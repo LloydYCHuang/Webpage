@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-permalink: /posts/first/
+categories: IDK
+permalink: /posts/first/  
 ---
 
 ## 好難喔!
