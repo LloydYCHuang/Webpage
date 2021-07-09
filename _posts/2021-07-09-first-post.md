@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Github起步"
-categories: Github
-permalink: Webpage/posts/starting/  
+categories: Github  
 ---
 
 ## 從零開始真的不簡單!
