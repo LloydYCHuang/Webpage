@@ -1,2 +1,2 @@
 # Webpage
-A personal website for Lloyd
+A small personal website for Lloyd
