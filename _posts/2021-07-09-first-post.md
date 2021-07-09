@@ -47,6 +47,18 @@ index.md會成為你的主頁，別人進入你的網頁看到的第一頁，只
 </ul>
 ```
 
+### 還有最重要的文章呢?
+要發布文章，首先要在repo底下建立一個資料夾`_posts`，一個字都不能改，建立資料夾的方式就是在建立新檔案時在輸入`_post/檔案名稱`即可創立新資料夾，而檔案名稱也不能亂取，要叫做`yyyy-mm-dd-名稱.md`，前面要輸入年月日共8碼，例如我這篇文章就命名叫`2021-07-09-first-post.md`。  
+檔案建立好後，要在檔案的開頭加上一段YAML程式碼 (對，我也還不知道這是什麼)
+```
+---
+layout: post
+title:  "標題"
+categories: 自己訂類別
+permalink: Webpages/posts/starting/  #文章會掛在https://lloydychuang.github.io/Webpage/posts/starting/這個地方的意思
+---
+```
+然後就可以在這個檔案裡面自由編寫你要的內容，成功發布第一篇文章吧!
 
 
 
