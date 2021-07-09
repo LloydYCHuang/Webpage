@@ -1,10 +1,13 @@
-## 我是Lloyd
+## 嗨!我是Lloyd!
 
-You can use the [editor on GitHub](https://github.com/LloydYCHuang/Webpage/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+我是一位正在臺灣大學農業化學系碩士班的研究生，我的主修是土壤學 (Pedology)，而在基礎土壤學上積極發展的數位化土壤繪圖 (Digital soil mapping) 是近年來的趨勢，這個網頁是我在學習程式碼的過程中，
+看到Github這個萬用的網站所建立的
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 土壤學 (Pedology)  
+我的實驗室是[土壤調查與整治實驗室](https://ssrlab.com.tw/)  
 
-### Markdown
+### 統計 (Statistics)  
+在自然科學相關的學科上，統計學是很重要的  
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
