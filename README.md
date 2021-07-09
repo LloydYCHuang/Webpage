@@ -1,2 +1,2 @@
-# 洛伊德德德
+# Lloyd
 A personal website for Lloyd
