@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+title: "Lloyd's Blog"  # 網站的名稱
+title_separator          : "-"
+subtitle                 : "記錄、分享成長過程" 
