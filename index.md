@@ -16,3 +16,4 @@
     </li>
   {% endfor %}
 </ul>
+{ post.url }
