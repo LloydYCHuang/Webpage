@@ -1,1 +1,2 @@
-## Hi! This is my about
+## About Lloyd
+_所謂夢想，就只是不忘初衷的走在與自己約定的道路上_  
