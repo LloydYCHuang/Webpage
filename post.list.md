@@ -1,8 +1,8 @@
 ## 文章列表
 <ul>
-  
+  {% for post in site.posts %}
     <li>
-      <a href="/2021/07/09/first-post.html">Github Pages起步</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
-  
+  {% endfor %}
 </ul>
