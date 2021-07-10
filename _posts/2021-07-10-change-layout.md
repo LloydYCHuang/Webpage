@@ -1,5 +1,6 @@
 ---
 layout: default
+categories: Github
 title:  "如何客製化Github Pages主頁"
 ---
 ## 如何客製化Github Pages主頁
