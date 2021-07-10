@@ -56,6 +56,6 @@ title:  "標題"
 ```
 然後就可以在這個檔案裡面自由編寫你要的內容，成功發布第一篇文章吧!
 
-<a href="https://lloydychuang.github.io/Webpage/">Back</a>
+<a href="https://lloydychuang.github.io/">Back</a>
 {{ page.path }}
 
