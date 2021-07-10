@@ -14,6 +14,9 @@
 ### 數位化土壤繪圖 (Digital soil mapping)  
 若在Google Scholar搜尋Digital soil mapping會出現接近90萬筆資料，然而這個名稱竟然沒有一個正式的中文名稱，因此我決定透過這個網頁來推廣我所研究的這個主題!
 
+### Github Pages
+可以說架設這個網站也花了一些心力，因此想把學習的這些過程寫下來，除了供別人參考外，也讓自己不容易忘記。  
+
 ### 文章列表
 <ul>
   {% for post in site.posts %}
