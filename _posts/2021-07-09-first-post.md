@@ -25,7 +25,7 @@ description: "Soils, statistics, and meditation"
 
 ### index.md
 這個index將會成為你的主頁，是別人進入你的網頁看到的第一頁，只要輸入你想要的東西就好，當作自己的首頁，但其實我還不太熟悉這種操作方式。  
-簡而言之，Jekyll可以把我們用markdown語法所編寫的內容都轉換成html並且發布在Github上面，因此對於我這種不太懂的人是很適合的入門方式，[這個部落格](https://ktinglee.github.io/)教會我很多事情，而且可以直接看他的Github學習。  
+簡而言之，Jekyll可以把我們用markdown語法所編寫的內容都轉換成html並且發布在Github上面，因此對於我這種不太懂的人是很適合的入門方式，[這個部落格](https://ktinglee.github.io/)教會我很多事情，而且可以直接看他的Github學習。另外英文比較好的也可以閱讀[這個部落格](https://aregsar.com/blog/2019/how-to-setup-a-github-pages-blog-in-five-minutes/)。
 另外，我嘗試在我的首頁加上我的文章列表，這是複製了[Jekyll官網的文章](https://jekyllrb.com/docs/posts/)，可以直接複製code貼在index裡面，就可以產出一個文章列表。   
 ```
 <ul>
