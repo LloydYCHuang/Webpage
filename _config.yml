@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman  
+theme: jekyll-theme-minima 
 title: "土壤、統計以及一點沉思"  # 網站的名稱  
 description: "Soils, statistics, and meditation"
 # https://hexo.io/zh-tw/docs/configuration.html
