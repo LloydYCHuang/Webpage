@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: defult
 title:  "Github起步"
 ---
 
