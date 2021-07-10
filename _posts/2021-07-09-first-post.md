@@ -2,7 +2,7 @@
 layout: post
 title:  "Github起步"
 categories: Github  
-permalink: Webpage/posts/start
+permalink: /start/
 ---
 
 ## 從零開始真的不簡單!
@@ -55,7 +55,7 @@ index.md會成為你的主頁，別人進入你的網頁看到的第一頁，只
 layout: post
 title:  "標題"
 categories: 自己訂類別
-permalink: Webpage/posts/start/  #文章會掛在https://lloydychuang.github.io/Webpage/posts/starting/這個地方的意思
+permalink: /start/  #文章會掛在https://lloydychuang.github.io/Webpage/posts/starting/這個地方的意思
 ---
 ```
 然後就可以在這個檔案裡面自由編寫你要的內容，成功發布第一篇文章吧!
