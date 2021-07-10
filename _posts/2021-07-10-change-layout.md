@@ -8,12 +8,12 @@ title:  "如何客製化Github Pages主頁"
 ### 更改layout
 首先進入自己網頁的repo，建立一個資料夾`_layouts`底下的檔案`default.html`，這個檔案就會覆寫原本從Cayman連結過來的default layout。  
 可是裡面是空的啊?我又不會寫，這時候就直接從[Cayman的Github](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html)複製他的html程式碼過來，複製時記得點選raw後ctrl+A全選複製，底下我們解說這個複製過來的檔案要做什麼。  
-我的原則就是看不懂的地方就別動，這樣至少完全複製會有一樣的內容，前面不懂，所以我們從body部分開始一段一段看就好
+我的原則就是看不懂的地方就別動，這樣至少完全複製會有一樣的內容，前面不懂，所以我們從body部分開始一段一段看就好。
 ```
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 ```
-這裡是body的開頭，不知為何預設了一行Skip to the content的醜醜按鈕，會出現在頁面的左上角，建議把這行刪除
+這裡是body的開頭，不知為何預設了一行Skip to the content的醜醜按鈕，會出現在頁面的左上角，建議把這行刪除。
 ```
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
@@ -30,7 +30,7 @@ title:  "如何客製化Github Pages主頁"
 這裡是Cayman頁面的頂端，`<h1 class="project-name">`開頭的這行代表最主要的標題，如果已經確定網頁只要用一個標題，就把這裡改成`<h1 class="project-name">你的標題</h1>`，看到這裡應該發現html的寫法會用<h1></h1>這樣的包夾，之後的`<h2 class="project-tagline">`同理修改。再來如果不想要有按鈕的話就把</header>之前的都刪掉，想要加入一個按鈕就使用`<a href="連結" class="btn">顯示的內容</a>`。  
 ```
     <main id="content" class="main-content" role="main">
-      {{ content }}
+      { { content } } # 這裡因為語法的關係，在兩個大括號之間加了空格，如果要複製請將空格拿掉，直接連結兩個大括號
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
