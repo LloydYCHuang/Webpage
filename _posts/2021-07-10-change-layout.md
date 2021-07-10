@@ -4,7 +4,7 @@ categories: Github
 title:  "如何客製化Github Pages主頁"
 ---
 ## 如何客製化Github Pages主頁  
-2021/07/10
+2021/07/10  
 經過建立自己的Github Pages之後，很多人應該都想自己調整主頁內容，可是又不會寫html怎麼辦 (像我)，所以我就參考了之前提到的[教你建立Github Pages](https://aregsar.com/blog/2019/how-to-customize-your-github-pages-blog-layout-in-five-minutes/)的文章內容，自行更改了我的layout，其實也還只能設定一些連結按鈕之類的。  
 
 ### 更改layout
