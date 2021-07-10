@@ -1,5 +1,6 @@
 ---
 layout: default
+categories: Github
 title:  "Github Pages起步"
 ---
 
