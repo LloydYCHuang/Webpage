@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Github起步"
-categories: Github  
+categories: github  
 permalink: /start/
 ---
 
