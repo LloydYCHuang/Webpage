@@ -4,7 +4,7 @@ _所謂夢想，就是不忘初衷的走在與自己約定的道路上_
 ***
 ## Education  
 **Department of Agricultural Chemistry, National Taiwan University  <br/>國立臺灣大學農業化學系**  
-- Bachelor of Science in Agricultural Chemistry (2017-2020) **(summa cum laude)**
+- Bachelor of Science in Agricultural Chemistry (2016-2020) **(summa cum laude)**
 - Candidate for Master of Science in Agricultural Chemistry (2020-present)
 
 ## Publication  
