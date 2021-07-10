@@ -39,7 +39,7 @@ description: "Soils, statistics, and meditation"
 
 ### 還有最重要的文章呢?
 要發布文章，首先要在repo底下建立一個資料夾`_posts`，一個字都不能改，建立資料夾的方式就是在建立新檔案時在輸入`_post/檔案名稱`即可創立新資料夾，而檔案名稱也不能亂取，要叫做`yyyy-mm-dd-名稱.md`，前面要輸入年月日共8碼，例如我這篇文章就命名叫`2021-07-09-first-post.md`。  
-檔案建立好後，要在檔案的開頭加上一段YAML程式碼，我還不太了解但應該是有關於這個頁面的一些資訊，其中layout比較麻煩一點因為我選擇的Cayman主題只附有default layout所以我就設定成default
+檔案建立好後，要在檔案的開頭加上一段YAML程式碼，我還不太了解但應該是有關於這個頁面的一些資訊，其中layout比較麻煩一點因為我選擇的Cayman主題只附有default layout所以我就設定成default，之後我會再詳細寫該如何自己更改layout
 ```
 ---
 layout: default
