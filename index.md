@@ -20,5 +20,3 @@
   {% endfor %}
 </ul>
 
-
-{% link _posts/2021-07-09-first-post.md %}
