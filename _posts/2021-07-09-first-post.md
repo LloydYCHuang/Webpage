@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Github起步"
-categories: github  
-permalink: github/start/
 ---
 
 ## 從零開始真的不簡單!
@@ -10,7 +8,7 @@ permalink: github/start/
 我今天透過 GitHub Pages 建立了個人部落格，而部落格是透過 jekyll 生成的，這是我第一篇部落格文章。  
 就來講講這個網頁是如何建立的吧  
 首先，你要有個Github帳號 (廢話)  
-在Github裡面建立一個repository，例如我的命名為Webpage，在裡面點擊Settings > Pages，然後選擇Change theme，這樣Github應該會主動幫你建立一個branch稱作gh-pages，在同一個頁面還會跳出一個網址，應該是`https://你的帳號.github.io/你的repo名字/` ，例如我的就是`https://lloydychuang.github.io/Webpage/` 。  
+在Github裡面建立一個repository，然後命名就叫`帳號.github.io`，在裡面點擊Settings > Pages，然後選擇Change theme，這樣Github應該會主動幫你建立一個branch稱作gh-pages，在同一個頁面還會跳出一個網址，應該是`https://你的帳號.github.io` ，例如我的就是`https://lloydychuang.github.io` 。  
 一開始你在repo裡面只會看到兩個檔案，分別為_config.yml以及index.md，沒關係，一切都從這兩個檔案開始。  
 
 ### _config.yml  
