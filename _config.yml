@@ -4,3 +4,4 @@ description: "Soils, statistics, and meditation"
 # https://hexo.io/zh-tw/docs/configuration.html
 include:
   - _pages
+  - _posts
