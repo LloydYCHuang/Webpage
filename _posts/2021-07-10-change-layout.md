@@ -5,11 +5,20 @@ title:  "如何客製化Github Pages主頁"
 ---
 ## 如何客製化Github Pages主頁  
 2021/07/10  
-經過建立自己的Github Pages之後，很多人應該都想自己調整主頁內容，可是又不會寫html怎麼辦 (像我)，所以我就參考了之前提到的[教你建立Github Pages](https://aregsar.com/blog/2019/how-to-customize-your-github-pages-blog-layout-in-five-minutes/)的文章內容，自行更改了我的layout，其實也還只能設定一些連結按鈕之類的。  
+經過建立自己的Github Pages之後，很多人應該都想自己調整主頁內容，可是又不會寫html怎麼辦 (像我)，所以我就參考了之前提到的<a href="https://aregsar.com/blog/2019/how-to-customize-your-github-pages-blog-layout-in-five-minutes/" target="_blank">教你建立Github Pages</a>的文章內容，自行更改了我的layout，其實也還只能設定一些連結按鈕之類的。  
+
+### 複製style
+首先在你的repo底下建立一個檔案`/assets/css/style.scss`，裡面僅輸入底下這樣就好。  
+```
+---
+---
+
+@import "{{ site.theme }}";
+```
 
 ### 更改layout
-首先進入自己網頁的repo，建立一個資料夾`_layouts`底下的檔案`default.html`，這個檔案就會覆寫原本從Cayman連結過來的default layout。  
-可是裡面是空的啊?我又不會寫，這時候就直接從[Cayman的Github](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html)複製他的html程式碼過來，複製時記得點選raw後ctrl+A全選複製，底下我們解說這個複製過來的檔案要做什麼。  
+接著進入自己網頁的repo，建立一個檔案`/_layouts/default.html`，這個檔案就會覆寫原本從Cayman連結過來的default layout。  
+可是裡面是空的啊?我又不會寫，這時候就直接從<a href="https://github.com/pages-themes/cayman/blob/master/_layouts/default.html" target="_blank">Cayman的Github</a>複製他的html程式碼過來，複製時記得點選raw後ctrl+A全選複製，底下我們解說這個複製過來的檔案要做什麼。  
 我的原則就是看不懂的地方就別動，這樣至少完全複製會有一樣的內容，前面不懂，所以我們從body部分開始一段一段看就好。
 ```
   <body>
@@ -43,5 +52,6 @@ title:  "如何客製化Github Pages主頁"
     </main>
   </body>
 ```
-接著main裡不用動，就是你的內文，而最底下footer是網頁的底端，可以用預設的也不錯，不喜歡就自己改連結，原理跟前面一樣。  
+接著main裡不用動，就是你的內文，而最底下footer是網頁的底端，可以用預設的也不錯，不喜歡就自己改連結，原理跟前面一樣。
+
 那麼這就是我第二天自學Github Pages的內容。
