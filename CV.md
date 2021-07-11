@@ -8,7 +8,7 @@ _所謂夢想，就是不忘初衷的走在與自己約定的道路上_
 - Candidate for Master of Science in Agricultural Chemistry (2020-present)
 
 ## Publication  
-- **Huang, Y.C.** and Hseu, Z.Y. 2021. Silicon availability in relation to soil properties in Inceptisols on uncultivated lands and paddy fields in Taiwan. Geoderma Regional, e00406. [https://doi.org/10.1016/j.geodrs.2021.e00406](https://doi.org/10.1016/j.geodrs.2021.e00406)
+- **Huang, Y.C.** and Hseu, Z.Y. 2021. Silicon availability in relation to soil properties in Inceptisols on uncultivated lands and paddy fields in Taiwan. Geoderma Regional, e00406. <a href="https://doi.org/10.1016/j.geodrs.2021.e00406" target="_blank">https://doi.org/10.1016/j.geodrs.2021.e00406</a>  
 
 ## Experience
 **Pedometrics Webinar** (June 2021)
