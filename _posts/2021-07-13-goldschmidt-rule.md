@@ -25,10 +25,10 @@ Goldschmidt's rules描述了在怎樣的條件下礦物中可發生穩定的離�
 - Albite (Na-feldspar)
 - Anorthite (Ca-feldspar)  
   
-長石是由這三種endmember依照不同比例組成的，但是如果看到這三種endmember的<a href="https://en.wikipedia.org/wiki/Feldspar#/media/File:Feldspar_group.svg">feldspar phase diagram</a>，會發現有以orthoclase+albite為主的alkali feldspar，也有以albite+anorthite為主的plagioclase，然而在phase diagram的右手邊卻缺乏了一大片。  
+長石是由這三種endmember依照不同比例組成的，但是如果看到這三種endmember的<a href="https://en.wikipedia.org/wiki/Feldspar#/media/File:Feldspar_group.svg" target="_blank">feldspar phase diagram</a>，會發現有以orthoclase+albite為主的alkali feldspar，也有以albite+anorthite為主的plagioclase，然而在phase diagram的右手邊卻缺乏了一大片。  
 細查之後才發現，就是因為Goldschmidt's rules，K與Na雖然電荷相同但半徑差距超過15% (K是1.63&#8491;而Na是1.24&#8491;)，因此在高溫下才能穩定替換，降溫時會有orthoclase及albite分離的perthitic exsolution現象。
 而Na與Ca電荷差1且半徑相似 (Na是1.24&#8491;而Ca是1.2&#8491;)，所以形成的plagioclase能夠穩定存在。但是到了K與Ca時，兩個規則都不滿足，所以無法穩定存在有K-Ca substitution的礦物，也因此phase diagram才會空一大塊。  
   
 ### 參考資料  
-<a href="http://wray.eas.gatech.edu/epmaterials2013/LectureNotes/Lecture_4_0116_composition_substitution.pdf">Earth and Planetary Materials, Lecture Notes (School of Earth and Atmospheric Sciences, Georgia Tech)</a>  
-<a href="https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-479-trace-element-geochemistry-spring-2013/lecture-notes/MIT12_479S13_lec4.pdf">Trace-Element Geochemistry, Lecture Notes 4 (Massachusetts Institute of Technology)</a>
+<a href="http://wray.eas.gatech.edu/epmaterials2013/LectureNotes/Lecture_4_0116_composition_substitution.pdf" target="_blank">Earth and Planetary Materials, Lecture Notes (School of Earth and Atmospheric Sciences, Georgia Tech)</a>  
+<a href="https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-479-trace-element-geochemistry-spring-2013/lecture-notes/MIT12_479S13_lec4.pdf" target="_blank">Trace-Element Geochemistry, Lecture Notes 4 (Massachusetts Institute of Technology)</a>
