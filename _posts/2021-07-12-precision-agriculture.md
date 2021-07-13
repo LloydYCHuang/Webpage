@@ -38,7 +38,7 @@ Mn, Ni, P, Si, Ti, V, Zn, 及Zr。其中覺突兀的是Cl因為一般認為Cl應
 - Residual prediction deviation, RPD (標準差除以RMSE，RPD > 2代表極好，RPD > 1.4代表可接受，小於1.4代表不好)  
   
 **Spatial**    
-用90個點去預測315 ha，以multilevel B-spline內插法進行土壤圖的繪製，再以Lin's concordance correlation coefficient (CCC) 進行比較，此法可以比較不同方法繪製的土壤圖之間的一致性與相關性。  
+用90個點去預測315 ha，以multilevel B-spline內插法進行土壤圖的繪製，繪製時以肥力等級作為劃分，再以Lin's concordance correlation coefficient (CCC) 進行比較，此法可以比較不同方法繪製的土壤圖之間的一致性與相關性。  
   
 ### Results and discussion  
 巴西的土壤多為酸性且肥力較低，本次三種肥力指標的平均分別為  
@@ -47,15 +47,18 @@ Mn, Ni, P, Si, Ti, V, Zn, 及Zr。其中覺突兀的是Cl因為一般認為Cl應
 - Ca<sup>2+</sup> 4.5 cmol<sub>c</sub> dm<sup>-3</sup>
   
 因為地區內各異的土地利用與管理方式，區域內的肥力差異也很大，除了有自然地外也有人為施用肥料的區域，因此變異相當大，自然地的肥力較低。母質方面，由gabbro化育成的土壤 (順帶一提，gabbro輝長岩就是basalt的侵入岩intrusive狀態) 較富含Fe, Ti等元素，而granitic-gneiss則富含較多的Si, K元素。  
-**Regression models**  
-四種模型對應三種肥力指標的結果中，Ca<sup>2+</sup>取得最好的成果，而SMLR留下了Ca, Al, Ni與Zr，R<sup>2</sup>均高於0.7。  
-K<sup>+</sup>則取得最差的預測效果，不僅在LR、PR及PwR的R<sup>2</sup>為0，且SMLR留下Al, Si, P, Mn, Fe及Ni (對，不包括K) 並獲得R<sup>2</sup>=0.17的結果。  
-P的PR模型取得R<sup>2</sup>=0.87的成果，其餘迴歸係數亦在可接受範圍內，SMLR留下Si, P, Ti, V及Cr
-
-
-
   
-http://biostat.tmu.edu.tw/oldFile/enews/ep_download/ep_download.php?f=10stat.pdf
+**Regression models**  
+四種模型對應三種肥力指標的結果中，Ca<sup>2+</sup>取得最好的成果，而SMLR留下了Ca, Al, Ni與Zr，R<sup>2</sup>均高於0.7，由於此地並不具大量含Ca的礦物，Ca全量與可交換性Ca<sup>2+</sup>差距一般不大，故使用pXRF測得的Ca全量得以有效預測其有效性。  
+K<sup>+</sup>則取得最差的預測效果，不僅在LR、PR及PwR的R<sup>2</sup>為0，且SMLR留下Al, Si, P, Mn, Fe及Ni (對，不包括K) 並獲得R<sup>2</sup>=0.17的結果，這個結果是因為K全量包含了有效K、固定在hydroxy-interlayered vermiculite (HIV) 裡的K與礦物如muscovite結構中的K，含K的礦物也較多，所以差距很大，較難以用K全量來預測有效K。  
+P的PR模型取得R<sup>2</sup>=0.87的成果，其餘迴歸係數亦在可接受範圍內，SMLR留下Si, P, Ti, V及Cr，這也一樣是因為此地並不具大量含P的礦物。然而P常被固定於土壤中，故其有效態與全量的相關性稍弱於Ca。  
+  
+**Validation**  
+依據RMSE的最低值選出各肥力指標的最佳預測模型，可交換性Ca以SMLR為最佳 (RMSE = 1.95 cmol<sub>c</sub> dm<sup>-3</sup>)，有效P以PwR為最佳 (RMSE = 9.13 mg dm<sup>-3</sup>)，然而使用pXRF資料並沒有辦法很好的預測有效K，土壤中K全量包含了最主要K-feldspar、mica (muscovite為主)、HIV層間的K、風化過後的產物kaolinite等，因此全量與有效性的相關性較弱，需要其他資料來進行預測，例如其他的proximal sensor。在其他研究中亦指出，以proximal sensor進行的預測在同質性較高的土壤樣品中較為適用，這可能是本研究中異質性高的土壤預測能力差的原因。  
+  
+**Spatial**  
+繪製出Ca與P的各模型產出的地圖後，以Lin's concordance correlation coefficient比較不同模型的一致性，發現Ca的各種模型產出之地圖都有高度的一致性 (CCC可高達0.96)，然而P的四種模型一致性較低，預測誤差較小者並不代表與其他模型的一致性就高，反之，預測不準的模型間一致性反而較高。  
+  
+### 延伸閱讀  
+有關<a href="http://biostat.tmu.edu.tw/oldFile/enews/ep_download/ep_download.php?f=10stat.pdf" target="_blank">Lin's concordance correlation coefficient (一致性相關係數)</a>的文章，來自臺北醫學大學數據處統計中心電子報第十期，由彰化師範大學統計資訊所副教授蔡秒玉撰寫。
 
-
-未完...可能會先把淋澱土的review看完，這篇有空閒的時間看
