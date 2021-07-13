@@ -30,15 +30,30 @@ _Precision agriculture is a management strategy that gathers, processes and anal
 Mn, Ni, P, Si, Ti, V, Zn, 及Zr。其中覺突兀的是Cl因為一般認為Cl應該不是很準確的，不知後續是否有特殊意義。  
   
 **Modeling**  
-隨機將樣品區分modeling (75%, 共63個樣品) 與validation (25%, 共27個樣品)，三種預測方法包含linear regression (LR), 2nd degree polynomial regression (PR), power regression (PwR) 及stepwise multiple linear regression (SMLR)。  
+隨機將樣品區分modeling (75%, 共63個樣品) 與validation (25%, 共27個樣品)，三種預測方法包含linear regression (LR), 2nd degree polynomial regression (PR), power regression (PwR) 及stepwise multiple linear regression (SMLR)，除了SMLR以外都是僅使用該肥力指標相對應的pXRF全量，例如有效P就使用P全量去預測。  
 模型的評量標準包括：  
 - Coefficient of determination, R<sup>2</sup>
 - Mean absolute error, MAE (即實際值-預測值的絕對值進行平均)
 - Root mean square error, RMSE
 - Residual prediction deviation, RPD (標準差除以RMSE，RPD > 2代表極好，RPD > 1.4代表可接受，小於1.4代表不好)  
   
-### Spatial  
+**Spatial**    
 用90個點去預測315 ha，以multilevel B-spline內插法進行土壤圖的繪製，再以Lin's concordance correlation coefficient (CCC) 進行比較，此法可以比較不同方法繪製的土壤圖之間的一致性與相關性。  
+  
+### Results and discussion  
+巴西的土壤多為酸性且肥力較低，本次三種肥力指標的平均分別為  
+- K<sup>+</sup> 158.2 mg dm<sup>-3</sup>
+- P 10.9 mg dm<sup>-3</sup>
+- Ca<sup>2+</sup> 4.5 cmol<sub>c</sub> dm<sup>-3</sup>
+  
+因為地區內各異的土地利用與管理方式，區域內的肥力差異也很大，除了有自然地外也有人為施用肥料的區域，因此變異相當大，自然地的肥力較低。母質方面，由gabbro化育成的土壤 (順帶一提，gabbro輝長岩就是basalt的侵入岩intrusive狀態) 較富含Fe, Ti等元素，而granitic-gneiss則富含較多的Si, K元素。  
+**Regression models**  
+四種模型對應三種肥力指標的結果中，Ca<sup>2+</sup>取得最好的成果，而SMLR留下了Ca, Al, Ni與Zr，R<sup>2</sup>均高於0.7。  
+K<sup>+</sup>則取得最差的預測效果，不僅在LR、PR及PwR的R<sup>2</sup>為0，且SMLR留下Al, Si, P, Mn, Fe及Ni (對，不包括K) 並獲得R<sup>2</sup>=0.17的結果。  
+P的PR模型取得R<sup>2</sup>=0.87的成果，其餘迴歸係數亦在可接受範圍內，SMLR留下Si, P, Ti, V及Cr
+
+
+
   
 http://biostat.tmu.edu.tw/oldFile/enews/ep_download/ep_download.php?f=10stat.pdf
 
