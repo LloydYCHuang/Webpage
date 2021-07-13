@@ -3,6 +3,7 @@ layout: default
 categories: [Journal comments]
 title:  "Comment#3 Prediction of soil nutrient content via pXRF spectrometry and its spatial variation in a highly variable tropical area"
 ---  
+## Comment#3 Prediction of soil nutrient content via pXRF spectrometry and its spatial variation in a highly variable tropical area  
 2021/07/12  
 剛剛在挑選要看的期刊時對自己說了一句「就看這個好了」，然後又突然驚訝的對自己說「還以為你有資格挑啊，當然是全看啊」，研究生的生活就是這麼的樸實無華。  
   
