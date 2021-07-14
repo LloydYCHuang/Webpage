@@ -27,15 +27,16 @@ description: "Soils, statistics, and meditation"
 ### index.md
 這個index將會成為你的主頁，是別人進入你的網頁看到的第一頁，只要輸入你想要的東西就好，當作自己的首頁，但其實我還不太熟悉這種操作方式。  
 簡而言之，Jekyll可以把我們用markdown語法所編寫的內容都轉換成html並且發布在Github上面，因此對於我這種不太懂的人是很適合的入門方式，<a href="https://ktinglee.github.io/" target="_blank">這個部落格</a>教會我很多事情，而且可以直接看他的Github學習。另外英文比較好的也可以閱讀<a href="https://aregsar.com/blog/2019/how-to-setup-a-github-pages-blog-in-five-minutes/" target="_blank">這個部落格</a>。  
-另外，我嘗試在我的首頁加上我的文章列表，這是複製了<a href="https://jekyllrb.com/docs/posts/" target="_blank">Jekyll官網的文章</a>，可以直接複製code貼在index裡面，就可以產出一個文章列表。   
+另外，我嘗試在我的首頁加上我的文章列表，這是複製了<a href="https://jekyllrb.com/docs/posts/" target="_blank">Jekyll官網的文章</a>，可以直接複製code貼在index裡面，就可以產出一個文章列表。  
+**注意：因為不想讓程式執行所以我在開頭加了\#字號，複製時要拿掉**  
 ```
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{ { post.url } }">{ { post.title } }</a>  # 因為語法的關係，我在大括號中間加了空白，複製貼上的時候要把空白拿掉才行
-    </li>
-  {% endfor %}
-</ul>
+#<ul>
+#  {% for post in site.posts %}
+#    <li>
+#      <a href="{{ post.url }}">{{ post.title }}</a>
+#    </li>
+#  {% endfor %}
+#</ul>
 ```
 
 ### 還有最重要的文章呢?
