@@ -26,6 +26,7 @@ title:  "如何客製化Github Pages主頁"
 ```
 這裡是body的開頭，不知為何預設了一行Skip to the content的醜醜按鈕，會出現在頁面的左上角，建議把這行刪除。
 ```
+{% raw %}
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
@@ -37,11 +38,13 @@ title:  "如何客製化Github Pages主頁"
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
     </header>
+{% endraw %}
 ```
 這裡是Cayman頁面的頂端，`<h1 class="project-name">`開頭的這行代表最主要的標題，如果已經確定網頁只要用一個標題，就把這裡改成`<h1 class="project-name">你的標題</h1>`，看到這裡應該發現html的寫法會用<h1></h1>這樣的包夾，之後的`<h2 class="project-tagline">`同理修改。再來如果不想要有按鈕的話就把</header>之前的都刪掉，想要加入一個按鈕就使用`<a href="連結" class="btn">顯示的內容</a>`。  
 ```
+{% raw %}
     <main id="content" class="main-content" role="main">
-      { { content } } # 這裡因為語法的關係，在兩個大括號之間加了空格，如果要複製請將空格拿掉，直接連結兩個大括號
+      {{ content }} 
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
@@ -51,6 +54,7 @@ title:  "如何客製化Github Pages主頁"
       </footer>
     </main>
   </body>
+{% endraw %}
 ```
 接著main裡不用動，就是你的內文，而最底下footer是網頁的底端，可以用預設的也不錯，不喜歡就自己改連結，原理跟前面一樣。
 
