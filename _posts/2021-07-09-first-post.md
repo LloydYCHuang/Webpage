@@ -30,11 +30,11 @@ description: "Soils, statistics, and meditation"
 另外，我嘗試在我的首頁加上我的文章列表，這是複製了<a href="https://jekyllrb.com/docs/posts/" target="_blank">Jekyll官網的文章</a>，可以直接複製code貼在index裡面，就可以產出一個文章列表。  
 ```
 <ul>
-  {% for post in site.posts %}
+  {\% for post in site.posts \%}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
-  {% endfor %}
+  {\% endfor \%}
 </ul>
 ```
 
