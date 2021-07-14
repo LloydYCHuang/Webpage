@@ -29,6 +29,7 @@ description: "Soils, statistics, and meditation"
 簡而言之，Jekyll可以把我們用markdown語法所編寫的內容都轉換成html並且發布在Github上面，因此對於我這種不太懂的人是很適合的入門方式，<a href="https://ktinglee.github.io/" target="_blank">這個部落格</a>教會我很多事情，而且可以直接看他的Github學習。另外英文比較好的也可以閱讀<a href="https://aregsar.com/blog/2019/how-to-setup-a-github-pages-blog-in-five-minutes/" target="_blank">這個部落格</a>。  
 另外，我嘗試在我的首頁加上我的文章列表，這是複製了<a href="https://jekyllrb.com/docs/posts/" target="_blank">Jekyll官網的文章</a>，可以直接複製code貼在index裡面，就可以產出一個文章列表。  
 ```
+{% raw %}
 <ul>
   {\% for post in site.posts \%}
     <li>
@@ -36,6 +37,7 @@ description: "Soils, statistics, and meditation"
     </li>
   {\% endfor \%}
 </ul>
+{% endraw %}
 ```
 
 ### 還有最重要的文章呢?
