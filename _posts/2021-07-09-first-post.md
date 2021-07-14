@@ -32,7 +32,7 @@ description: "Soils, statistics, and meditation"
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{ { post.url } }">{ { post.title } }</a>  # 因為語法的關係，我在大括號中間加了空白，複製貼上的時候要把空白拿掉才行
     </li>
   {% endfor %}
 </ul>
