@@ -21,7 +21,7 @@ _我需要先說，網路上都寫說教你在五分鐘內建立網頁，我至�
 ```
 theme: jekyll-theme-cayman
 title: "土壤、統計以及一點沉思"  
-description: "Soils, statistics, and meditation" 
+description: "Soil, statistic, and a little bit of meditation" 
 ```
 
 ### index.md
