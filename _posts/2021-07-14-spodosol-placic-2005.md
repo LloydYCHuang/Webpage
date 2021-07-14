@@ -26,13 +26,17 @@ Wu, S.P., and Chen, Z.S. 2005. Characteristics and genesis of Inceptisols with p
   
 **Soil micromorphology**  
 進一步觀察E/Bs交界處的微型態可發現，E層大多含有quartz結晶，但薄膠層上層的物質為craked, parallel and isotropic Fe and Mn matrics，這些Fe/Mn從上層土壤淋洗 (leaching) 流失後累積在Bs層的上層。如果觀察薄膠層下層的物質則會發現由Fe/Mn氧化物形成的dense plasma。  
-在Bw層並未觀察倒orented clay，顯示在薄膠層形成後黏粒的淋洗就減弱或消失，故在Bw層的黏粒應是由原本母質化育而成的。  
+在Bw層並未觀察到orented clay，顯示在薄膠層形成後黏粒的淋洗就減弱或消失，故在Bw層的黏粒應是由原本母質化育而成的，在此地的黏粒移動累積現象並不明顯。  
   
 **Physical & chemical properties**  
 剖面中E層的質地較粗 (silt loam or clay loam) 但薄膠層下的Bw層質地較細 (silty clay loam)，薄膠層也具當中最高的總體密度 (1.3-1.98 Mg/m<sup>3</sup>)，如此的高密度導致透水性低。  
-化學性質方面O/A層與E層的pH值較B層低，薄膠層的pH值則較E層高，Fe/Mn即是在較高pH值的環境沉澱下來形成薄膠層。由於此地的強降雨，鹽基飽和度 (base saturation, BS) 除了O/A層以外均相當低 (<10%)，陽離子交換容量 (cation exchange capacity, CEC) 在B層呈現最高。有機碳並未顯著累積於Bs層，顯示此地的淋澱化作用並不明顯。  
+化學性質方面O/A層與E層的pH值較B層低，薄膠層的pH值則較E層高，Fe (及Mn) 即是在較高pH值的環境沉澱下來形成薄膠層。由於此地的強降雨，鹽基飽和度 (base saturation, BS) 除了O/A層以外均相當低 (<10%)，陽離子交換容量 (cation exchange capacity, CEC) 在B層呈現最高。有機碳並未顯著累積於Bs層，顯示此地的淋澱化作用並不明顯。  
 鐵鋁選擇性抽出的結果顯示，Fe累積的最大值均出現在薄膠層，但與有機碳資料對比可知此地並未生成organo-metallic complex。薄膠層的Fe<sub>o</sub>/Fe<sub>d</sub>比值在三個剖面分別為0.62、0.44與0.69，顯示其中的礦物可能包含結晶性較不良好的lepidocrocite及ferrihydrite，這兩種礦物都可能在水分較多的環境生成，大量降雨且土壤質地較細引起的排水不良，容易導致土壤呈現還原狀態，表層土壤的鐵離子便可能以Fe<sup>2+</sup>即ferrous ion的狀態移動至剖面較深處並累積在薄膠層。  
-
-
-
+  
+**Pedogenesis of placic horizon**  
+我想最重要的問題就是此地的薄膠層是如何生成的，薄膠層是經由表層土壤的Fe還原後移動至薄膠層深度並重新氧化、沉澱形成的，有利Fe累積的環境除了氧化狀態外也包含較高的pH值。因此薄膠層的化育過程與淋澱化作用是相當迥異的，淋澱化作用是有機碳與Al為主的淋澱化物質累積 (Fe並非必要)，而薄膠層卻是以Fe及Mn從E層淋洗移動到B層為主。  
+此地區由於有機碳含量不高故難以形成淋澱化作用所需的organo-metallic complex，土壤中的質地變化也影響了水的移動速度，根據推測，地下水位淹過了E層長達數周並造成土壤呈現還原狀態，直到水位退去後Fe<sup>2+</sup>重新氧化並累積在薄膠層。  
+  
+**Classification**  
+雖然薄膠層的顏色與化學分析 (Al<sub>o</sub>+0.5Fe<sub>o</sub>, ODOE) 均符合淋澱層的規定，但化育層厚度太薄，並不足以被判定為淋澱層。薄膠層之下的化育層可以被判定為Bw (cambic horizon)，再加上perudic的水分境況，本研究的三個土壤剖面可以被分類為Lithic Dystrudept及Oxyaquic Dystrudept，然而這些分類並不足以顯示其具備薄膠層的特徵，故建議在Dystrudept底下增加Subgroup: Placic來描述這種具備薄膠層的弱育土。
 
