@@ -19,7 +19,10 @@ Jien, S.H., Wu, S.P., Chen, Z.S., Chen, T.H., and Chiu, C.Y. 2010. Characteristi
   
 ### 採樣地點  
 採樣地點位於中央山脈上的加羅湖地區 (24&deg;28'26'' N, 121&deg;28'42'' E)，土壤母質主要為sandstone, shale及slate，一共有超過18個湖泊分布，在颱風或雨季時期水位上漲，會結合成數個較大的湖泊，其中最大的加羅湖長300 m寬150 m，海拔高度2250-2300 m，年均溫10&deg;C而年雨量為3200 mm，林相為針葉樹林，也含有較低矮的植被。  
-在此地區採集四個土壤剖面，除了基本土壤性質與鐵鋁選擇性抽出外，另有水可溶性有機碳 (water soluble organic carbon, WSOC)、fulvic acid (FA)、humic acid (HA) 的萃取。  
+在此地區採集四個土壤剖面JL-1、JL-2、JL-3及JL-4，除了基本土壤性質與鐵鋁選擇性抽出外，另有水可溶性有機碳 (water soluble organic carbon, WSOC)、fulvic acid (FA)、humic acid (HA) 的萃取。  
   
 ### 結果與討論  
+四個土壤剖面中，JL-1的層序為O-A-AE-Bs1-Bs2-BC，位於summit，AE層為massive構造，Bs1有出現氧化還原特徵 (7.5YR 6/8及10YR 7/1 mottle)，代表此地有perched water。JL-2位於footslope，層序為O-A-AE-Bsm-Bs1-Bs2，AE層的顏色 (7.5YR 6/1) 與JL-1一樣顯示浸水還原狀態，此剖面的薄膠層 (Bsm) 滿足了淋澱層所需的顏色標準 (此層顏色為2.5YR 4/6) 但僅具3 mm厚度故不足以歸類為淋澱層。然而，在薄膠層之下的Bs1及Bs2卻發現了氧化還原特徵，一般具備薄膠層的土壤並無法讓水下滲到薄膠層之下，更不用說造成還原現象，因此Bs層的氧化還原特徵較可能是由加羅湖的週期性水位變化造成的，週期性水位變化也可能促進了薄膠層的形成。  
+JL-3的層序為O-A-BE-Bs-BC
+
 待續
