@@ -22,7 +22,11 @@ Jien, S.H., Wu, S.P., Chen, Z.S., Chen, T.H., and Chiu, C.Y. 2010. Characteristi
 在此地區採集四個土壤剖面JL-1、JL-2、JL-3及JL-4，除了基本土壤性質與鐵鋁選擇性抽出外，另有水可溶性有機碳 (water soluble organic carbon, WSOC)、fulvic acid (FA)、humic acid (HA) 的萃取。  
   
 ### 結果與討論  
-四個土壤剖面中，JL-1的層序為O-A-AE-Bs1-Bs2-BC，位於summit，AE層為massive構造，Bs1有出現氧化還原特徵 (7.5YR 6/8及10YR 7/1 mottle)，代表此地有perched water。JL-2位於footslope，層序為O-A-AE-Bsm-Bs1-Bs2，AE層的顏色 (7.5YR 6/1) 與JL-1一樣顯示浸水還原狀態，此剖面的薄膠層 (Bsm) 滿足了淋澱層所需的顏色標準 (此層顏色為2.5YR 4/6) 但僅具3 mm厚度故不足以歸類為淋澱層。然而，在薄膠層之下的Bs1及Bs2卻發現了氧化還原特徵，一般具備薄膠層的土壤並無法讓水下滲到薄膠層之下，更不用說造成還原現象，因此Bs層的氧化還原特徵較可能是由加羅湖的週期性水位變化造成的，週期性水位變化也可能促進了薄膠層的形成。  
-JL-3的層序為O-A-BE-Bs-BC
+四個土壤剖面中，JL-1的層序為O-A-AE-Bs1-Bs2-BC，位於summit，是四個剖面中海拔最高的，AE層為massive構造，Bs1有出現氧化還原特徵 (7.5YR 6/8及10YR 7/1 mottle)，代表此地有perched water (滯留於此處的水)。JL-2位於footslope，海拔高度次之，層序為O-A-AE-Bsm-Bs1-Bs2，AE層的顏色 (7.5YR 6/1) 與JL-1一樣顯示浸水還原狀態，此剖面的薄膠層 (Bsm) 滿足了淋澱層所需的顏色標準 (此層顏色為2.5YR 4/6) 但僅具3 mm厚度故不足以歸類為淋澱層。然而，在薄膠層之下的Bs1及Bs2卻發現了氧化還原特徵，一般具備薄膠層的土壤並無法讓水下滲到薄膠層之下，更不用說造成還原現象，因此Bs層的氧化還原特徵較可能是由加羅湖的週期性水位變化造成的，週期性水位變化也可能促進了薄膠層的形成。  
+JL-3的層序為O-A-BE-Bs-BC，位於相對較低且平坦的toeslope，由於夏季較溫暖，有機質分解較快，其O、A層的厚度較前兩個剖面薄，BE層同樣具有氧化還原特徵 (10YR 6/3與7.5YR 5/6的mottle) 由於此地位於JL-2剖面的坡下，物質可能由JL-2移動至JL-3，也就是可能發生了lateral podzolization (側向的淋澱化作用)，此地同時受到perched water與週期性水位上升的影響。JL-4位於加羅湖畔，層序為O-Bg1-Bg2-Bg3-BC，構造均為massive，在整個剖面中均可發現depletion colour (chroma &#8804; 2)，代表有長時間還原導致漂白的現象，這是由於湖水長期使此地土壤保持浸水狀態的原因，JL-4的水分境況應屬於endoaquic。  
+JL-1至JL-4屬於一toposequence，從summit的JL-1、footslope的JL-2、toeslope的JL-3到最低點位於湖畔的JL-4，由地形造成的差異是本次研究討論的重點。  
+  
+**理化性質**  
+由於母質含有shale及slate的關係，土壤黏粒含量約在35-50%
 
 待續
