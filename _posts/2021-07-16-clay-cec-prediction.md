@@ -17,7 +17,7 @@ Chen, Y., Gao, S., Jones, E.J., and Singh, B. 2021. Prediction of Soil Clay Cont
   
 ### Materials and Methods  
 **Study area**  
-使用的是兩組legacy data，第一組是來自澳洲新南威爾斯Lower Namoi地區，簡稱NAM組，包含125個地點的0-10 cm與30-40 cm土壤。另一組是來自澳洲昆士蘭St George地區，簡稱SGE組，包含82個地點的0-10 cm與50-60 cm土壤，這些土壤原本皆是以stratified sampling方式採樣。  
+使用的是兩組legacy data，第一組是來自澳洲新南威爾斯Lower Namoi地區，簡稱NAM組，包含125個地點的0-10 cm與30-40 cm土壤。另一組是來自澳洲昆士蘭St George地區，簡稱SGE組，包含82個地點的0-10 cm與50-60 cm土壤，這些土壤原本皆是以stratified sampling方式採樣。樣品總數為367 (NAM組216+SGE組151)。  
 NAM組有河流流經並且地勢平坦，這使得該地成為土壤肥沃的氾濫平原，土壤樣品來自農業用地及自然植被都有；SGE組也是位於氾濫平原，是小麥、棉花種植地，也用於綿羊畜牧，該地母質為sandstone及shale，多包含Alfisols, Aridisols及Vertisols。兩個組別的水分境況皆為ustic至aridic，溫度境況皆為thermic。  
   
 **Vis-NIR**  
@@ -28,7 +28,29 @@ NAM組有河流流經並且地勢平坦，這使得該地成為土壤肥沃的�
 根據迴歸分析發現Fe, Ti, K, Si與Al這五個元素和目標性質 (clay, CEC) 有正相關且在土壤中含量較大，故使用於後續建模。  
   
 **XRD**  
-
+使用CuK&alpha;掃描18-70&deg;的繞射圖譜，並使用26.64&deg; 2&theta;的石英作為基準將所有圖譜對齊。  
   
+**Modeling**  
+使用Cubist模型進行預測，總共使用六種變數組合分別為Vis-NIR, pXRF, XRD, VisNIR-pXRF, VisNIR-XRD, pXRF-XRD及VisNIR-pXRF-XRD。模型根據兩組資料 (NAM及SGE) 各自建立並交互試驗預測效果，資料組分為75% calibration及25% validation，並以50次隨機的重新分組作為cross-validation，這50次的validation set的資料會進行記錄。  
+模型表現使用validation set的Lin's concordance correlation coefficient (CCC) 及root mean square error (RMSE) 作評量標準，這些數值再進一步使用ANOVA來分析不同變數組合間有無顯著差異。  
+  
+### Results and discussion  
+供試土壤多呈現鹼性 (平均pH > 8)、有機碳低(< 1%)，高CEC (> 300 mmol<sub>c</sub> kg<sup>-1</sup>) 及黏粒含量 (NAM組 > 50%；SGE組 > 30%)，CEC/clay的比例較高 (由於土壤含有較多量的smectite)。  
+VisNIR光譜大致上呈現類似的形狀，在1400, 1900及2200 nm有較高的吸光度，2200 nm是kaolinite等層狀矽酸鹽的吸收峰，包含kaolinite, illite及smectite均會吸收，故此波段的吸光度與黏粒含量呈正相關。  
+Al, Si, K, Ti及Fe由pXRF測定的元素組成中，NAM組具有較高的Al, K, Ti, Fe濃度，特別是Fe濃度與SGE組差異最大，這符合NAM組較高黏粒含量的特徵。  
+XRD結果中，由於是整體土壤的結果，以quartz為最主要的礦物 (因為砂粒基本上都是quartz吧，那個圖譜不放大來看只有兩根quartz波峰在4.26&#8491;及3.343&#8491;，更不用說3.343&#8491;的波峰直接蓋掉了illite在這裡也會有的波峰)，土壤也缺少muscovite。我個人覺得XRD的結果只照出了兩根quartz peaks，但是這個含量可以估算砂粒含量，砂粒含量又和黏粒含量成負相關，因此可以說是利用quartz含量去預測與其相反的黏粒含量吧。  
+  
+**Model performance**  
+整體而言pXRF提供了預測CEC最好的能力
+- NAM: CCC = 0.79, RMSE = 64.9 mmol<sub>c</sub> kg<sup>-1</sup>
+- SGE: CCC = 0.85, RMSE = 80.0 mmol<sub>c</sub> kg<sup>-1</sup>  
+  
+至於黏粒含量，NAM組的預測是利用pXRF達到最好的效果  
+- NAM: CCC = 0.89, RMSE = 5.2 %  
+  
+而XRD提供了預測SGE組黏粒含量最好的能力  
+- SGE: CCC = 0.91, RMSE = 5.7 %  
+  
+
 meandering：彎曲的  
 horticulture：園藝
