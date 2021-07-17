@@ -51,6 +51,6 @@ XRD結果中，由於是整體土壤的結果，以quartz為最主要的礦物 (
 而XRD提供了預測SGE組黏粒含量最好的能力  
 - SGE: CCC = 0.91, RMSE = 5.7 %  
   
-
+待續
 meandering：彎曲的  
 horticulture：園藝
