@@ -5,7 +5,7 @@ title:  "Comment#7 Prediction of Soil Clay Content and Cation Exchange Capacity 
 ---  
 ## Comment#7 Prediction of Soil Clay Content and Cation Exchange Capacity Using Visible Near-Infrared Spectroscopy, Portable X-ray Fluorescence, and X-ray Diffraction Techniques  
 2021/07/15  
-這篇的impact factor還蠻高的，Environmental Science & Technology有7.864，我們來看看他有沒有這個價值。  
+這篇的impact factor在土壤領域算蠻高的，Environmental Science & Technology官網上2020有9.028，我們來看看他有沒有這個價值。  
   
 Topic:  
 Chen, Y., Gao, S., Jones, E.J., and Singh, B. 2021. Prediction of Soil Clay Content and Cation Exchange Capacity Using Visible Near-Infrared Spectroscopy, Portable X-ray Fluorescence, and X-ray Diffraction Techniques. Environmental Science & Technology, 55(8), 4629-4637.  
