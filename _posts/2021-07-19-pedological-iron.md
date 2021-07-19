@@ -19,7 +19,7 @@ title:  "Iron (Fe) selective extraction - 土壤中鐵的選擇性抽出方法 (
 游離鐵的萃取稱作DCB抽出，是三種藥劑的縮寫：
 - Dithionite：Na<sub>2</sub>S<sub>2</sub>O<sub>4</sub>，作為還原劑，S<sub>2</sub>O<sub>4</sub><sup>2-</sup>能將Fe<sup>3+</sup>還原成Fe<sup>2+</sup>。但要注意的是在溫度超過80&deg;C後S<sub>2</sub>O<sub>4</sub><sup>2-</sup>會自行分解成S<sub>2</sub>O<sub>3</sub><sup>2-</sup>與HSO<sub>3</sub><sup>-</sup>，因此不能讓溫度超過80&deg;C以上。
 - Citrate：是很好的chelating agent，可以與溶液中的Fe<sup>2+</sup>錯合，避免與硫發生沉澱。
-- Bicarbonate：NaHCO<sub>3</sub>，作為緩衝溶液，維持溶液的pH值約為7 
+- Bicarbonate：NaHCO<sub>3</sub>，作為緩衝溶液，維持溶液的pH值約為7。 
   
 整個DCB的萃取過程是一個還原反應，sodium dithionite是一個常見的還原劑，在有機化學上也會用到，在自身氧化的過程中會消耗4個OH<sup>-</sup>而還原氧化鐵，而且這個氧化過程的氧化電位與環境的pH值有關。  
 在實驗環境中pH值極為重要，因為 (1) 在酸性環境下Fe<sup>2+</sup>能與硫形成FeS沉澱故須使pH值提升，(2) 為了最佳化鐵還原的效率必須提高pH值以提高S<sub>2</sub>O<sub>4</sub><sup>2-</sup>的氧化電位 (使其更傾向氧化，進而還原Fe<sup>3+</sup>)，以及 (3) 氧化時消耗OH<sup>-</sup>必須補充否則反應難以持續進行。  
