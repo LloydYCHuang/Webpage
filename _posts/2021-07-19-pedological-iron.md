@@ -18,10 +18,11 @@ title:  "Iron (Fe) selective extraction - 土壤中鐵的選擇性抽出方法"
 萃取游離鐵的方法是使用還原劑將鐵氧化物還原成水溶性的Fe<sup>2+</sup>，還原後的土壤會失去鐵氧化物的紅棕色，轉變成灰白色 (石英等矽酸鹽的顏色)，推薦剛開始學習土壤的人一定要操作這個實驗。  
 游離鐵的萃取稱作DCB抽出，是三種藥劑的縮寫：
 - Dithionite：Na<sub>2</sub>S<sub>2</sub>O<sub>4</sub>，作為最重要的還原劑，S<sub>2</sub>O<sub>4</sub><sup>2-</sup>能將Fe<sup>3+</sup>還原成Fe<sup>2+</sup>。但要注意的是在溫度超過80&deg;C後S<sub>2</sub>O<sub>4</sub><sup>2-</sup>會自行分解成S<sub>2</sub>O<sub>3</sub><sup>2-</sup>與HSO<sub>3</sub><sup>-</sup>，因此不能讓溫度超過70&deg;C以上。
-- Citrate：
-- Bicarbonate：NaHCO<sub>3</sub>，作為緩衝溶液，因為 (1) 在酸性環境下Fe<sup>2+</sup>能與硫形成FeS沉澱故須使pH提升，(2) 為了最佳化還原的效率必須提高S<sub>2</sub>O<sub>4</sub><sup>2-</sup>的氧化電位 (使其更傾向氧化，進而還原Fe
+- Citrate：是很好的chelating agent，可以與溶液中的Fe<sup>2+</sup>錯合，避免沉澱。
+- Bicarbonate：NaHCO<sub>3</sub>，作為緩衝溶液，因為 (1) 在酸性環境下Fe<sup>2+</sup>能與硫形成FeS沉澱故須使pH提升，(2) 為了最佳化還原的效率必須提高S<sub>2</sub>O<sub>4</sub><sup>2-</sup>的氧化電位 (使其更傾向氧化，進而還原FeFe<sup>3+</sup>)，bicarbonate所提供的OH<sup>-</sup>可以提高氧化電位。  
   
-
+整個DCB的萃取過程是一個還原反應，sodium dithionite是一個常見的還原劑，在有機化學上也會用到，在還原的過程中會消耗
+要提升還原劑的能力就要增加
 
 待續
 
