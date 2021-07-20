@@ -75,7 +75,7 @@ title:  "Iron (Fe) selective extraction - 土壤中鐵的選擇性抽出方法"
 4. 以1500 rpm離心10分鐘後，過濾稀釋上機
   
 一樣很多的修正法，但土與樣品比例不變，研究中的美國農部法使用0.4% Superfloc，並以2000 rpm離心直到澄清，也有人使用2000 rpm離心15分鐘的方法。  
-在Loveland and Day (1984) 的研究中使用的粒徑是< 0.5 mm (35 mesh)，但是在Soil Science Society of America出版的方法書則是使用< 2 mm (即10 mesh) 即可。  
+在Loveland and Day (1984) 的研究中使用的粒徑是< 0.5 mm (35 mesh)，但是在Soil Science Society of America出版的方法書則是使用< 2 mm (10 mesh) 即可。  
   
 **藥品配置**  
 0.1 M 焦磷酸鈉：將44.61 g Na-pyrophosphate (10水合，分子量446.06) 溶於約800 mL水中，並使用NaOH調整至pH=10後定量至1000 mL。  
