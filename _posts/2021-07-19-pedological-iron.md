@@ -41,7 +41,7 @@ title:  "Iron (Fe) selective extraction - 土壤中鐵的選擇性抽出方法"
   
 ### 無定型鐵Fe<sub>o</sub> - acid ammonium oxalate (酸性草酸銨) 萃取法  
 前面提到，游離鐵內又可分為結晶性良好以及不好的鐵礦物，而這兩種在土壤中所造成的影響也是不同的，結晶性較差者又被稱作無定型 (amorphous) 鐵礦物，無定型鐵生成的原因可能是環境潮溼生成的纖鐵礦或水合鐵礦，也可能是火山岩漿快速冷卻所生成的玻璃物質例如鋁英石 (allophane) 和絲狀鋁英石 (imogolite)。礦物雖不是本文的重點，但無定型鐵礦物具有較大的比表面積，化學反應性質較結晶性的鐵要來的活潑，又被稱作活性鐵 (active iron)，故測定無定型鐵含量是相當重要的。為了得知土壤中無定型鐵的含量，使用的方法是pH=3，0.2M酸性草酸銨 (NH<sub>4</sub>)<sub>2</sub>C<sub>2</sub>O<sub>4</sub> 萃取法。  
-最常被引用的文獻是Mckeague & Day (1966)，該研究測試了許多不同種類土壤、不同pH值、不同萃取時間的效果。酸性草酸銨萃取並不像DCB方法是將可還原的鐵萃取出，因此這個萃取是動力學控制 (kinetically controlled)，也就是說反應的條件至關重要，不同反應條件下萃取出的量也會不同，故**切勿過度解釋數據**。不同的鐵氧化物 (甚至矽酸鹽礦物) 都會跟酸性草酸銨反應，但剛好的酸度使得最主要萃取的是無定型鐵。  
+最常被引用的文獻是Mckeague and Day (1966)，該研究測試了許多不同種類土壤、不同pH值、不同萃取時間的效果。酸性草酸銨萃取並不像DCB方法是將可還原的鐵萃取出，因此這個萃取是動力學控制 (kinetically controlled)，也就是說反應的條件至關重要，不同反應條件下萃取出的量也會不同，故**切勿過度解釋數據**。不同的鐵氧化物 (甚至矽酸鹽礦物) 都會跟酸性草酸銨反應，但剛好的酸度使得最主要萃取的是無定型鐵。  
 - 溶液pH值：以pH=3最適合，過高的萃取效果不好，過低則怕矽酸鹽礦物溶出。
 - 萃取時間：在萃取一小時後仍有無定型鐵溶出，選用4小時的連續萃取。
   
@@ -62,9 +62,13 @@ title:  "Iron (Fe) selective extraction - 土壤中鐵的選擇性抽出方法"
   
 之後將草酸銨與草酸以1:0.75混合，其pH值將接近目標的3，再使用這兩種或是鹽酸/氨水來調整至pH=3。來自Schwertmann (1964) 以及俄亥俄州立大學的SOP則是以700 mL:535 mL這樣更精細的比例混合。  
 另一法 (來自Soil Science Society of America出版的方法書) 是將24.87 g草酸銨 (含一分子水) 與12.61 g草酸 (含兩分子水) 一同加入約800 mL水中，並用氨水或鹽酸調整到pH=3後定量至1000 mL。
-
+  
+### 有機錯合態Fe<sub>p</sub> - sodium pyrophosphate (焦磷酸) 萃取法  
+常引用的論文是Loveland and Digby (1984)，  
+待續
 
 ### 參考文獻  
+Loveland, P.J., and Digby, P. 1984. The extraction of Fe and Al by 0.1 M pyrophosphate solutions: a comparison of some techniques. Journal of Soil Science, 35(2), 243-250. <a href="https://doi.org/10.1111/j.1365-2389.1984.tb00280.x" target="_blank">https://doi.org/10.1111/j.1365-2389.1984.tb00280.x</a>  
 McKeague, J., and Day, J. 1966. Dithionite-and oxalate-extractable Fe and Al as aids in differentiating various classes of soils. Canadian journal of soil science, 46(1), 13-22. <a href="https://doi.org/10.4141/cjss66-003" target="_blank">https://doi.org/10.4141/cjss66-003</a>  
 Mehra, O.P., and Jackson, M.L. 1960. Iron oxides removal from soils and clays by a dithionite–citrate system buffered with sodium bicarbonate. Clays and Clay Minerals, 7,
 317–327. <a href="https://doi.org/10.1016/B978-0-08-009235-5.50026-7" target="_blank">https://doi.org/10.1016/B978-0-08-009235-5.50026-7</a>   
