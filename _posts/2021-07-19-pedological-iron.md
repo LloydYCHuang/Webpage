@@ -26,7 +26,7 @@ title:  "Iron (Fe) selective extraction - 土壤中鐵的選擇性抽出方法"
 因此Mehra and Jackson (1960) 提出的就是以bicarbonate穩定pH值、提高氧化電位並提供OH<sup>-</sup>。實驗結果證實以bicarbonate作為緩衝溶液的效果極佳，不僅讓氧化電位提高，穩定的緩衝能力也讓pH值不變動 (另外測試的NaOH反而使pH值容易變動)，並提供足夠的OH<sup>-</sup>，且其提供的緩衝pH=7.3也讓FeS不易沉澱，故後續常使用這三種藥劑組合的DCB法。    
   
 **原文實驗流程**  
-1. 使用4 g soil + 40 mL 0.3M Na-citrate + 5 mL 1M Na-bicarbonate (C:B = 8:1)，置於100 mL管
+1. 使用4 g soil + 40 mL 0.3 M Na-citrate + 5 mL 1 M Na-bicarbonate (C:B = 8:1)，置於100 mL管
 2. 以80&deg;水浴加熱並加入1 g Na-dithionite (但要注意各水浴槽溫度，不要過熱)
 3. 持續攪拌1分鐘後放置15分鐘 (中途攪拌)
 4. 15分鐘結束後加入10 mL飽和食鹽水 (促進土壤分散，使離心效果較好)
@@ -36,8 +36,8 @@ title:  "Iron (Fe) selective extraction - 土壤中鐵的選擇性抽出方法"
 **有關樣品均質性的問題**：在Soil Science Society of America出版的方法書中提到了樣品均質性的問題，並建議將土樣過250 mesh篩網，這在原作中是沒有特別提到的。而磨土的費工以及能磨過這麼細篩網的土能否代表原本的土樣，端看個人取捨，10 mesh也能產出很好的數據。
 
 **藥品配置**    
-0.3M Na-citrate：88.23 g Na-citrate (含兩分子水，分子量294.1 g/mol) 溶於1000 mL水  
-1M Na-bicarbonate：84 g Na-bicarbonate (分子量84 g/mol) 溶於1000 mL水 (溶解時加熱會比較好)
+0.3 M Na-citrate：88.23 g Na-citrate (含兩分子水，分子量294.1) 溶於1000 mL水  
+1 M Na-bicarbonate：84 g Na-bicarbonate (分子量84) 溶於1000 mL水 (溶解時加熱會比較好)
   
 ### 無定型鐵Fe<sub>o</sub> - acid ammonium oxalate (酸性草酸銨) 萃取法  
 前面提到，游離鐵內又可分為結晶性良好以及不好的鐵礦物，而這兩種在土壤中所造成的影響也是不同的，結晶性較差者又被稱作無定型 (amorphous) 鐵礦物，無定型鐵生成的原因可能是環境潮溼生成的纖鐵礦或水合鐵礦，也可能是火山岩漿快速冷卻所生成的玻璃物質例如鋁英石 (allophane) 和絲狀鋁英石 (imogolite)。礦物雖不是本文的重點，但無定型鐵礦物具有較大的比表面積，化學反應性質較結晶性的鐵要來的活潑，又被稱作活性鐵 (active iron)，故測定無定型鐵含量是相當重要的。為了得知土壤中無定型鐵的含量，使用的方法是pH=3，0.2M酸性草酸銨 (NH<sub>4</sub>)<sub>2</sub>C<sub>2</sub>O<sub>4</sub> 萃取法。  
@@ -47,8 +47,8 @@ title:  "Iron (Fe) selective extraction - 土壤中鐵的選擇性抽出方法"
   
 在進行草酸銨萃取時，必須將其置於黑暗中，因為長期照光會導致草酸根分解，儲存樣品也要用不透光的瓶子或是在外層包鋁箔紙。由於溶液的pH值很重要，若土壤中有碳酸鹽類必須先去除以免影響。
   
-**實驗流程**  
-1. 使用125或250 mg soil + 10 mL 0.2M ammonium oxalate (pH3)，置於15 mL管
+**原文實驗流程**  
+1. 使用125或250 mg soil + 10 mL 0.2 M ammonium oxalate (pH=3)，置於15 mL管
 2. 在黑暗中震盪4小時
 3. 取出，過濾稀釋上機  
   
@@ -56,18 +56,37 @@ title:  "Iron (Fe) selective extraction - 土壤中鐵的選擇性抽出方法"
 值得注意的是，原文便提到了萃取的效率與土壤磨碎程度有關，因此建議使用100 mesh的土，但實際操作上也是看個人取捨。
   
 **藥品配置**  
-有很多種方法，只要配置出pH=3的0.2M草酸銨即可，草酸銨其實是由更早的Schwertmann (1964) 所提出。  
-- 0.2M 草酸銨：28.42 g草酸銨 (含一分子水，分子量142.11 g/mol) 溶於1000 mL水  
-- 0.2M 草酸：25.21 g草酸 (含兩分子水，分子量126.07 g/mol) 溶於1000 mL水  
+有很多種方法，只要配置出pH=3的0.2 M草酸銨即可，草酸銨其實是由更早的Schwertmann (1964) 所提出。  
+- 0.2 M 草酸銨：28.42 g草酸銨 (含一分子水，分子量142.11) 溶於1000 mL水  
+- 0.2 M 草酸：25.21 g草酸 (含兩分子水，分子量126.07) 溶於1000 mL水  
   
 之後將草酸銨與草酸以1:0.75混合，其pH值將接近目標的3，再使用這兩種或是鹽酸/氨水來調整至pH=3。來自Schwertmann (1964) 以及俄亥俄州立大學的SOP則是以700 mL:535 mL這樣更精細的比例混合。  
 另一法 (來自Soil Science Society of America出版的方法書) 是將24.87 g草酸銨 (含一分子水) 與12.61 g草酸 (含兩分子水) 一同加入約800 mL水中，並用氨水或鹽酸調整到pH=3後定量至1000 mL。
   
 ### 有機錯合態Fe<sub>p</sub> - sodium pyrophosphate (焦磷酸) 萃取法  
-常引用的論文是Loveland and Digby (1984)，  
-待續
-
+常引用的論文是Loveland and Digby (1984)，有機錯合態的鐵就如同名字所示，是與土壤中的有機物錯合在一起的鐵，很常用來評估在淋澱土 (Spodosols) 裡的淋澱化物質 (spodic material)，淋澱化物質會隨著淋洗往下移動並累積在土壤B層，進而形成淋澱層 (spodic horizon)。與有機質錯合的鐵又和氧化鐵礦物有著不同的性質，因此評估土壤中的含量也是很重要的。  
+這個萃取方法多是使用0.1 M焦磷酸 (pyrophosphate) 的鉀鹽或是鈉鹽組合，最常使用的是Na-pyrophosphate。與無定型鐵的萃取相同，這個方法的萃取量也取決於過程中的環境條件，離心條件更是影響很大，所以這個方法並不完全等同於有機錯合態的鐵，一樣的**切勿過度解釋數據**。  
+0.1 M焦磷酸鈉 (Na<sub>4</sub>P<sub>2</sub>O<sub>7</sub>) 的pH值為9.6，Loveland and Day (1984) 測試了不同pH值及後續離心處理方法 (有趣的是，在論文內將比較的三種方法稱之為英國法、美國農部法與加拿大法"Canadian technique"，後來最穩定的就是加拿大法囉)，研究中選用不同條件能萃取出的量有所不同，但是因為並沒有標準品可以做驗證，並不能說萃取最多或最少的比較好，研究總結是應該選用具分析一致性 (原文為analytically consistent) 的方法，因此如下的條件便被沿用至今。  
+  
+**原文實驗流程**  
+1. 使用1 g soil + 100 mL 0.1 M Na-pyrophosphate (pH=10) 置於125 mL管
+2. 室溫震盪16小時
+3. 加入數滴0.1% Superfloc溶液
+4. 以1500 rpm離心10分鐘後，過濾稀釋上機
+  
+一樣很多的修正法，但土與樣品比例不變，研究中的美國農部法使用0.4% Superfloc，並以2000 rpm離心直到澄清，也有人使用2000 rpm離心15分鐘的方法。  
+在Loveland and Day (1984) 的研究中使用的粒徑是< 0.5 mm (35 mesh)，但是在Soil Science Society of America出版的方法書則是使用< 2 mm (即10 mesh) 即可。  
+  
+**藥品配置**  
+0.1 M 焦磷酸鈉：將44.61 g Na-pyrophosphate (10水合，分子量446.06) 溶於約800 mL水中，並使用NaOH調整至pH=10後定量至1000 mL。  
+  
+### 總結
+這三種萃取法都是常見的實驗，務必搞懂他們的限制與應用，然後不要把這三種定義當作神聖的，而只是操作性的劃分，最重要的是奠基於萃取的化學性質作出解釋即可。  
+在大部分的情況下，由於萃取劑的強弱，三種方法萃取出來的大小是Fe<sub>d</sub> > Fe<sub>o</sub> > Fe<sub>p</sub>，但有些有機錯合物太多或是無定型物質太多的土壤中，也會有差異。  
+另外本文常提到的Soil Science Society of America出版的方法書指的是Methods of Soil Analysis, Part 3: Chemical Methods，我們實驗室內有常備一本，照著這本書基本上不會出錯，鐵的部分是Loeppert and Inskeep (1996)，裡面也有簡介原理，非常實用。  
+  
 ### 參考文獻  
+Loeppert, R., and Inskeep, W. 1996. Iron. In D.L. Sparks, A.L. Page, P.A. Helmke, R.H. Loeppert, P.N. Soltanpour, M.A. Tabatabai, C.T. Johnston, and M.E. Sumner (Eds.). Methods of Soil Analysis: Part 3 Chemical Methods (pp. 639–664). Madison, WI: Soil Science Society of America. <a href="https://doi.org/10.2136/sssabookser5.3.c23" target="_blank">https://doi.org/10.2136/sssabookser5.3.c23</a>  
 Loveland, P.J., and Digby, P. 1984. The extraction of Fe and Al by 0.1 M pyrophosphate solutions: a comparison of some techniques. Journal of Soil Science, 35(2), 243-250. <a href="https://doi.org/10.1111/j.1365-2389.1984.tb00280.x" target="_blank">https://doi.org/10.1111/j.1365-2389.1984.tb00280.x</a>  
 McKeague, J., and Day, J. 1966. Dithionite-and oxalate-extractable Fe and Al as aids in differentiating various classes of soils. Canadian journal of soil science, 46(1), 13-22. <a href="https://doi.org/10.4141/cjss66-003" target="_blank">https://doi.org/10.4141/cjss66-003</a>  
 Mehra, O.P., and Jackson, M.L. 1960. Iron oxides removal from soils and clays by a dithionite–citrate system buffered with sodium bicarbonate. Clays and Clay Minerals, 7,
