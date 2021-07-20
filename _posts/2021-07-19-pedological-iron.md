@@ -6,7 +6,7 @@ title:  "Iron (Fe) selective extraction - 土壤中鐵的選擇性抽出方法"
 ## Iron (Fe) selective extraction - 土壤中鐵的選擇性抽出方法  
 2021/07/19  
 在研究土壤的路上，鐵的選擇性抽出是常見到的方法，各個實驗室應該都有自己傳承下來的劑量、樣品量，但總是要追本溯源到最原始的論文來參考，不然白白的引用了文獻卻不知道原文內容又有何用。因此選在即將進行碩士論文的選擇性抽出實驗之際，細心的研究一下常見的選擇性抽出方法原理以及其來源。  
-先提到，不會包含全鐵含量測定，而是圍繞在土壤最常探討的三種狀態的鐵 - 分別為游離鐵Fe<sub>d</sub>、無定型鐵Fe<sub>o</sub>以及與有機物錯合的鐵Fe<sub>p</sub>，通常在測定這些萃取法時也會一同測定鋁的濃度，作為Al<sub>d</sub>、Al<sub>o</sub>及Al<sub>p</sub>，但是在方法上這種劃分其實是針對鐵的，所以鋁的參考價值會比較低一點。  
+先提到，不會包含全鐵含量測定，而是圍繞在土壤最常探討的三種狀態的鐵 - 分別為游離鐵Fe<sub>d</sub>、無定型鐵Fe<sub>o</sub>以及與有機物錯合的鐵Fe<sub>p</sub>，通常在測定這些萃取法時也會一同測定鋁的濃度，是為Al<sub>d</sub>、Al<sub>o</sub>及Al<sub>p</sub>，但是在方法上這種劃分其實是針對鐵的，所以鋁的參考價值會比較低一點。  
 再補充，這些萃取方法充其量只是操作性定義，並非完全神聖專一的區隔不同相態的鐵，不要將這裡的分類作為至高無上的定律，僅可奠基於其化學原理做一定程度的解釋，**切勿過度解釋數據**。  
   
 *We are what we repeatedly do. Excellence, then, is not an act, but a habit.   
@@ -23,7 +23,7 @@ title:  "Iron (Fe) selective extraction - 土壤中鐵的選擇性抽出方法"
   
 整個DCB的萃取過程是一個還原反應，sodium dithionite是一個常見的還原劑，在有機化學上也會用到，在自身氧化的過程中會消耗4個OH<sup>-</sup>而還原氧化鐵，而且這個氧化過程的氧化電位與環境的pH值有關。  
 在實驗環境中pH值極為重要，因為 (1) 在酸性環境下Fe<sup>2+</sup>能與硫形成FeS沉澱故須使pH值提升，(2) 為了最佳化鐵還原的效率必須提高pH值以提高S<sub>2</sub>O<sub>4</sub><sup>2-</sup>的氧化電位 (使其更傾向氧化，進而還原Fe<sup>3+</sup>)，以及 (3) 氧化時消耗OH<sup>-</sup>必須補充否則反應難以持續進行。  
-因此Mehra and Jackson (1960) 提出的就是以bicarbonate穩定pH值、提高氧化電位並提供OH<sup>-</sup>。實驗結果證實以bicarbonate作為緩衝溶液的效果極佳，不僅讓氧化電位提高，穩定的緩衝能力也讓pH值不變動 (另外測試的NaOH反而使pH值容易變動)，並提供足夠的OH<sup>-</sup>，且其提供的緩衝pH=7.3也讓FeS不易沉澱，故後續常使用這三種藥劑組合的DCB法。    
+因此Mehra and Jackson (1960) 提出的就是以bicarbonate穩定pH值、提高氧化電位並提供OH<sup>-</sup>。實驗結果證實以bicarbonate作為緩衝溶液的效果極佳，不僅讓氧化電位提高，穩定的緩衝能力也讓pH值不變動 (另外測試的NaOH反而使pH值容易變動)，並提供足夠的OH<sup>-</sup>，且其提供的緩衝pH=7.3也讓FeS不易沉澱，故常使用這三種藥劑組合的DCB法。    
   
 **原文實驗流程**  
 1. 使用4 g soil + 40 mL 0.3 M Na-citrate + 5 mL 1 M Na-bicarbonate (C:B = 8:1)，置於100 mL管
@@ -66,7 +66,7 @@ title:  "Iron (Fe) selective extraction - 土壤中鐵的選擇性抽出方法"
 ### 有機錯合態Fe<sub>p</sub> - sodium pyrophosphate (焦磷酸) 萃取法  
 常引用的論文是Loveland and Digby (1984)，有機錯合態的鐵就如同名字所示，是與土壤中的有機物錯合在一起的鐵，很常用來評估在淋澱土 (Spodosols) 裡的淋澱化物質 (spodic material)，淋澱化物質會隨著淋洗往下移動並累積在土壤B層，進而形成淋澱層 (spodic horizon)。與有機質錯合的鐵又和氧化鐵礦物有著不同的性質，因此評估土壤中的含量也是很重要的。  
 這個萃取方法多是使用0.1 M焦磷酸 (pyrophosphate) 的鉀鹽或是鈉鹽組合，最常使用的是Na-pyrophosphate。與無定型鐵的萃取相同，這個方法的萃取量也取決於過程中的環境條件，離心條件更是影響很大，所以這個方法並不完全等同於有機錯合態的鐵，一樣的**切勿過度解釋數據**。  
-0.1 M焦磷酸鈉 (Na<sub>4</sub>P<sub>2</sub>O<sub>7</sub>) 的pH值為9.6，Loveland and Day (1984) 測試了不同pH值及後續離心處理方法 (有趣的是，在論文內將比較的三種方法稱之為英國法、美國農部法與加拿大法"Canadian technique"，後來最穩定的就是加拿大法囉)，研究中選用不同條件能萃取出的量有所不同，但是因為並沒有標準品可以做驗證，並不能說萃取最多或最少的比較好，研究總結是應該選用具分析一致性 (原文為analytically consistent) 的方法，因此如下的條件便被沿用至今。  
+0.1 M焦磷酸鈉 (Na<sub>4</sub>P<sub>2</sub>O<sub>7</sub>) 的原本pH值為9.6，Loveland and Day (1984) 測試了調整不同pH值及後續離心處理方法 (有趣的是，在論文內將比較的三種方法稱之為英國法、美國農部法與加拿大法"Canadian technique"，後來最穩定的是加拿大法)，研究中選用不同條件能萃取出的量有所不同，但是因為並沒有標準品可以做驗證，並不能說萃取最多或最少的比較好，研究總結是應該選用具分析一致性 (原文：analytically consistent) 的方法，因此如下的條件便被沿用至今。  
   
 **原文實驗流程**  
 1. 使用1 g soil + 100 mL 0.1 M Na-pyrophosphate (pH=10) 置於125 mL管
@@ -82,7 +82,7 @@ title:  "Iron (Fe) selective extraction - 土壤中鐵的選擇性抽出方法"
   
 ### 總結
 這三種萃取法都是常見的實驗，務必搞懂他們的限制與應用，然後不要把這三種定義當作神聖的，而只是操作性的劃分，最重要的是奠基於萃取的化學性質作出解釋即可。  
-在大部分的情況下，由於萃取劑的強弱，三種方法萃取出來的大小是Fe<sub>d</sub> > Fe<sub>o</sub> > Fe<sub>p</sub>，但有些有機錯合物太多或是無定型物質太多的土壤中，也會有差異。  
+在大部分的情況下，由於萃取劑的強弱與化學上的劃分，理論上Fe<sub>d</sub>包含Fe<sub>o</sub>與Fe<sub>p</sub>，而Fe<sub>o</sub>包含Fe<sub>p</sub>，但有些有機錯合物太多或是無定型物質太多的土壤中，也會有差異。實際利用上，(Fe<sub>d</sub> - Fe<sub>o</sub>)/Fe<sub>d</sub>可以做為鐵結晶程度的指標，而Al<sub>o</sub> + 0.5Fe<sub>o</sub>則可作為淋澱土的分類依據之一。  
 另外本文常提到的Soil Science Society of America出版的方法書指的是Methods of Soil Analysis, Part 3: Chemical Methods，我們實驗室內有常備一本，照著這本書基本上不會出錯，鐵的部分是Loeppert and Inskeep (1996)，裡面也有簡介原理，非常實用。  
   
 ### 參考文獻  
