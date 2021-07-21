@@ -9,6 +9,37 @@ You can use the [editor on GitHub](https://github.com/LloydYCHuang/Webpage/edit/
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
+---
+title: "networkD3.demo"
+output: html_document
+---
+
+```{r message =FALSE,warning=FALSE}
+library(networkD3)
+src <- c("K", "K", "Na", "Na", "Ca", "Ca", "N")
+target <- c("Na", "Ca", "N", "Ca","S", "F", "P")
+networkData <- data.frame(src, target)
+simpleNetwork(networkData)  
+```
+
+```{r message =FALSE,warning=FALSE}
+src <- c(0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 4, 5)
+target <- c(1, 2, 3, 4, 4, 5, 6, 3, 4, 6, 6, 6)
+value <- c(1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5)
+links <- data.frame(src, target, value)
+colnames(links) <- c("source", "target", "value")
+
+name <- c("K", "Na", "Ca", "Mg", "Al", "Si", "P")
+group <- c(1, 2, 3, 1, 1, 2, 2)
+size <- c(1, 1, 2, 2, 3, 3, 4)
+nodes <- data.frame(name, group, size)
+colnames(nodes) <- c("name", "group", "size")
+
+forceNetwork(Links = links, Nodes = nodes,
+             Source = "source", Target = "target",
+             Value = "value", NodeID = "name",
+             Group = "group", opacity = 0.8, Nodesize="size")
+```
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
