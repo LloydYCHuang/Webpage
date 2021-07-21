@@ -69,7 +69,7 @@ value <- c(1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5, 5, 1, 2, 7)
 links <- data.frame(src, target, value)
 colnames(links) <- c("source", "target", "value")
 
-name <- c("Lloyd", "R", "Soil", "Game", "Website", "Novel", "PCA",
+name <- c("Lloyd", "R", "Soil", "Game", "Website", "Novel", "Kriging",
           "Machine Learning", "Digital Soil mapping", "Pedology", 
           "Monster Hunter", "Sekiro", "Horizon Zero Down", 
           "Dan Brown", "Edward D. Hoch")
