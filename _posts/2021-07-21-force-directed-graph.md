@@ -5,16 +5,16 @@ title:  "Force-directed graph的R實作"
 ---
 ## Force-directed graph的R實作  
 2021/07/21  
-今天要來學習的是所謂的force-directed graph，最早看到這種呈現方式是在大四下學期專題討論所選用的文章<a href="https://doi.org/10.1016/j.geoderma.2019.113997" target="_blank">Enhanced soil profile visualization using portable X-ray fluorescence (PXRF) spectrometry</a>當中的呈現方式，<a href="https://idatavisualizationlab.github.io/Soil/demos.html" target="_blank">連結在此</a>，那時我馬上被這種呈現方法震撼到了，而且心想總有一天要學會這種方法。  
+今天要來學習force-directed graph，最早看到這種呈現方式是在大四下學期專題討論所選用的文章<a href="https://doi.org/10.1016/j.geoderma.2019.113997" target="_blank">Enhanced soil profile visualization using portable X-ray fluorescence (PXRF) spectrometry</a>當中的呈現方式，<a href="https://idatavisualizationlab.github.io/Soil/demos.html" target="_blank">連結在此</a>，那時我馬上被這種呈現方法震撼到了，而且心想總有一天要學會這種方法。  
   
 ### 何謂force-directed graph?  
-Force-directed graph是一種繪圖的方法，在平面或空間中配置節點 (node) 與連線 (edge)，並利用演算的方法配置節點位置以及連線的長度，使不同連線盡可能不相交、連線長度也均等。  
-演算法參與的部分是在所謂的力 (force)，利用如同彈簧一般的虎克定律掌管連線兩端節點的距離，利用如同靜電排斥力一般的庫倫定律掌管沒有連線的兩個節點的距離，也就是說，藉由運算不同節點之間的引力及斥力，可以將圖形保持在簡潔有力的樣子，想成一個自己調整長相的圖片吧！  
+Force-directed graph是一種繪圖的方法，在平面或空間中配置節點 (node) 與連線 (edge)，並利用演算的方式配置節點位置以及連線的長度，使不同連線盡可能不相交、連線長度也均等。  
+演算法參與的部分是在所謂的力 (force)，利用如同彈簧一般的虎克定律掌管連線兩端節點的距離，利用如同靜電排斥力一般的庫倫定律掌管沒有連線的兩個節點的距離，也就是說，藉由運算不同節點之間的引力及斥力，可以將圖形保持在簡潔有力的樣子，也可以與圖片互動進而改變圖片，想成一個自己調整長相的圖片吧！  
 要用到force-directed graph就須使用到以JavaScript所寫成的Data-Driven Documents (D3)，因此使用的R套件也是奠基於D3的。  
   
 ### 以R繪製force-directed graph  
 學習的過程比我想像中簡單，已經有非常棒的<a href="https://christophergandrud.github.io/networkD3/" target="_blank">networkD3套件解說</a>，完全可以自己上手。  
-我們使用的套件稱為`networkD3`，是將D3使用到R裡面的套件，首先下載並library出來。這個套件很小，有興趣的可以直接去看他的使用說明書 (才22頁)   
+我們使用的套件稱為`networkD3`，是將D3使用到R裡面的套件，首先下載並library出來。   
 ```
 install.packages("networkD3")  
 library(networkD3)  
@@ -57,8 +57,9 @@ forceNetwork(Links, Nodes, Source, Target, Value, NodeID, Nodesize, Group,
 - `Value`：線的粗細
 - `NodeID`：節點命名，要注意的是在這裡給定第一個node時，會從0開始編號，所以編號要注意！
 - `Nodesize`：節點大小
-- `Group`：若要依照組別著色，就要給定group
-現在也實際創造一組資料來做示範
+- `Group`：若要依照組別著色，就要給定group  
+  
+現在也實際創造一組資料來做示範  
 ```
 src <- c(0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 4, 5)
 target <- c(1, 2, 3, 4, 4, 5, 6, 3, 4, 6, 6, 6)
@@ -76,17 +77,13 @@ forceNetwork(Links = links, Nodes = nodes,
              Source = "source", Target = "target",
              Value = "value", NodeID = "name",
              Group = "group", opacity = 0.8, Nodesize="size")
-```
+```  
 有了這種繪圖工具，可以創造更為有說服力的圖示，因此下一步就是匯出檔案，以`saveNetwork`可以匯出獨立的html檔
-```
+```  
 library(magrittr)
 
 simpleNetwork(networkData) %>%
 saveNetwork(file = 'demo.html')
-```
-若要使用RMarkdown也是完全OK的，那如果要像這樣插入到另一個html的網站裡呢？
+```  
+若要放入到RMarkdown後輸出html也是完全OK的，那如果要插入到另一個html的網站裡呢？很遺憾的我找了一個晚上還是不知道如何將繪製的可以互動的force-directed graph插入到Github Pages裡面。  
 
-
-待續
-
-函數
