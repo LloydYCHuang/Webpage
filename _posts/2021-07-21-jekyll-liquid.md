@@ -69,7 +69,7 @@ Jekyll官網也有<a href="https://jekyllrb.com/docs/variables/#page-variables" 
 將檔案的名稱貼上 (但要注意其母資料夾) 就可以取得你想要的連結。  
   
 **建立文章列表**  
-這我想是最常用到的，我前面已經建立過一些文章清單了，因此在這裡就來示範建立個別頁面展示我的Soil類別文章列表  
+我想是最常用到的，我前面已經建立過一些文章清單了，因此在這裡就來示範建立個別頁面展示我的Soil類別文章列表，這是基礎Liquid，可以再按照自己網頁喜好去排版  
 ```
 {% for post in site.categories.Soil %}            # 在Soil這個類別底下的所有文章
    <a href="{{ post.url }}">{{ post.title }}</a>  # 建立超連結至他們的網頁，並顯示其名稱
@@ -78,4 +78,6 @@ Jekyll官網也有<a href="https://jekyllrb.com/docs/variables/#page-variables" 
 最後分享Liquid的<a href="https://www.shopify.com/partners/shopify-cheat-sheet" target="_blank">Cheat sheet</a>，以上是這次自學的內容。
 {% endraw %}
 
-
+{% for post in site.categories.Journal.comments %}           
+   {{ post.title }}
+{% endfor %}   
