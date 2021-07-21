@@ -13,7 +13,7 @@ Force-directed graph是一種繪圖的方法，在平面或空間中配置節點
 要用到force-directed graph就須使用到以JavaScript所寫成的Data-Driven Documents (D3)，因此使用的R套件也是奠基於D3的。  
   
 ### 以R繪製force-directed graph  
-學習的過程比我想像中簡單，已經有非常棒的<a href="https://christophergandrud.github.io/networkD3/" target="_blank">networkD3套件解說</a>，完全可以自己上手。  
+學習的過程比我想像中簡單，已經有非常棒的<a href="https://christophergandrud.github.io/networkD3/" target="_blank">networkD3套件解說</a>，完全可以自己上手，有興趣的人建議直接看<a href="https://cran.r-project.org/web/packages/networkD3/networkD3.pdf" target="_blank">套件的使用說明</a>。    
 我們使用的套件稱為`networkD3`，是將D3使用到R裡面的套件，首先下載並library出來。   
 ```
 install.packages("networkD3")  
@@ -25,8 +25,9 @@ library(networkD3)
 src <- c("K", "K", "Na", "Na", "Ca", "Ca", "N")
 target <- c("Na", "Ca", "N", "Ca","S", "F", "P")
 networkData <- data.frame(src, target)
-simpleNetwork(networkData)  
-```
+simpleNetwork(networkData, fontSize = 20, fontFamily = "sans-serif")  
+```  
+<iframe src="https://lloydychuang.github.io/assets/graph-demo1.html" scrolling="no"></iframe>  
 而這個函數可以操作的部分如下  
 ```
 simpleNetwork(Data, Source = 1, Target = 2,       # 指定哪一個column是source/target
@@ -81,7 +82,7 @@ forceNetwork(Links = links, Nodes = nodes,
 有了這種繪圖工具，可以創造更為有說服力的圖示，因此下一步就是匯出檔案，以`saveNetwork`可以匯出獨立的html檔
 ```  
 library(magrittr)
-
+  
 simpleNetwork(networkData) %>%
 saveNetwork(file = 'demo.html')
 ```  
