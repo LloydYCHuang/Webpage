@@ -61,25 +61,31 @@ forceNetwork(Links, Nodes, Source, Target, Value, NodeID, Nodesize, Group,
 - `Nodesize`：節點大小
 - `Group`：若要依照組別著色，就要給定group  
   
-現在也實際創造一組資料來做示範  
+現在也實際創造一組資料來做示範，主題就是我的興趣吧！    
 ```
-src <- c(0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 4, 5)
-target <- c(1, 2, 3, 4, 4, 5, 6, 3, 4, 6, 6, 6)
-value <- c(1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5)
+src <- c(0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 5, 5)
+target <- c(1, 2, 3, 4, 5, 6, 7, 4, 8, 9, 4, 10, 11, 12, 13, 14)
+value <- c(1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5, 5, 1, 2, 7)
 links <- data.frame(src, target, value)
 colnames(links) <- c("source", "target", "value")
 
-name <- c("K", "Na", "Ca", "Mg", "Al", "Si", "P")
-group <- c(1, 2, 3, 1, 1, 2, 2)
-size <- c(1, 1, 2, 2, 3, 3, 4)
+name <- c("Lloyd", "R", "Soil", "Game", "Website", "Novel", "PCA",
+          "Machine Learning", "Digital Soil mapping", "Pedology", 
+          "Monster Hunter", "Sekiro", "Horizon Zero Down", 
+          "Dan Brown", "Edward D. Hoch")
+group <- c(1, 2, 3, 4, 5, 6, 2, 2, 3, 3, 4, 4, 4, 6, 6)
+size <- c(1, 2, 3, 4, 5, 6, 2, 2, 3, 3, 4, 4, 4, 6, 6)
 nodes <- data.frame(name, group, size)
 colnames(nodes) <- c("name", "group", "size")
 
 forceNetwork(Links = links, Nodes = nodes,
              Source = "source", Target = "target",
              Value = "value", NodeID = "name",
-             Group = "group", opacity = 0.8, Nodesize="size")
+             Group = "group", opacity = 0.8, Nodesize="size",
+             fontSize = 20, fontFamily = "sans-serif")
 ```  
+<iframe src="https://lloydychuang.github.io/assets/graph-demo2.html" width="500" height="350" frameborder="0"  scrolling="no"></iframe>  
+  
 有了這種繪圖工具，可以創造更為有說服力的圖示，因此下一步就是匯出檔案，以`saveNetwork`可以匯出獨立的html檔
 ```  
 library(magrittr)
@@ -87,5 +93,5 @@ library(magrittr)
 simpleNetwork(networkData) %>%
 saveNetwork(file = 'demo.html')
 ```  
-若要放入到RMarkdown後輸出html也是完全OK的，那如果要插入到另一個html的網站裡呢？很遺憾的我找了一個晚上還是不知道如何將繪製的可以互動的force-directed graph插入到Github Pages裡面。  
+若要放入到RMarkdown後輸出html也是完全OK的，那如果要插入到另一個html的網站裡呢？我現在找到的方法只有利用html語法的`iframe`來插入，並不能直接在Github Pages裡的Markdown檔案執行，要另外存成html檔案再掛上來，使用iframe內嵌到網頁裡。  
 
