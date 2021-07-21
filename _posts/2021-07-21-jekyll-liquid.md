@@ -54,7 +54,7 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 在Jekyll裡面有些已經被定義的變數，可以拿來使用在Liquid，這對我們來說非常方便，例如
 - `site.categories`：整個網站的category列表
 - `category`：在site.categories裡的每個單元
-- `site.categories.某個類別名稱`：代表某個特定的category，如果是有空格的怎麼辦
+- `site.categories.某個類別名稱`：代表某個特定的category，如果是有空格的怎麼辦?
 - `post`：網誌，若是`post in site.categories[某個類別名稱]`就代表該category裡所有的post
 Jekyll官網也有<a href="https://jekyllrb.com/docs/variables/#page-variables" target="_blank">變數列表</a>可以參考。  
 
@@ -69,7 +69,7 @@ Jekyll官網也有<a href="https://jekyllrb.com/docs/variables/#page-variables" 
 將檔案的名稱貼上 (但要注意其母資料夾) 就可以取得你想要的連結。  
   
 **建立文章列表**  
-這我想是最常用到的，我前面已經建立過一些文章清單了，因此在這裡就來嘗試建立個別頁面展示我的Soil類別文章
+這我想是最常用到的，我前面已經建立過一些文章清單了，因此在這裡就來示範建立個別頁面展示我的Soil類別文章列表
 
 
 
@@ -77,7 +77,7 @@ Jekyll官網也有<a href="https://jekyllrb.com/docs/variables/#page-variables" 
 {% endraw %}
 
 
-{% for post in site.categories.Journal comments %}
+{% for post in site.categories.[Journal comments] %}
   {{post.title}}
 {% endfor %}
 
