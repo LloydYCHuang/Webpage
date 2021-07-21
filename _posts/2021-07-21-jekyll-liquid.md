@@ -56,9 +56,11 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 - `category`：在site.categories裡的每個單元
 - `site.categories[某個類別名稱]`：代表某個特定的category
 - `post`：網誌，若是`post in site.categories[某個類別名稱]`就代表該category裡所有的post
-  
+非常好用的是Jekyll官網內的<a href="https://jekyllrb.com/docs/variables/#page-variables" target="_blank">變數列表</a>
+
 ### 網誌專用  
 寫到這裡，Liquid真的具有相當多功能，但對於我這種只要寫網誌的人來說似乎用不太到太過複雜的判定式，所以我將寫網誌可能會用到的列在這裡  
+  
 **提供連結**  
 有時要連結到我們特定的網誌，但不想費心去抓連結的話，只要這樣
 ```
@@ -71,16 +73,11 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 
 
 
-
+最後分享非常好用的<a href="https://www.shopify.com/partners/shopify-cheat-sheet" target="_blank">Cheat sheet</a>，以上是這次自學的內容。
 {% endraw %}
-  
-{% for category in site.categories %}
-  {% capture category_name %}{{ category | first }}{% endcapture %}
-    {{ category_name }}   
-{% endfor %}
 
 
-{% for post in site.categories[Soil] %}
+{% for post in site.categories.Soil %}
   {{post.title}}
 {% endfor %}
 
