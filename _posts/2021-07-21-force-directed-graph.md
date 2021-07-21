@@ -52,13 +52,39 @@ forceNetwork(Links, Nodes, Source, Target, Value, NodeID, Nodesize, Group,
 美編的部分先不論，最明顯的是需要輸入的變數增加成8個了  
 - `Links`：就是畫幾條線的部分，每個link要包含Source、Target及Value
 - `Nodes`：幾個節點，每個node要包含NodeID、Nodesize及Group
-- `Source`：出發點
-- `Target`：終點
+- `Source`：出發點，以數字從0開始編號
+- `Target`：終點，以數字從0開始編號
 - `Value`：線的粗細
-- `NodeID`：節點命名
+- `NodeID`：節點命名，要注意的是在這裡給定第一個node時，會從0開始編號，所以編號要注意！
 - `Nodesize`：節點大小
 - `Group`：若要依照組別著色，就要給定group
+現在也實際創造一組資料來做示範
+```
+src <- c(0, 0, 0, 0, 1, 1, 1, 2, 2, 3, 4, 5)
+target <- c(1, 2, 3, 4, 4, 5, 6, 3, 4, 6, 6, 6)
+value <- c(1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5)
+links <- data.frame(src, target, value)
+colnames(links) <- c("source", "target", "value")
 
+name <- c("K", "Na", "Ca", "Mg", "Al", "Si", "P")
+group <- c(1, 2, 3, 1, 1, 2, 2)
+size <- c(1, 1, 2, 2, 3, 3, 4)
+nodes <- data.frame(name, group, size)
+colnames(nodes) <- c("name", "group", "size")
+
+forceNetwork(Links = links, Nodes = nodes,
+             Source = "source", Target = "target",
+             Value = "value", NodeID = "name",
+             Group = "group", opacity = 0.8, Nodesize="size")
+```
+有了這種繪圖工具，可以創造更為有說服力的圖示，因此下一步就是匯出檔案，以`saveNetwork`可以匯出獨立的html檔
+```
+library(magrittr)
+
+simpleNetwork(networkData) %>%
+saveNetwork(file = 'demo.html')
+```
+若要使用RMarkdown也是完全OK的，那如果要像這樣插入到另一個html的網站裡呢？
 
 
 待續
