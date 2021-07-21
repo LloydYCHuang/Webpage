@@ -56,7 +56,7 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 - `category`：在site.categories裡的每個單元
 - `site.categories.某個類別名稱`：代表某個特定的category，如果是有空格的怎麼辦
 - `post`：網誌，若是`post in site.categories[某個類別名稱]`就代表該category裡所有的post
-非常好用的是Jekyll官網內的<a href="https://jekyllrb.com/docs/variables/#page-variables" target="_blank">變數列表</a>
+Jekyll官網也有<a href="https://jekyllrb.com/docs/variables/#page-variables" target="_blank">變數列表</a>可以參考。  
 
 ### 網誌專用  
 寫到這裡，Liquid真的具有相當多功能，但對於我這種只要寫網誌的人來說似乎用不太到太過複雜的判定式，所以我將寫網誌可能會用到的列在這裡  
@@ -77,7 +77,7 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 {% endraw %}
 
 
-{% for post in site.categories.Journal-comments %}
+{% for post in site.categories.Journal comments %}
   {{post.title}}
 {% endfor %}
 
