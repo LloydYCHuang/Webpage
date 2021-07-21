@@ -54,7 +54,7 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 在Jekyll裡面有些已經被定義的變數，可以拿來使用在Liquid，這對我們來說非常方便，例如
 - `site.categories`：整個網站的category列表
 - `category`：在site.categories裡的每個單元
-- `site.categories.某個類別名稱`：代表某個特定的category，如果是有空格的怎麼辦?
+- `site.categories.某個類別名稱`：代表某個特定的category
 - `post`：網誌，若是`post in site.categories.某個類別名稱`就代表該category裡所有的post
 Jekyll官網也有<a href="https://jekyllrb.com/docs/variables/#page-variables" target="_blank">變數列表</a>可以參考。  
 
@@ -77,8 +77,3 @@ Jekyll官網也有<a href="https://jekyllrb.com/docs/variables/#page-variables" 
 ```
 最後分享Liquid的<a href="https://www.shopify.com/partners/shopify-cheat-sheet" target="_blank">Cheat sheet</a>，以上是這次自學的內容。
 {% endraw %}
-
-
-{% for category in site.categories %}           
-   {{ category | first }}
-{% endfor %}   
