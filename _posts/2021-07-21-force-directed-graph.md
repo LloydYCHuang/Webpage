@@ -27,7 +27,7 @@ target <- c("Na", "Ca", "N", "Ca","S", "F", "P")
 networkData <- data.frame(src, target)
 simpleNetwork(networkData, fontSize = 20, fontFamily = "sans-serif")  
 ```  
-<iframe src="https://lloydychuang.github.io/assets/graph-demo1.html" scrolling="no"></iframe>  
+<iframe src="https://lloydychuang.github.io/assets/graph-demo1.html" width="200" height="200" frameborder="0"  scrolling="no"></iframe>  
   
 而這個函數可以操作的部分如下  
 ```
