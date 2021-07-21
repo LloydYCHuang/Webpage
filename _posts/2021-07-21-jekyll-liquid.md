@@ -48,12 +48,6 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 {% assign username = "Lloyd" %}         #有空行
 {%- assign username = "Lloyd" -%}       #沒有空行
 ```  
-還有一個很重要的功能，那就是想要像這篇文章一樣在文章中插入Liquid語言但不想讓其執行時，要使用特定的Liquid語言將其包起
-```
-{% raw %}
-  不會執行的部分
-{% endraw %}
-```
 其餘的功能我應該會在需要用到的時候到<a href="https://shopify.github.io/liquid/" target="_blank">Liquid官網</a>找就行了，聽起來很複雜的filter也在Jekyll官網有<a href="https://jekyllrb.com/docs/liquid/filters/" target="_blank">常用列表</a>。    
   
 ### Jekyll變數  
