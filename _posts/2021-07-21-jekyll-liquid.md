@@ -78,6 +78,7 @@ Jekyll官網也有<a href="https://jekyllrb.com/docs/variables/#page-variables" 
 最後分享Liquid的<a href="https://www.shopify.com/partners/shopify-cheat-sheet" target="_blank">Cheat sheet</a>，以上是這次自學的內容。
 {% endraw %}
 
-{% for post in site.categories.Journal.comments %}           
-   {{ post.title }}
+
+{% for category in site.categories %}           
+   {{ category | first }}
 {% endfor %}   
