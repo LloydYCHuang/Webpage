@@ -94,4 +94,5 @@ simpleNetwork(networkData) %>%
 saveNetwork(file = 'demo.html')
 ```  
 若要放入到RMarkdown後輸出html也是完全OK的，那如果要插入到另一個html的網站裡呢？我現在找到的方法只有利用html語法的<a href="https://www.wibibi.com/info.php?tid=366#:~:text=%E6%A8%99%E6%BA%96%E7%9A%84HTML%20iframe%20%E6%A1%86%E6%9E%B6,%E4%B8%8D%E6%94%AF%E6%8F%B4HTML%20iframe%20%E6%99%82%EF%BC%8C" target="_blank">iframe框架內嵌</a>，並不能直接在Github Pages裡的Markdown來執行，要另外存成html檔案再掛上來，並使用`iframe`來內嵌到網頁裡。  
+這個套件能夠繪製的圖形還有許多種，且都是互動式的，R的路上真是學無止盡！  
 
