@@ -55,7 +55,7 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 - `site.categories`：整個網站的category列表
 - `category`：在site.categories裡的每個單元
 - `site.categories.某個類別名稱`：代表某個特定的category，如果是有空格的怎麼辦?
-- `post`：網誌，若是`post in site.categories[某個類別名稱]`就代表該category裡所有的post
+- `post`：網誌，若是`post in site.categories.某個類別名稱`就代表該category裡所有的post
 Jekyll官網也有<a href="https://jekyllrb.com/docs/variables/#page-variables" target="_blank">變數列表</a>可以參考。  
 
 ### 網誌專用  
@@ -69,15 +69,17 @@ Jekyll官網也有<a href="https://jekyllrb.com/docs/variables/#page-variables" 
 將檔案的名稱貼上 (但要注意其母資料夾) 就可以取得你想要的連結。  
   
 **建立文章列表**  
-這我想是最常用到的，我前面已經建立過一些文章清單了，因此在這裡就來示範建立個別頁面展示我的Soil類別文章列表
-
-
-
-最後分享非常好用的<a href="https://www.shopify.com/partners/shopify-cheat-sheet" target="_blank">Cheat sheet</a>，以上是這次自學的內容。
+這我想是最常用到的，我前面已經建立過一些文章清單了，因此在這裡就來示範建立個別頁面展示我的Soil類別文章列表  
+```
+{% for post in site.categories.Soil %}            # 在Soil這個類別底下的所有文章
+   <a href="{{ post.url }}">{{ post.title }}</a>  # 建立超連結至他們的網頁，並顯示其名稱
+{% endfor %}                                      # 記得結束for loop
+```
+最後分享Liquid的<a href="https://www.shopify.com/partners/shopify-cheat-sheet" target="_blank">Cheat sheet</a>，以上是這次自學的內容。
 {% endraw %}
 
 
-{% for post in site.categories.[Journal comments] %}
-  {{post.title}}
+{% for post in site.categories.Soil %}          
+   <a href="{{ post.url }}">{{ post.title }}</a>  
 {% endfor %}
 
