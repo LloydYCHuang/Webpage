@@ -55,7 +55,8 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 - `site.categories`：整個網站的category列表
 - `category`：在site.categories裡的每個單元
 - `site.categories.某個類別名稱`：代表某個特定的category
-- `post`：網誌，若是`post in site.categories.某個類別名稱`就代表該category裡所有的post
+- `post`：網誌，若是`post in site.categories.某個類別名稱`就代表該category裡所有的post  
+  
 Jekyll官網也有<a href="https://jekyllrb.com/docs/variables/#page-variables" target="_blank">變數列表</a>可以參考。  
 
 ### 網誌專用  
