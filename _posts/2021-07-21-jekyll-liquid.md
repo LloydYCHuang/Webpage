@@ -43,11 +43,17 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 {% capture name %}I am name{% endcapture %}
 ```
 這段程式碼代表"I am name"這段文字現在成為變數`name`的內容，如果我們想要讀取這段文字就使用`{{ name }}`便可以了。  
-最後很重要的使用Liquid語言時會在轉換後的網頁留下空行，如果不想要空行的話可以更改一下你的輸入
+使用Liquid語言時會在轉換後的網頁留下空行，如果不想要空行的話可以更改一下你的輸入
 ```
 {% assign username = "Lloyd" %}         #有空行
 {%- assign username = "Lloyd" -%}       #沒有空行
 ```  
+還有一個很重要的功能，那就是想要像這篇文章一樣在文章中插入Liquid語言但不想讓其執行時，要使用特定的Liquid語言將其包起
+```
+{% raw %}
+  不會執行的部分
+{% endraw %}
+```
 其餘的功能我應該會在需要用到的時候到<a href="https://shopify.github.io/liquid/" target="_blank">Liquid官網</a>找就行了，聽起來很複雜的filter也在Jekyll官網有<a href="https://jekyllrb.com/docs/liquid/filters/" target="_blank">常用列表</a>。    
   
 ### Jekyll變數  
@@ -78,8 +84,4 @@ Jekyll官網也有<a href="https://jekyllrb.com/docs/variables/#page-variables" 
 最後分享Liquid的<a href="https://www.shopify.com/partners/shopify-cheat-sheet" target="_blank">Cheat sheet</a>，以上是這次自學的內容。
 {% endraw %}
 
-
-{% for post in site.categories.Soil %}          
-   <a href="{{ post.url }}">{{ post.title }}</a>  
-{% endfor %}
 
