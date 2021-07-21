@@ -50,8 +50,8 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 ```  
 其餘的功能我應該會在需要用到的時候到<a href="https://shopify.github.io/liquid/" target="_blank">Liquid官網</a>找就行了，聽起來很複雜的filter也在Jekyll官網有<a href="https://jekyllrb.com/docs/liquid/filters/" target="_blank">常用列表</a>。    
   
-### Jekyll名詞  
-在Jekyll裡面有些已經被定義的名詞，可以拿來使用在Liquid，這對我們來說非常方便，例如
+### Jekyll變數  
+在Jekyll裡面有些已經被定義的變數，可以拿來使用在Liquid，這對我們來說非常方便，例如
 - `site.categories`：整個網站的category列表
 - `category`：在site.categories裡的每個單元
 - `site.categories[某個類別名稱]`：代表某個特定的category
@@ -75,7 +75,12 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 {% endraw %}
   
 {% for category in site.categories %}
-  {{ category_name }}   
+  {% capture category_name %}{{ category | first }}{% endcapture %}
+    {{ category_name }}   
 {% endfor %}
 
+
+{% for post in site.categories[Soil] %}
+  {{post.title}}
+{% endfor %}
 
