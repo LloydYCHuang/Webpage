@@ -18,6 +18,9 @@ title:  "Cation Exchange Capacity (CEC) - 土壤的陽離子交換容量測定�
   
 ### 測定方法與步驟  
 我說的引用文獻不統一指的是包含了兩個常見的方法引用來源，分別為Rhoades (1982) 以及Thomas (1982)，其實這兩篇是Soil Science Society of America出版的方法書中相鄰的兩個章節，題名分別為Cation exchange capacity與Exchangeable cations。在參考過兩篇文獻後，確認常使用的**pH 7醋酸銨淋洗法是來自Thomas (1982)**，雖然如此，兩篇文獻都值得一讀。  
+CEC的測定原理分成四個部分，分別為
+- 使用過量的鹽類A將  
+  
 醋酸銨淋洗法測定的原理是使用調整至中性 (pH = 7) 的1M醋酸銨進行淋洗，所以此方法的限制是不能用在含有大量CaCO<sub>3</sub>或石膏的鹼性土壤。由於這方法已被廣泛使用並改良成以淋洗管柱來進行，就不敘述原文的實驗步驟。  
   
 **實驗流程**  
