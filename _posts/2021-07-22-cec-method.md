@@ -32,7 +32,7 @@ CEC及BS的測定原理包含以下數項
 待續
 
 **藥品配置**  
-- 1 M醋酸銨 (ammonium acetate, NH<sub>4</sub>CH<sub>3</sub>CO<sub>2</sub>)：
+- 1 M醋酸銨 (ammonium acetate, NH<sub>4</sub>CH<sub>3</sub>CO<sub>2</sub>)：將57 mL 冰醋酸稀釋至約500 mL後加入70 mL
 - 酒精使用購買的即可
 - 酸化10%氯化鈉：將100 g NaCl溶於適量水中，加入0.42 mL 濃鹽酸 (HCl) 後定量至1000 mL
 
