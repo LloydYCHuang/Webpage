@@ -31,6 +31,11 @@ CEC及BS的測定原理包含以下數項
 在淋洗的過程中，全程不能讓土乾掉，
 待續
 
+**藥品配置**  
+- 1 M醋酸銨 (ammonium acetate, NH<sub>4</sub>CH<sub>3</sub>CO<sub>2</sub>)：
+- 酒精使用購買的即可
+- 酸化10%氯化鈉：將100 g NaCl溶於適量水中，加入0.42 mL 濃鹽酸 (HCl) 後定量至1000 mL
+
 ### 參考資料  
 Rhoades, J.D. 1982. Cation exchange capacity. In: Page, A.L., Miller, R.H., Keeney, D.R. (Eds.), Methods of Soil Analysis: Part 2, 2nd edition. Agronomy Monograph 9. (pp. 149–157). Madison, WI: American Society of Agronomy and Soil Science Society of America. <a href="https://doi.org/10.2134/agronmonogr9.2.2ed.c8" target="_blank"> https://doi.org/10.2134/agronmonogr9.2.2ed.c8</a>  
 Thomas, G.W. 1982. Exchangeable cations. In: Page, A.L., Miller, R.H., Keeney, D.R. (Eds.), Methods of Soil Analysis: Part 2, 2nd edition. Agronomy Monograph 9. (pp. 149–157). Madison, WI: American Society of Agronomy and Soil Science Society of America. <a href="https://doi.org/10.2134/agronmonogr9.2.2ed.c9" target="_blank">https://doi.org/10.2134/agronmonogr9.2.2ed.c9</a>  
