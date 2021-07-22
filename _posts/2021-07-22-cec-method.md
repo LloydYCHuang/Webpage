@@ -13,7 +13,7 @@ title:  "Cation Exchange Capacity (CEC) - 土壤的陽離子交換容量測定�
 ### 何謂陽離子交換容量 (Cation Exchange Capacity, CEC)  
 土壤的各種組成物有的帶電，有的不帶電，帶電的組成物就會吸引帶電的離子 (ion)，進而將離子保留在土壤中。而眾所周知正負電相吸，帶正電的組成物就會吸引陰離子 (anion)，帶負電的組成物就會吸引陽離子 (cation)。土壤中的礦物透過同構置換 (isomorphic substitution) 的原理，多帶有負電荷，也因此土壤容易吸附陽離子，這種吸附陽離子的能力大小就是CEC，CEC越高代表土壤能夠吸附陽離子的能力越強，那些帶電荷較高的礦物就具有較高的CEC，CEC現行的國際單位是cmol(+)/kg，比較舊的文獻會使用meq/100 g soil。  
 除了礦物中的永久電荷 (permanent charge) 之外，土壤中也帶有許多的可變電荷 (variable charge)，這些可變電荷會受到pH值的影響 (例如有機質官能基的解離)，因此土壤的CEC也會受到pH值的影響，代表**測定CEC時，環境pH值是很重要的**，不同pH值下測得的CEC也不同，因此紀錄CEC數值時也要包含使用的方法。  
-在土壤中常見的可交換性陽離子包含K<sup>+</sup>、Na<sup>+</sup>、Ca<sup>2+</sup>、Mg<sup>2+</sup>，他們被稱為exchangeable bases，以Ca<sup>2+</sup>跟Mg<sup>2+</sup>在土壤中的含量較高。將土壤中所測得可交換性K<sup>+</sup>、Na<sup>+</sup>、Ca<sup>2+</sup>、Mg<sup>2+</sup>的含量除以土壤的CEC，就稱之為鹽基飽和度 (Base Saturation, BS)，以百分比表示，就代表這四個交換性陽離子佔總CEC的比例。  
+在土壤中常見的可交換性陽離子包含K<sup>+</sup>、Na<sup>+</sup>、Ca<sup>2+</sup>、Mg<sup>2+</sup>，他們被稱為exchangeable bases，以Ca<sup>2+</sup>跟Mg<sup>2+</sup>在土壤中的含量較高。將土壤中所測得可交換性K<sup>+</sup>、Na<sup>+</sup>、Ca<sup>2+</sup>、Mg<sup>2+</sup>的含量除以土壤的CEC，就稱之為鹽基飽和度 (Base Saturation, BS)，以百分比表示，代表這四個交換性陽離子佔總CEC的比例。  
 
   
 ### 測定方法與步驟  
