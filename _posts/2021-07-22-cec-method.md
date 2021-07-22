@@ -17,7 +17,7 @@ title:  "Cation Exchange Capacity (CEC) - 土壤的陽離子交換容量測定�
 
   
 ### 測定方法與步驟  
-我說的引用文獻不統一指的是包含了兩個常見的方法引用來源，分別為Rhoades (1982) 以及Thomas (1982)，其實這兩篇是Soil Science Society of America出版的方法書中相鄰的兩個章節，題名分別為Cation exchange capacity與Exchangeable cations。在參考過兩篇文獻後，確認常使用的**pH 7醋酸銨淋洗法是來自Thomas (1982)**，雖然如此，兩篇文獻都值得一讀。  
+我說的引用文獻不統一指的是有兩個常見的方法引用來源，分別為Rhoades (1982) 以及Thomas (1982)，這兩篇是Soil Science Society of America出版的方法書中相鄰的兩個章節，題名分別為Cation exchange capacity與Exchangeable cations。在參考過兩篇文獻後，確認常使用的**pH 7醋酸銨淋洗法是來自Thomas (1982)**，雖然如此，兩篇文獻都值得一讀。  
 CEC及BS的測定原理包含以下數項
 醋酸銨淋洗法測定的原理是使用調整至中性 (pH = 7) 的1M醋酸銨進行淋洗，所以此方法的限制是不能用在含有大量CaCO<sub>3</sub>或石膏的鹼性土壤。由於這方法已被廣泛使用並改良成以淋洗管柱來進行，就不敘述原文的實驗步驟。  
   
@@ -25,9 +25,10 @@ CEC及BS的測定原理包含以下數項
 1. 將2 g通過10 mesh篩網的土壤置於淋洗管柱內並組裝實驗裝置
 2. 以100 mL 1M醋酸銨進行淋洗，目的是以過量的銨離子 (NH<sub>4</sub><sup>+</sup>) 將可交換性陽離子交換出來，此濾液上機分析K、Na、Ca、Mg含量，即為土壤中原本附著的含量
 3. 此時土壤中可吸附陽離子的位置均被NH<sub>4</sub><sup>+</sup>所佔據，但仍有在水溶液中未被吸附的NH<sub>4</sub><sup>+</sup>
-4. 以100 mL 95%酒精進行淋洗，目的是洗去未被吸附的多餘NH<sub>4</sub><sup>+</sup> (若使用水淋洗則會將吸附的也洗掉)，此洗液可以丟
-5. 以100 mL 酸化10%氯化鈉進行淋洗，目的是以過量的Na<sup>+</sup>將NH<sub>4</sub><sup>+</sup>交換出來，此濾液以定氮方法分析濾液中的NH<sub>4</sub><sup>+</sup>含量
+4. 以100 mL 95%酒精進行淋洗，目的是洗去未被吸附的多餘NH<sub>4</sub><sup>+</sup> (若使用水淋洗則會將吸附的也洗掉，所以用酒精)，此洗液可以丟
+5. 以100 mL 酸化10%氯化鈉進行淋洗，目的是以過量的Na<sup>+</sup>將NH<sub>4</sub><sup>+</sup>交換出來，此濾液以定氮方法分析濾液中的NH<sub>4</sub><sup>+</sup>含量，即可推算CEC含量
   
+在淋洗的過程中，全程不能讓土乾掉，
 待續
 
 ### 參考資料  
