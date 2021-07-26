@@ -5,7 +5,7 @@ title:  "Comment#11 On the discrimination of soil samples by derivative diffuse 
 ---  
 ## Comment#11 On the discrimination of soil samples by derivative diffuse reflectance UV–vis-NIR spectroscopy and chemometric methods  
 2021/07/26  
-作夢也想不到會寫超過10篇，今天的內容是鑑識科學，也不能只停留在土壤及農業，多角化才能開創藍海對吧。雖然這次的內容不是我使用的可攜式儀器，但一樣的光譜範圍，原理是差不多的。  
+作夢也想不到會寫超過10篇網誌，今天的內容是鑑識科學，也不能只停留在土壤及農業，多角化才能開創藍海對吧。雖然這次的內容不是我使用的可攜式儀器，但一樣的光譜範圍，原理是差不多的。  
   
 Topic:  
 Chauhan, R., Kumar, R., Kumar, V., Sharma, K., and Sharma, V. 2021. On the discrimination of soil samples by derivative diffuse reflectance UV–vis-NIR spectroscopy and chemometric methods. Forensic Science International, 319, 110655.  
@@ -21,7 +21,11 @@ Chauhan, R., Kumar, R., Kumar, V., Sharma, K., and Sharma, V. 2021. On the discr
 在印度西北部收集五個州的土壤，包含Rajasthan (Y1)、Haryana (Y2)、Chandigarh Tricity (Y3)、Punjab (Y4) 及Delhi NCR (Y5)，每個州內又有為數不一的採樣城市，總共18個地點。在劃定一個長寬皆為10 m的區域後，土壤中的人造物質會先被移除，從表土及15 cm深處收集各500 g土壤，每個地點收集五重複 (四個角與中央)，表土編號S1-S18 (surface)，15 cm深處的土編號D1-D18 (depth)。樣品室溫風乾後通過10 mesh的篩網 (2 mm)，但保留一部分不過篩以觀察過篩的影響，表土樣本另外以650&deg;C烘乾觀察。  
   
 **光譜方法**  
-使用Shimadzu 2600 Series UV-vis-NIR光譜儀搭配ISR-2600 plus Integrating Sphere (一個
+使用Shimadzu 2600 Series UV-vis-NIR光譜儀搭配ISR-2600 plus Integrating Sphere (一個搭配零件，以圓形的鏡面聚集光線)，僅使用0.5-1 mg的土樣進行量測。空白校正使用硫酸鋇 (barium sulfate, BaSO<sub>4</sub>) 粉末作為100%反射的參考，共量測200-1400 nm波長範圍的反射率，但700-1400 nm波長的特徵較少故此段波長不進行後續統計分析。  
+擴散反射的反射率光譜先轉換成吸光度，這部分利用Kubelka-Munk (K-M) transformation，並取得一階微分的光譜。重複性有經過五重複的測試結果為重複性良好。  
+  
+**統計分析**  
+
 
 待續
 
