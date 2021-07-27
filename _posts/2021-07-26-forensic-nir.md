@@ -25,8 +25,11 @@ Chauhan, R., Kumar, R., Kumar, V., Sharma, K., and Sharma, V. 2021. On the discr
 擴散反射的反射率光譜先轉換成吸光度，這部分利用Kubelka-Munk (K-M) transformation，並取得一階微分的光譜。重複性有經過五重複的測試結果為重複性良好。  
   
 **統計分析**  
+Discriminating power (DP)：  
+衡量樣品能夠被光譜資料區別的能力，計算方法為  
+$$
 
-
+錢錢
 待續
 
 
