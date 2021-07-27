@@ -44,7 +44,7 @@ Linear discriminant function analysis (LDA)：
 - 312, 355, 395 nm: Glutamic acid and Fulvic acid
 - 430 nm: Fe<sup>3+</sup> oxide
 - 460 nm: hematite and goethite
-- 600 nm: Z  
+- 600 nm: Zn  
   
 其他還有可以參考作者原文。整體而言200-260 nm代表芳香環、不飽和的有機化合物與可溶性有機碳；261-280 nm代表芳香環與腐植化 (humification) 程度；281-300 nm與&#960;-&#960;&#42;的電子有關 (因此也跟芳香環有關)；301-500 nm則與glutamic acid, fulvic acid, Pb及鐵氧化礦物有關；501-600 nm與黏土礦物、針鐵礦 (hematite) 及Zn有關；最後601-700 nm則跟鐵氧化物有關。  
   
