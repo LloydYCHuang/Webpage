@@ -27,7 +27,10 @@ Chauhan, R., Kumar, R., Kumar, V., Sharma, K., and Sharma, V. 2021. On the discr
 **統計分析**  
 Discriminating power (DP)：  
 衡量樣品能夠被光譜資料區別的能力，計算方法為  
-$$DP = \frac{Number \quad of \quad Discrimated \quad Sample}{Number \quad of \quad Possible \quad Sample \quad Pair} \times 100$$
+$$DP = \frac{Number \quad of \quad Discrimated \quad Sample}{Number \quad of \quad Possible \quad Sample \quad Pair} \times 100$$  
+  
+Cluster analysis：  
+
 
 錢錢
 待續
