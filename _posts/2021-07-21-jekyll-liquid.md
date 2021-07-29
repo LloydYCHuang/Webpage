@@ -49,7 +49,11 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 {%- assign username = "Lloyd" -%}       #沒有空行
 ```  
 其餘的功能我應該會在需要用到的時候到<a href="https://shopify.github.io/liquid/" target="_blank">Liquid官網</a>找就行了，聽起來很複雜的filter也在Jekyll官網有<a href="https://jekyllrb.com/docs/liquid/filters/" target="_blank">常用列表</a>。    
-  
+{% endraw %}
+```
+{% raw %}{% raw %} 想要的內容 {% endraw %}{% endraw %}  
+```
+{% raw %}
 ### Jekyll變數  
 在Jekyll裡面有些已經被定義的變數，可以拿來使用在Liquid，這對我們來說非常方便，例如
 - `site.categories`：整個網站的category列表
