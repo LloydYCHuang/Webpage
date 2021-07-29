@@ -12,7 +12,7 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 ### 基本架構  
 在markdown檔案裡輸入的Liquid語法包含三個架構，分別為
 - Objects：即變數本身，在markdown裡輸入時要用兩個大括弧包起來，如`{{ variable }}`。
-- Tags：邏輯運算，就是寫程式常見的if、else等判定，也可以assign變數，使用時要用`{% Tags %}`這樣包起來。
+- Tags：邏輯運算，就是寫程式常見的if、else等判定，也可以assign變數，使用時要用`{% Tags %}`包起來，本文所講到的Tags都要在外面包裹`{% Tags %}`才會被辨識，例如使用`break`的時候要打`{% break %}`，以下也會示範。
 - Filters：可以改變object的輸出 (例如改格式之類的)，使用時在objects裡面添加`|`。
   
 抓準這三個原則，就可以自己撰寫Liquid程式碼，沒有被Liquid規則包起來的部分，就會是以文字方式呈現在你的文章中，Liquid的運算符號在一般使用上，大於、等於、and、or這些都跟一般語言沒差異。例如if/else判斷式如下  
@@ -48,12 +48,10 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 {% assign username = "Lloyd" %}         #有空行
 {%- assign username = "Lloyd" -%}       #沒有空行
 ```  
+最後還有一個最重要的功能，那就是要像這篇文章一樣呈現Liquid程式碼但卻不想執行怎麼辦？  
+可以透過特殊的Tags來達成，那就是`raw...endraw`，在不想執行的開頭使用Tag `raw`，在結尾使用`endraw`，其中被包裹起來的程式碼就不會執行 (不要忘記包裹Tags的格式)。  
 其餘的功能我應該會在需要用到的時候到<a href="https://shopify.github.io/liquid/" target="_blank">Liquid官網</a>找就行了，聽起來很複雜的filter也在Jekyll官網有<a href="https://jekyllrb.com/docs/liquid/filters/" target="_blank">常用列表</a>。    
-{% endraw %}
-```
-{% raw %}{% raw %} 想要的內容 {% endraw %}{% endraw %}  
-```
-{% raw %}
+  
 ### Jekyll變數  
 在Jekyll裡面有些已經被定義的變數，可以拿來使用在Liquid，這對我們來說非常方便，例如
 - `site.categories`：整個網站的category列表
