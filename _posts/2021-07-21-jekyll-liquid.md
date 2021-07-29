@@ -50,6 +50,7 @@ Liquid可以告訴Jekyll如何輸出你的網頁，使用Jekyll製作網頁的�
 ```  
 最後還有一個最重要的功能，那就是要像這篇文章一樣呈現Liquid程式碼但卻不想執行怎麼辦？  
 可以透過特殊的Tags來達成，那就是`raw...endraw`，在不想執行的開頭使用Tag `raw`，在結尾使用`endraw`，其中被包裹起來的程式碼就不會執行 (不要忘記包裹Tags的格式)。  
+{% raw %} ... {% endraw %}   
 其餘的功能我應該會在需要用到的時候到<a href="https://shopify.github.io/liquid/" target="_blank">Liquid官網</a>找就行了，聽起來很複雜的filter也在Jekyll官網有<a href="https://jekyllrb.com/docs/liquid/filters/" target="_blank">常用列表</a>。    
   
 ### Jekyll變數  
