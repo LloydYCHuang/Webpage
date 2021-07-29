@@ -51,11 +51,22 @@ Linear discriminant function analysis (LDA)：
 **Discrimination**  
 在人工比對出現波峰後，有些組別的光譜特徵相當一致，這些波峰特徵相近的組別在人為比對中沒有被區別出來，也多為鄰近地區的土樣，相對的，可以被區分的組別是DP計算中的分子，而分母為所有可能的組別，即N(N-1)/2。  
 表土DP = 96.08%，15 cm深度的土DP = 97.39%，因此分別程度是很好的。  
-接著需要嘗試以多變量統計方法分別，使用的方法是HCA，表土樣品被區分成9組，15 cm深度的土則被區分成15組，相對於原本是從18個地點採的，算是可接受的結果，作者進一步使用相關性的陡坡圖 (scree plot) 來衡量，表土與15 cm深度土的elbow分別位於第9與第3個分支
+接著需要嘗試以多變量統計方法分別，使用的方法是HCA，表土樣品被區分成9組，15 cm深度的土則被區分成15組，相對於原本是從18個地點採的，算是可接受的結果，作者進一步使用相關性的陡坡圖 (scree plot) 來衡量，表土與15 cm深度土的elbow分別位於第9與第3個分支，因此前面分組的結果是合理的。以HCA所區分的表土DP = 98.26%，15 cm深度的土DP = 99.78%，也都非常好。  
+作者接著使用Kaiser Meyer Olkin (KMO) test與Bartelett test驗證此組樣品適合進行主成分分析 (principal component analyaia, PCA)。  
+表土PCA結果中，前三個主成分解釋了97.48%的變異 (PC1 = 52.61%，PC2 = 28.06%，PC3 = 16.81%)，這三個是根據Kaiser Criteria選取出來eigenvalue符合的主成分。作者將每個主成分各自的變異計算出來，並將兩個樣本之間的差距小於主成分的變異則稱作無法區別，這樣的處理發現所有的樣品都可在主成分分析中被區分出來，DP = 100%。  
+再查看變數的負荷 (loading) 發現，各主成分中明顯負荷較高的波長也有區別，這可以將不同的主成分對應至土壤的化學組成，例如作者有發現PC3有較其他主成分較高的375 nm (glutamic acid) 負荷。而15 cm深處土壤的PCA結果也類似，均能被區分出來。  
+作者以PCA測試六個未知土樣，其中有五個被完美疊合至已有的樣品點上，可以判定這些土樣的來源，但有一個點並未跟任何點疊合。  
+  
+**Classification**  
+使用LDA來進行分類，在PDA中區分regression factor score value及rotated component value，前十個主成分的regression factor score (即在PCA軸上的分別) 被拿來輸入LDA。之後使用變方分析 (one-way analysis of variance, ANOVA) 來測驗這十個變數的獨立性，最後只有PC2, PC3, PC4及PC7被選入LDA的判別方程式中 (有興趣的可以進一步看這篇的LDA方法)。  
+接著建立LDA的discriminant function equation (DF)，預先設定的條件為eigenvalue > 1且canonical correlation > 0.35，建立了四條DF方程式並且繪圖表示。  
+在LDA的結果中，達到100%的判定率，所有的土壤都被分類到原先指定的類別 (即那五個州) 中，leave-one-out cross-validation的結果也有95%正確。雖然模型非常準確預測，但仍有一些缺陷，例如在光譜中會有一些較複雜的波峰 (convoluted peak，經過不同波峰合併起來很難區分的)。  
+作者使用前三個主成分加入第二個LDA模型
   
 待續
 
 
-
+procure: (v.) 取得
+prerequisite: (n.) 先決條件
 
 
