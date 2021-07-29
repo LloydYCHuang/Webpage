@@ -58,15 +58,15 @@ Linear discriminant function analysis (LDA)：
 作者以PCA測試六個未知土樣，其中有五個被完美疊合至已有的樣品點上，可以判定這些土樣的來源，但有一個點並未跟任何點疊合。  
   
 **Classification**  
-使用LDA來進行分類，在PDA中區分regression factor score value及rotated component value，前十個主成分的regression factor score (即在PCA軸上的分別) 被拿來輸入LDA。之後使用變方分析 (one-way analysis of variance, ANOVA) 來測驗這十個變數的獨立性，最後只有PC2, PC3, PC4及PC7被選入LDA的判別方程式中 (有興趣的可以進一步看這篇的LDA方法)。  
+使用LDA來進行分類，在PDA中區分regression factor score value及rotated component value，前十個主成分的regression factor score (即在PCA軸上的分別) 被拿來輸入LDA。之後使用變方分析 (one-way analysis of variance, ANOVA) 來測驗這十個變數的獨立性，以Wilks' Lambda篩選後只有PC2, PC3, PC4及PC7被選入LDA的判別方程式中 (有興趣的可以進一步看這篇的LDA方法)。  
 接著建立LDA的discriminant function equation (DF)，預先設定的條件為eigenvalue > 1且canonical correlation > 0.35，建立了四條DF方程式並且繪圖表示。  
 在LDA的結果中，達到100%的判定率，所有的土壤都被分類到原先指定的類別 (即那五個州) 中，leave-one-out cross-validation的結果也有95%正確。雖然模型非常準確預測，但仍有一些缺陷，例如在光譜中會有一些較複雜的波峰 (convoluted peak，經過不同波峰合併起來很難區分的)。  
-作者使用前三個主成分加入第二個LDA模型
   
-待續
-
-
-procure: (v.) 取得
+**Effect of heating and sieving**  
+以PCA分析並繪製未過篩與經過加熱的土壤，並與實驗土壤比較，發現這兩者都與實驗土壤有很明顯的區別，在未過篩土壤中含有許多外來物質，而加熱則摧毀許多土壤中的物質例如容易揮發的有機物，因此在經過加熱的土壤，其光譜特徵是會大幅改變的。  
+  
+### 單字  
+procure: (v.) 取得  
 prerequisite: (n.) 先決條件
 
 
