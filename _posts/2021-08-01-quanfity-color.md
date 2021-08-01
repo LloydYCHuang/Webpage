@@ -87,7 +87,7 @@ V代表E層與B層間value的差異，H代表hue的差異。這個指標不能�
 在比較Typic Haplorthods (排水良好)、Aquic Haplorthods (排水稍不良)、Aeric Haplaquods (排水不良) 及Typic Haplaquods (排水相當不良) 這四種淋澱土的POD指數後，發現POD值是以Aeric Haplaquods最高，Typic Haplaquods次之，而後是Aquic Haplorthods與Typic Haplorthods。  
 Aquods比Orthods的化育程度更高，且現地也通常會觀察到較深色的Bhs層。在排水良好且地下水面升降差異大的地區，較利於淋澱化作用，因此至少有水位升降的Aeric Haplaquods才會有最高的POD值，而Typic Haplaquods一直呈現水飽和的狀況則較不利淋澱化作用。  
   
-POD指標可以用在分類、時間序列評估、排水性質評估上，且在分辨淋澱土與淋澱化土壤上，有60%的正確度，這
+POD指標可以用在分類、時間序列評估、排水性質評估上，且在分辨淋澱土與淋澱化土壤上，有60%的正確度，這應該可以考慮應用在淋澱化土壤的量化分析上。  
    
 ### 參考文獻  
 黃文樹。2003。八卦台地南部階地地形與土壤化育之研究。國立彰化師範大學地理學系碩士論文。  
