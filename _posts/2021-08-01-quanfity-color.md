@@ -21,7 +21,7 @@ Harden (1982) 的概念是建立一個可以描述土壤化育的指數 (a soil 
 ### 給分  
 給分的基準是該土壤**母質的性質**，因此母質的描述至關重要，描述完母質之後再針對不同性質的等級差異，然而此指標只用來描述**風化**，所以分數的加分是單向性的，以質地為例，隨時間進行質地會風化的更為細緻，因此只對比母質更細的化育層進行加分，但若質地變得更粗，則不進行扣分 (雖然是代表了其他成土因子或過程)。  
 將性質量化後的數值稱作量化性質 (quantified property, X<sub>p</sub>)，例如量化後的質地指數稱為X<sub>t</sub> (t代表texture)，量化後的紅化指數稱為X<sub>r</sub> (r代表rubification)。以下列出級分的標準，另外原版的論文真的很不清楚，可以參考黃文樹 (2003) 整理的較易看懂  
-- 紅化 X<sub>r</sub> (rubification)：每比母質增加一級的hue或chrome，就增加10分，需計算乾濕顏色差的總和。</br>hue是遵照色帖的順序 5Y&#8594;2.5Y&#8594;10YR&#8594;7.5YR&#8594;5YR&#8594;2.5YR&#8594;10R&#8594;5R。
+- 紅化 X<sub>r</sub> (rubification)：每比母質增加一級的hue或chrome，就增加10分，需計算乾濕顏色差的總和。hue是遵照色帖的順序 5Y&#8594;2.5Y&#8594;10YR&#8594;7.5YR&#8594;5YR&#8594;2.5YR&#8594;10R&#8594;5R。
 - 質地 X<sub>t</sub> (total texture)：根據三角圖的黏粒等級越黏一級就增加10分；黏性 (stickness) 與塑性 (plasticity) 每增加一級就增加10分。  
 - 黏粒膜 X<sub>f</sub> (clay films)：根據黏粒的豐富度 (abundance)、厚度 (thickness)、位置 (location) 進行分級 (針對有黏粒膜的土壤，就不特別列出)。
 - 構造 X<sub>s</sub> (structure)：根據構造等級給分，weak/moderate/strong分別為10/20/30分。</br>形狀方面platy為5分，granular, subangular blocky, angular blocky皆為10分，prismatic為20分，columnar為30分。
