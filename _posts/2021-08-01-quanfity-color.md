@@ -47,7 +47,7 @@ Harden (1982) 的概念是建立一個可以描述土壤化育的指數 (a soil 
   
 ### 其他顏色的量化指標  
 除了Harden (1982) 所提出的指標外，也有其他的指標，簡單介紹幾個我找到的，例如Hurst (1977) 提出的Redness Rating (RR) 可以分辨針鐵礦 (goethite) 及赤鐵礦 (hematite) 在土壤裡的多寡。方法是先給定hue的數值H&#42;，分別對應5R (H&#42;=5)、10R (H&#42;=10)、5YR (H&#42;=15)、10YR (H&#42;=20) 以此類推。  
-$$RR = \frac{H^* \times Chroma}{Value}$$  
+$$RR = \frac{H\ast \times Chroma}{Value}$$  
   
 奠基於此，Torrent et al. (1983) 進一步建立了與赤鐵礦相關的顏色量化指標。赤鐵礦的紅色可以很有效的蓋過針鐵礦的黃色，只要高於1.7%的赤鐵礦就可以讓土壤呈現紅色，因此顏色指標與赤鐵礦含量相當有關。因此Torrent et al. (1983) 的Redness Rating是以下的形式  
 $$RR = \frac{(10-Hue) \times Chroma}{Value}$$   
