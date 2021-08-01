@@ -15,7 +15,7 @@ Harden (1982) 的概念是建立一個可以描述土壤化育的指數 (a soil 
 4. 將化育層指數乘以該化育層厚度，加權獲得該剖面的**剖面化育指數 (profile development index, PDI)**。
 5. 最後將剖面化育指數除以剖面厚度可獲得加權平均的剖面化育指數 (weighted mean profile development index)。  
   
-剖面化育指數有助於量化在現地觀察到的形態特徵並且可以比較不同剖面的化育程度，在Harden (1982) 所提出的PDI中包含了八種現地形態描述的項目：黏粒膜 (clay film)、質地與濕結持度 (texture plus wet consistence)、紅化 (rubification，包含hue與chroma)、
+剖面化育指數有助於量化在現地觀察到的形態特徵並且可以比較不同剖面的化育程度，在Harden (1982) 所提出的PDI中包含了八種現地形態描述的項目：黏粒膜 (clay film)、質地與濕結持度 (texture plus wet consistence)、紅化 (rubification，包含hue與chroma)、構造 (structure)
 
 
   
