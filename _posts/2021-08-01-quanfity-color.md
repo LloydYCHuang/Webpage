@@ -61,6 +61,26 @@ ODOE = 0.19 C<sub>p</sub> - 0.04
   
 最後是Gobin et al. (2000) 建立複雜的redness index (RI) 與color index (CI)，由於計算過程太過複雜就不在這裡寫，這是一個考慮前面文獻後提出的方程式，可以綜合性討論土壤的化育作用，但是這篇的引用數比起Harden (1982) 差多了，看來有時還是最簡單的較好用。  
 總之這些是常見用於量化土壤顏色的方法，又以一開始提的Harden (1982) 最常見，但是要記錄乾濕的顏色，對於沒有乾顏色的過往資料可能有些棘手，我正在處理的淋澱土資料就可能沒有。Harden (1982) 和Torrent et al. (1983) 是用於對應赤鐵礦，和淋澱土的目的又不同，至於Mokma (1993) 呢？引用數是比較少一點，但可以考慮看看。  
+  
+### 淋澱土  
+終於，被我找到一篇專門針對淋澱化作用所進行的量化指標，應該是比Mokma (1993) 更進一步，且是由淋澱土方面的權威R.J. Schaetzl所寫的。  
+由Schaetzl (2013) 提出的這個指標稱作POD index。在理論架構過程中，淋澱化作用被考慮為一項讓土壤化育、分層並且提升剖面內異質性 (profile anisotropy) 的過程。在淋澱化過程中洗出層 (E) 與洗入層 (Bhs) 都會有所變化，B層會變得更紅 (hue)、更黑 (value)，並在過程中進一步化育分層。  
+POD的名字來源是因為在原本俄語的Podzol與英文的Spodosol都含有POD三個字母，POD index是用來描述具有淋澱化特徵的土壤，要計算POD需要滿足的條件是擁有E層與B層，且經過下列過程：  
+- 擁有不只一個E層時，使用value最高的E層做為E<sub>value</sub>。
+- 計算所有的B層 (不包含CB、BC之類的，若有EB或BE的話用較上面的) 數值加總。
+- 當E層的value &#62; B層的value時，計算E<sub>value</sub> - B<sub>value</sub>。
+- 將E<sub>value</sub> - B<sub>value</sub>乘以一個常數，之後加總所有的B層計算結果。
+  
+最後一步需要乘的常數取決於E層和B層的hue有沒有差異，規則如下：  
+- 若hue沒有改變，常數為1
+- 若hue改變，常數為以2為底的「改變頁數」的次方 (若從5YR到7.5YR差1，則常數為2<sup>1</sup> = 2，若從5YR到10YR差2，則常數2<sup>2</sup> = 4這樣)
+  
+原文裡有流程圖更容易懂，建議去看，總之POD指數的計算方法可以簡單表示成  
+$$POD \ index = \Sigma \Delta V \cdot 2 ^{\Delta H}$$  
+V代表E層與B層間value的差異，H代表hue的差異。這個指標不能用在有Ap層的土壤 (耕犁過的)，沒有E層的土壤也不能用。  
+在Schaetzl (2013) 的研究，對於723個剖面的數據的結果中，非淋澱土 (但都有E層，具淋澱化現象) 的POD多在2以下，在Typic Haplorthods中平均為11.6，介於中間的Entic Haplorthods則為2-6。  
+因此可設立一個標準，即非淋澱土者POD < 2，Entic Haplorthods的POD介於2-6，Typic Haplorthods則具有POD > 6的性質，但當然也存在一些離群值。  
+作者進一步對344個其他文獻描述的淋澱化土壤進行測驗，且故意選擇非美國的淋澱土，約有60%的正確率，
    
 ### 參考文獻  
 黃文樹。2003。八卦台地南部階地地形與土壤化育之研究。國立彰化師範大學地理學系碩士論文。  
@@ -71,5 +91,7 @@ Harden, J.W. 1982. A quantitative index of soil development from field descripti
 Hurst, V.J. 1977. Visual estimation of iron in saprolite. Geological Society of America Bulletin, 88, 174-176.   
 Mokma, D.L. 1993. Color and Amorphous Materials in Spodosols from Michigan. Soil Science Society of America Journal, 57(1), 125-118.  
 <a href="https://doi.org/10.2136/sssaj1993.03615995005700010024x" target="_blank">https://doi.org/10.2136/sssaj1993.03615995005700010024x</a>  
+Schaetzl, R.J., and Mokma, D.L. 1988. A numerical index of Podzol and Podzolic soil development. Physical Geography, 9(3), 232-246.  
+<a href="https://doi.org/10.1080/02723646.1988.10642352" target="_blank">https://doi.org/10.1080/02723646.1988.10642352</a>  
 Torrent, J., Schwertmann, U., Fechter, H., and Alferez, F. 1983. Quantitative relationships between soil color and hematite content. Soil Science, 136(6), 354-358.  
 <a href="https://doi.org/10.1097/00010694-198312000-00004" target="_blank">https://doi.org/10.1097/00010694-198312000-00004</a>   
