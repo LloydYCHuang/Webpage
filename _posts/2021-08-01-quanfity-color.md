@@ -64,7 +64,7 @@ ODOE = 0.19 C<sub>p</sub> - 0.04
   
 ### 淋澱土  
 終於，被我找到一篇專門針對淋澱化作用所進行的量化指標，應該是比Mokma (1993) 更進一步，且是由淋澱土方面的權威R.J. Schaetzl所寫的。  
-由Schaetzl (2013) 提出的這個指標稱作POD index。在理論架構過程中，淋澱化作用被考慮為一項讓土壤化育、分層並且提升剖面內異質性 (profile anisotropy) 的過程。在淋澱化過程中洗出層 (E) 與洗入層 (Bhs) 都會有所變化，B層會變得更紅 (hue)、更黑 (value)，並在過程中進一步化育分層。  
+由Schaetzl (2013) 提出的這個指標稱作POD index。在理論架構過程中，淋澱化作用被考慮為一項讓土壤化育、分層並且提升剖面內異質性 (profile anisotropy) 的過程。在淋澱化過程中洗出層 (E) 與洗入層 (Bhs) 都會有所變化，B層會變得更紅 (hue)、更黑 (value)，並在過程中進一步化育分層，因此這個指標必須能代表淋澱化過程中剖面化育且分層的特性。  
 POD的名字來源是因為在原本俄語的Podzol與英文的Spodosol都含有POD三個字母，POD index是用來描述具有淋澱化特徵的土壤，要計算POD需要滿足的條件是擁有E層與B層，且經過下列過程：  
 - 擁有不只一個E層時，使用value最高的E層做為E<sub>value</sub>。
 - 計算所有的B層 (不包含CB、BC之類的，若有EB或BE的話用較上面的) 數值加總。
@@ -78,9 +78,16 @@ POD的名字來源是因為在原本俄語的Podzol與英文的Spodosol都含有
 原文裡有流程圖更容易懂，建議去看，總之POD指數的計算方法可以簡單表示成  
 $$POD \ index = \Sigma \Delta V \cdot 2 ^{\Delta H}$$  
 V代表E層與B層間value的差異，H代表hue的差異。這個指標不能用在有Ap層的土壤 (耕犁過的)，沒有E層的土壤也不能用。  
-在Schaetzl (2013) 的研究，對於723個剖面的數據的結果中，非淋澱土 (但都有E層，具淋澱化現象) 的POD多在2以下，在Typic Haplorthods中平均為11.6，介於中間的Entic Haplorthods則為2-6。  
+在Schaetzl (2013) 的研究，對於美國723個淋澱化土壤剖面的數據的結果中，非淋澱土 (但都有E層，具淋澱化現象) 的POD多在2以下，在Typic Haplorthods中平均為11.6，介於中間的Entic Haplorthods則為2-6。  
 因此可設立一個標準，即非淋澱土者POD < 2，Entic Haplorthods的POD介於2-6，Typic Haplorthods則具有POD > 6的性質，但當然也存在一些離群值。  
-作者進一步對344個其他文獻描述的淋澱化土壤進行測驗，且故意選擇非美國的淋澱土，約有60%的正確率，
+作者進一步對344個其他文獻描述的淋澱化土壤進行測驗，且故意選擇非美國的淋澱化土壤，約有60%的正確率，這驗證了POD指標的實用性。  
+**POD VS. 時間**  
+在計算一時間序列土壤中的五個剖面POD指標後，發現與時間的相關性是指數型，時間越長則POD增加的越快。  
+**POD VS. 排水**  
+在比較Typic Haplorthods (排水良好)、Aquic Haplorthods (排水稍不良)、Aeric Haplaquods (排水不良) 及Typic Haplaquods (排水相當不良) 這四種淋澱土的POD指數後，發現POD值是以Aeric Haplaquods最高，Typic Haplaquods次之，而後是Aquic Haplorthods與Typic Haplorthods。  
+Aquods比Orthods的化育程度更高，且現地也通常會觀察到較深色的Bhs層。在排水良好且地下水面升降差異大的地區，較利於淋澱化作用，因此至少有水位升降的Aeric Haplaquods才會有最高的POD值，而Typic Haplaquods一直呈現水飽和的狀況則較不利淋澱化作用。  
+  
+POD指標可以用在分類、時間序列評估、排水性質評估上，且在分辨淋澱土與淋澱化土壤上，有60%的正確度，這
    
 ### 參考文獻  
 黃文樹。2003。八卦台地南部階地地形與土壤化育之研究。國立彰化師範大學地理學系碩士論文。  
