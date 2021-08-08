@@ -3,10 +3,10 @@ layout: default
 categories: Statistic
 title:  "Pearson's correlation coefficient (相關係數)"
 ---  
-## Regression analysis (迴歸分析)  
+## Pearson's correlation coefficient (相關係數)  
 2021/08/05  
 被CEC的實驗搞了整整兩天，明天還要繼續，淋洗已經兩天了都過不去。  
-話說不知是迴歸還是回歸，我個人是偏向寫迴歸，畢竟寫回歸好像是要回去哪裡一樣。  
+
   
 所謂的相關係數 (correlation coefficient) 來表示他們的相關性強弱，相關係數常以英文字母r或是希臘字母&rho;表示，其定義為  
 $$\begin{aligned}
