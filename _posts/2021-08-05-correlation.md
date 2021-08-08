@@ -20,10 +20,8 @@ $$\begin{aligned}
 $$\begin{aligned}
 r &= \frac{\sum_{i=1}^{N} (X_i-\overline X)(Y_i-\overline Y) }{\sqrt{\sum_{i=1}^{N} (X_i-\overline X)^2 \sum_{i=1}^{N} (Y_i-\overline Y)^2} }\\
 &=\frac{S_{XY}}{\sqrt{S_{XX} S_{YY}}}
-\end{aligned}$$  
-待續
- 
-其中  
+\end{aligned}$$   
+其中   
 $$S_{XX} =  \sum_{i} (X_i -  \overline{X} )^2 \\
 S_{YY} =  \sum_{i} (Y_i -  \overline{Y} )^2 \\
 S_{XY} =  \sum_{i} (X_i -  \overline{X} )(Y_i - \overline{Y})$$  
