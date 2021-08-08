@@ -4,7 +4,7 @@ categories: Statistic
 title:  "Regression analysis (迴歸分析)"
 ---  
 ## Regression analysis (迴歸分析)  
-
+話說不知是迴歸還是回歸，我個人是偏向寫迴歸，畢竟寫回歸好像是要回去哪裡一樣。  
 ### Simple linear regression (簡單線性迴歸)  
 簡單線性迴歸用於呈現兩組數據中的相關性 (correlation)，若要呈現變數X與變數Y之間的相關性，以簡單線性迴歸可以表示成一條直線  
 $$Y = \beta_0+ \beta_1 X + \varepsilon $$  
