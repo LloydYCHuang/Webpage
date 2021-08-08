@@ -13,8 +13,8 @@ title:  "Pearson's correlation coefficient (相關係數)"
   
 在獲得兩組資料時，會利用所謂的相關係數 (correlation coefficient) 來表示他們的相關性強弱，而最常使用的就是Pearson相關係數 (Pearson's correlation coefficient)，母體的Pearson相關係數以希臘字母&rho;表示，而樣本的Pearson相關係數常以英文字母r表示。假設現在有資料組X與Y，其各自的母體平均為&mu;<sub>X</sub>與&mu;<sub>Y</sub>，則母體的Pearson相關係數表示為  
 \begin{aligned}
-\rho &= \frac{\sum_{i=1}^{N} (X_i-\mu_X)(Y_i-\mu_Y) }{\sqrt{\sum_{i=1}^{N} (X_i-\mu_X)^2 \sum_{i=1}^{N} (Y_i-\mu_Y)^2} }\\
-&=\frac{Cov(X,Y)}{\sigma_X \sigma_Y}
+\rho &= \frac{\sum_{i=1}^{N} (X_i-\mu_X)(Y_i-\mu_Y) }{\sqrt{\sum_{i=1}^{N} (X_i-\mu_X)^2 \sum_{i=1}^{N} (Y_i-\mu_Y)^2} }\\   
+&=\frac{Cov(X,Y)}{\sigma_X \sigma_Y}  
 \end{aligned}  
 在Pearson相關係數中，分子是X與Y的共變異 (covariance)，分母則是兩者的標準差，而樣本的Pearson相關係數表示為  
 $$\begin{aligned}
