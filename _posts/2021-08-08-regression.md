@@ -19,6 +19,25 @@ $$y = \beta_0+ \beta_1 x + \varepsilon $$
 ### 簡單線性迴歸的方程式建立  
 計算迴歸方程式最常見的方法是最小平方法 (least squares)，這個方法就是求得誤差項&epsilon;最小。  
 假設我們所要估計的方程式為$$\widehat{y} =  \widehat{\beta_0} + \widehat{\beta_1} x$$，加了帽子表示為估計，那麼誤差項就是把實際的y值減去估計值  
+$$S(\widehat{\beta_0},\ \widehat{\beta_1}) = \sum_{i=1}^{n} (y_i-\widehat{\beta_0}-\widehat{\beta_1}x_i)^2$$  
+計算這個含有&beta;<sub>0</sub>與&beta;<sub>1</sub>的多項式之最小值，使用微分方式如下  
+$$\begin{aligned}
+\frac{\partial S(\widehat{\beta_0},\ \widehat{\beta_1})}{\partial \widehat{\beta_0}} &= -2\sum (y_i-\widehat{\beta_0}-\widehat{\beta_1}x_i)=0\\
+\frac{\partial S(\widehat{\beta_0},\ \widehat{\beta_1})}{\partial \widehat{\beta_1}} &= -2\sum (y_i-\widehat{\beta_0}-\widehat{\beta_1}x_i)x_i=0
+\end{aligned}$$  
+常數-2都可以約分掉，把summation展開成三項後，上兩式的右半邊可整理為  
+$$\begin{aligned}
+n\widehat{\beta_0}+\widehat{\beta_1} \sum x_i &= \sum y_i\\
+\widehat{\beta_0} \sum x_i + \widehat{\beta_1} \sum x_i^2 &= \sum x_i y_i
+\end{aligned}$$  
+上面兩式稱作**正規方程式 (normal equations)**，進一步解正規方程式 (不要怕，就是國中學的解方程式) 可以轉成這兩個式子  
+$$\begin{aligned}
+\widehat{\beta_0} \sum x_i + \frac{\widehat{\beta_1}}{n} (\sum x_i)^2 &= \frac{1}{n} (\sum x_i) \times (\sum y_i) \\
+\widehat{\beta_0} \sum x_i + \widehat{\beta_1} \sum x_i^2 &= \sum x_i y_i
+\end{aligned}$$  
+再做進一步的解方程式就得到  
+$$\widehat{\beta_0} [\sum x_i^2 - \frac{(\sum x_i)^2}{n}] = \sum x_i y_i - \frac{\sum x_i \times \sum y_i}{n} \\$$  
+$$\widehat{\beta_0}$$
 
   
   
