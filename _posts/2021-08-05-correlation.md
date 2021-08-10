@@ -25,10 +25,10 @@ $$S_{XX} =  \sum_{i} (X_i -  \overline{X} )^2 \\
 S_{YY} =  \sum_{i} (Y_i -  \overline{Y} )^2 \\
 S_{XY} =  \sum_{i} (X_i -  \overline{X} )(Y_i - \overline{Y})$$  
   
-r介於-1至1之間，越接近-1代表負相關，越接近1則代表正相關，接近0則是**無線性相關** (不是無相關!!)，將r平方後得到的介於0-1的值即為決定係數 (coefficient of determination, R<sup>2</sup>)，決定係數R<sup>2</sup>的數值就代表了有多少比例的變異可以被這個相關性解釋，1-R<sup>2</sup>則是未被解釋的變異。  
+相關係數r介於-1至1之間，越接近-1代表負相關，越接近1則代表正相關，接近0則是**無線性相關** (不一定是無相關!!)，將r平方後得到的介於0-1的值即為決定係數 (coefficient of determination, R<sup>2</sup>)，決定係數R<sup>2</sup>的數值就代表了有多少比例的變異可以被這個相關性解釋，1-R<sup>2</sup>則是未被解釋的變異。  
   
 ### 相關係數的顯著性  
-相關係數的顯著性測試使用t-test，相關係數的抽樣分布 (sampling distribution) 大致服從自由度n-2的t-distribution (t<sub>n-2</sub>)。  
+相關係數的顯著性測試使用t-test，抽樣n個樣本所得相關係數的抽樣分布 (sampling distribution) 大致服從自由度n-2的t-distribution (t<sub>n-2</sub>)。  
 進行假設檢定要先確定假說並決定顯著水準&alpha;。    
 - 虛無假設 (H<sub>0</sub>)：&rho;=0 沒有相關性  
 - 對立假設 (H<sub>1</sub>)：&rho;&#8800;0 有相關性  
@@ -44,11 +44,11 @@ t_0 = \frac{r-0}{\sqrt {\frac{1-r^2}{n-2}}} = r \sqrt{\frac{n-2}{1-r^2}}
 若t<sub>0</sub> > t<sub>&alpha;/2, n-2</sub>則可拒絕虛無假說，接受對立假說，兩組數據有相關性，反之則無法拒絕虛無假設。  
   
 ### 後話  
-要特別注意的是**標準誤差 (standard error, SE)** 是抽樣分布的標準差 (standard deviation)，即是在大樣本中抽樣出的樣品組的標準差，標準誤差與標準差是不同的。  
+要特別注意的是**標準誤差 (standard error, SE)** 是抽樣分布的標準差 (standard deviation)，即母體抽樣出的樣品組的標準差，標準誤差與標準差是不同的。  
 由於母體未知，當我們從母體中抽樣n個樣本，我們得到的是樣本的相關係數r，抽樣很多次所得的r都不同，這些r所組成的分布就稱為抽樣分布，相關係數r的抽樣分布近似於自由度n-2的t-distribution。  
   
-至於為何是n-2呢？老實說自由度一直是很抽象的問題，在我們使用一般的t-test時，要估計樣本平均值所以用掉一個自由度故一般的t-test是n-1個自由度。  
-所以在相關係數中用掉了兩個自由度，關於是哪兩個，我目前找到兩種不同解釋：  
+至於為何是n-2呢？老實說自由度一直是很抽象的問題，例如在我們使用一般的t-test時，要估計樣本平均值所以用掉一個自由度，故剩下n-1個自由度。  
+那麼在相關係數中就是用掉了兩個自由度，關於是哪兩個，我目前找到兩種不同解釋：  
 1. 因為相關係數是X和Y兩個變數的相關性，所以用掉兩個自由度，可參見愛荷華大學教授<a href="http://www2.psychology.uiowa.edu/faculty/mordkoff/GradStats/part%201/I.12%20corrltns.pdf" target="_blank">J. Toby Mordkoff的文章</a>
 2. 因為相關係數是線性的關係，而一條線需要有斜率和截距兩個參數來決定，故用掉兩個自由度，這部分是跟迴歸併在一起談，可參見里賈納大學社會學系教授<a href="http://uregina.ca/~gingrich/text.htm" target="_blank">Paul Gingrich的教學網站</a>其中的Correlation與Regression章節
   
