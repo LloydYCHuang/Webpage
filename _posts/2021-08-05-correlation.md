@@ -1,9 +1,9 @@
 ---
 layout: default
 categories: Statistic
-title:  "Pearson's correlation coefficient (相關係數)"
+title:  "Pearson's correlation coefficient (皮爾森相關係數)"
 ---  
-## Pearson's correlation coefficient (相關係數)  
+## Pearson's correlation coefficient (皮爾森相關係數)  
 2021/08/05  
 被CEC的實驗搞了整整兩天，明天還要繼續，淋洗已經兩天了都過不去。  
 距離大二的統計學已經過了三年，顯著性測試也快忘光了，雖然平時用R就好，但還是想整理一下相關係數的顯著性。  
@@ -49,10 +49,10 @@ t_0 = \frac{r-0}{\sqrt {\frac{1-r^2}{n-2}}} = r \sqrt{\frac{n-2}{1-r^2}}
 由於母體未知，當我們從母體中抽樣n個樣本，我們得到的是樣本的相關係數r，抽樣很多次所得的r每次都不同，這些r所組成的分布就稱為抽樣分布，相關係數r的抽樣分布大致服從自由度n-2的t-distribution (僅是近似)。  
   
 至於為何是n-2呢？老實說自由度一直是很抽象的問題，在我們使用一般的t-test時，要估計樣本平均值所以用掉一個自由度故一般的t-test是n-1個自由度。  
-所以在相關係數中用掉了兩個自由度，關於是哪兩個其實有不同解釋：  
-1. 因為相關係數是X和Y兩個變數的相關性，所以用掉兩個自由度，可見<a href="http://www2.psychology.uiowa.edu/faculty/mordkoff/GradStats/part%201/I.12%20corrltns.pdf" target="_blank">愛荷華大學教授J. Toby Mordkoff的文章</a>
-2. 因為相關係數是線性的關係，而一條線需要有斜率和截距兩個參數來決定，故用掉兩個自由度  
+所以在相關係數中用掉了兩個自由度，關於是哪兩個，我目前找到兩種不同解釋：  
+1. 因為相關係數是X和Y兩個變數的相關性，所以用掉兩個自由度，可參見愛荷華大學教授<a href="http://www2.psychology.uiowa.edu/faculty/mordkoff/GradStats/part%201/I.12%20corrltns.pdf" target="_blank">J. Toby Mordkoff的文章</a>
+2. 因為相關係數是線性的關係，而一條線需要有斜率和截距兩個參數來決定，故用掉兩個自由度，這部分是跟迴歸併在一起談，可參見里賈納大學社會學系教授<a href="http://uregina.ca/~gingrich/text.htm" target="_blank">Paul Gingrich的教學網站</a>其中的Correlation與Regression章節
   
-這兩個解釋都很合理，我想也不用糾結在確切是什麼，只要能應用就好。  
+這兩個解釋都很合理，我也不糾結確切是什麼，掌握其應用就好。  
 在使用相關係數時切記不要武斷的認為相關性與因果性相等，奠基於統計顯著性僅僅只能敘述兩組數據的相關性而已。  
 
