@@ -37,14 +37,37 @@ $$\begin{aligned}
 \end{aligned}$$  
 再做進一步的解方程式就得到  
 $$\widehat{\beta_0} [\sum x_i^2 - \frac{(\sum x_i)^2}{n}] = \sum x_i y_i - \frac{\sum x_i \times \sum y_i}{n} \\$$  
-$$\widehat{\beta_0}$$
-
+$$\begin{aligned}
+\widehat{\beta_0} 
+&= \frac{\sum x_i y_i - \frac{\sum x_i \times \sum y_i}{n}}{\sum x_i^2 - \frac{(\sum x_i)^2}{n}} \\
+&= \frac{\sum x_i y_i -\frac{\sum x_i \times \sum y_i}{n} - \frac{\sum x_i \times \sum y_i}{n} + \frac{\sum x_i \times \sum y_i}{n}}{\sum x_i^2 -2 \frac{(\sum x_i)^2}{n} + \frac{(\sum x_i)^2}{n}} \\
+&= \frac{\sum x_i y_i -\overline y \times \sum x_i - \overline x \times \sum y_i + n\ \overline x\ \overline y}{\sum x_i^2 - 2 \overline x \sum x_i + n \overline x^2}\\
+&= \frac{\sum (x_i-\overline x)(y_i - \overline y)}{\sum (x_i - \overline x)^2}\\
+&=\frac{S_{xy}}{S_{xx}}
+\end{aligned}$$  
+如何，意不意外，迴歸係數&beta;<sub>1</sub>就是S<sub>xy</sub>/S<sub>xx</sub>，不懂的可以複習[相關係數](https://lloydychuang.github.io/statistic/2021/08/05/correlation.html)，求得迴歸係數後即可得到  
+$$\widehat \beta_0 = \overline y - \widehat \beta_1 \overline x$$  
   
-  
-S(\widehat{\beta_0},\ \widehat{\beta_1}) = 
-Y =  \widehat{\beta_0} + \widehat{\beta_1} X
 ### Multiple linear regression (多元線性迴歸)  
-基本上換湯不換藥，用於呈現一組變數Y與多組變數X<sub>1</sub>、X<sub>2</sub>、X<sub>3</sub>......到X<sub>k</sub>之間的關係，亦可表示成一條直線。  
-$$Y = \beta_0+ \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3 + ... + \beta_k X_k + \varepsilon $$
+多元線性迴歸，又稱複迴歸，基本上換湯不換藥，是用於呈現一組變數y與多組變數x<sub>1</sub>、x<sub>2</sub>、x<sub>3</sub>......到x<sub>k</sub>之間的線性關係。  
+$$y = \beta_0+ \beta_1 x_1 + \beta_2 x_2 + \beta_3 x_3 + ... + \beta_k x_k + \varepsilon $$  
+建立複迴歸方程式的方法也是最小平方法，原則上跟簡單線性迴歸一樣，只是因為變數很多，要微分很多次，就不展開計算過程 (反正我們也是用`lm`函數解決一切對吧)。  
+  
+### 迴歸的假設檢定  
+簡單線性迴歸與多元線性迴歸都可以進行假設檢定，且原理類似，都是使用變方分析 (ANOVA)，當我們成功預測出一條迴歸線之後，通常有變異 (誤差) 存在，總變異為$$y_i - \overline y$$，而我們的迴歸線可以解釋一部分的變異為$$\widehat y_i - \overline y$$，那麼他們相減之後就是迴歸線無法解釋的誤差，如下的加總起來  
+$$\begin{aligned}
+y_i - \overline y &= (\widehat y_i - \overline y) + (y_i - \widehat y_i) \\
+\sum (y_i - \overline y)^2 &= \sum(\widehat y_i - \overline y)^2 + \sum(y_i - \widehat y_i)^2 \\
+總變異 &= 迴歸解釋的變異 + 其他的變異 \\
+SST &= SSR\ +\ SSE
+\end{aligned}$$  
+這三個平方和 (sum of squares) 為  
+- SST (total)：總平方和 = $$\sum (y_i - \overline y)^2 = S_{yy}$$
+- SSR (regression)：迴歸平方和 = 
+- SSE (error)：誤差平方和 = 
+  
+\sum(y_i - \widehat y_i)^2 = \sum (y_i - \widehat \beta_0 - \widehat \beta_1 x_i)^2\\
+\sum(\widehat y_i - \overline y)^2 = 
+
 
 待續
