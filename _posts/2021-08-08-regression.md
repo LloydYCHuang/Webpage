@@ -5,10 +5,14 @@ title:  "Regression analysis (迴歸分析)"
 ---  
 ## Regression analysis (迴歸分析)  
 話說不知是迴歸還是回歸，我個人是偏向寫迴歸，畢竟寫回歸好像是要回去哪裡一樣。  
+  
 ### Simple linear regression (簡單線性迴歸)  
-簡單線性迴歸用於呈現兩組數據中的相關性 (correlation)，若要呈現變數X與變數Y之間的相關性，以簡單線性迴歸可以表示成一條直線  
+簡單線性迴歸用於呈現兩組數據中的相關性 (correlation)，若要呈現變數X與變數Y之間的相關性，以簡單線性迴歸可以表示成一條直線。  
 $$Y = \beta_0+ \beta_1 X + \varepsilon $$  
 其中的&beta;<sub>0</sub>是直線的截距，&beta;<sub>1</sub>是直線的斜率，&beta;<sub>1</sub>又被稱為迴歸係數 (regression coefficient)，&epsilon;則是誤差 (error)。  
-在產出迴歸線之後，還會用
+  
+### Multiple linear regression (多元線性迴歸)  
+基本上換湯不換藥，用於呈現一組變數Y與多組變數X<sub>1</sub>、X<sub>2</sub>、X<sub>3</sub>......到X<sub>k</sub>之間的關係，亦可表示成一條直線。  
+$$Y = \beta_0+ \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3 + ... + \beta_k X_k + \varepsilon $$
 
 待續
