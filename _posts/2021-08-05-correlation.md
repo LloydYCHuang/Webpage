@@ -29,11 +29,12 @@ S_{XY} =  \sum_{i} (X_i -  \overline{X} )(Y_i - \overline{Y})$$
 r介於-1至1之間，越接近-1代表負相關，越接近1則代表正相關，接近0則是**無線性相關** (不是無相關!!)，將r平方後得到的介於0-1的值即為決定係數 (coefficient of determination, R<sup>2</sup>)，決定係數R<sup>2</sup>的數值就代表了有多少比例的變異可以被這個相關性解釋，1-R<sup>2</sup>則是未被解釋的變異。  
   
 ### 相關係數的顯著性  
-相關係數的顯著性測試使用t-test  
+相關係數的顯著性測試使用t-test，相關係數的抽樣分布 (sampling distribution) 大致服從自由度n-2的t-distribution (t<sub>&alpha;/2, n-2</sub>)。  
+進行假設檢定要先確定假說並決定顯著水準&alpha;。    
 - 虛無假設 (H<sub>0</sub>)：&rho;=0 沒有相關性  
 - 對立假設 (H<sub>1</sub>)：&rho;&#8800;0 有相關性  
   
-在決定顯著水準&alpha;後，需取得t統計量 (t-statistic)，首先相關係數的標準誤差 (standard error, SE) 可以表示如下  
+檢定統計量為t統計量 (t-statistic)，相關係數的標準誤差 (standard error, SE) 可以表示如下  
 $$\begin{aligned}
 SE_r = \sqrt {\frac{1-r^2}{n-2}}
 \end{aligned}$$  
@@ -41,11 +42,11 @@ SE_r = \sqrt {\frac{1-r^2}{n-2}}
 $$\begin{aligned}
 t_0 = \frac{r-0}{\sqrt {\frac{1-r^2}{n-2}}} = r \sqrt{\frac{n-2}{1-r^2}}
 \end{aligned}$$  
-這個t統計量服從一個自由度n-2的t分布 (t<sub>&alpha;/2, n-2</sub>)，若t<sub>0</sub> > t<sub>&alpha;/2, n-2</sub>則可拒絕虛無假說，接受對立假說，兩組數據有相關性。  
+若t<sub>0</sub> > t<sub>&alpha;/2, n-2</sub>則可拒絕虛無假說，接受對立假說，兩組數據有相關性，反之則無法拒絕虛無假設。  
   
 ### 後話  
+要特別注意的是**標準誤差 (standard error, SE)** 是抽樣分布的標準差 (standard deviation)，即是在大樣本中抽樣出的樣品組的標準差，標準誤差與標準差是不同的。  
+由於母體未知，當我們從母體中抽樣n個樣本，我們得到的是樣本的相關係數r，抽樣很多次所得的r每次都不同，這些r所組成的分布就稱為抽樣分布，相關係數r的抽樣分布大致服從自由度n-2的t-distribution (僅是近似)。  
+  
+至於為何是n-2呢？其實很想說我也不知道，因為網路上實在沒有人提供直接的解答，但大致上少掉的兩個自由度是迴歸線的斜率與殘差兩個數值，如果之後有找到更好的來源我會再補上。  
 
-
-
-
-待續
