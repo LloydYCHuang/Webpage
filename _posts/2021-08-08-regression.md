@@ -79,11 +79,7 @@ SST &= SSR\ +\ SSE
 代表迴歸變異的平方和是SSR，其自由度 (degree of freedom) 是所使用的獨立變數數目k，如果是簡單線性迴歸則k = 1。  
 把平方和除以自由度則得到均方 (mean square, MS)，分別計算迴歸的均方誤差 (MSR, regression) 與誤差的均方誤差 (MSE, error) 後相除即為F統計量 (F-statistic)。  
 查找自由度為k/(n-k-1)的F分布 (F<sub>k, n-k-1</sub>) 相比較，若F<sub>0</sub> > F<sub>&alpha;, k, n-k-1</sub>則可拒絕虛無假說，接受對立假說，至少有一個迴歸係數不是0，這個迴歸模型是有效的。檢定時所需的參數整理成表格如下    
-<style>
-.tablelines table, .tablelines td, .tablelines th {
-        border: 1px solid black;
-        }
-</style>
+
 
 | 變異來源 | 自由度 | 平方和 | 均方誤差 | F統計量 |   
 | :---: | :---: | :---: | :---: | :---: |   
