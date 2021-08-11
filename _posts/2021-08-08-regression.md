@@ -91,6 +91,10 @@ SST &= SSR\ +\ SSE
 - 虛無假設 (H<sub>0</sub>)：&beta;<sub>i</sub> = 0 
 - 對立假設 (H<sub>1</sub>)：&beta;<sub>i</sub> &#8800; 0  
   
-迴歸係數&beta;<sub>i</sub>的抽樣分布 (sampling distribution) 服從自由度n-2的t-distribution
+迴歸係數&beta;<sub>i</sub>的抽樣分布 (sampling distribution) 服從自由度n-2的t-distribution，其檢定統計量為  
+$$t_0 = \frac{\beta_i-0}{\sqrt{Var(\beta_i)}} = \frac{\beta_i}{\sqrt{MSE/S_{xx}}}$$  
+若t<sub>0</sub> > t<sub>&alpha;/2, n-2</sub>則可拒絕虛無假說，接受對立假說，這個迴歸係數不為0，如果是簡單線性迴歸的話這個檢定結果會跟 (1) 相同，但如果是複迴歸就要注意有些變數的迴歸係數可能不顯著，此時就要剔除那些不顯著的變數，讓你的模型更加簡潔有力。  
+  
+**(3) 截距
 
 待續
