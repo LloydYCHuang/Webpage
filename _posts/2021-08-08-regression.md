@@ -47,37 +47,50 @@ $$\begin{aligned}
 \end{aligned}$$  
 如何，意不意外，迴歸係數&beta;<sub>1</sub>就是S<sub>xy</sub>/S<sub>xx</sub>，不懂這兩個平方和的可以複習[相關係數](https://lloydychuang.github.io/statistic/2021/08/05/correlation.html)，求得迴歸係數後得到  
 $$\widehat \beta_0 = \overline y - \widehat \beta_1 \overline x$$  
+如此即可得到迴歸直線$$\widehat{y} =  \widehat{\beta_0} + \widehat{\beta_1} x$$，要注意到**數據的平均值一定會落在迴歸直線上**。  
   
 ### Multiple linear regression (多元線性迴歸)  
-多元線性迴歸，又稱複迴歸，基本上換湯不換藥，是用於呈現一組變數y與多組變數x<sub>1</sub>、x<sub>2</sub>、x<sub>3</sub>......到x<sub>k</sub>之間的線性關係，變數的迴歸係數大小會代表這個變數對於預測y的貢獻程度。  
+多元線性迴歸，又稱複迴歸，基本上換湯不換藥，是用於呈現一組依變數y與k組獨立變數x<sub>1</sub>、x<sub>2</sub>、x<sub>3</sub>......到x<sub>k</sub>之間的線性關係，變數的迴歸係數大小會代表這個變數對於預測y的貢獻程度，迴歸係數越大，表示這個獨立變數只要變化一點就會影響很大。  
 $$y = \beta_0+ \beta_1 x_1 + \beta_2 x_2 + \beta_3 x_3 + ... + \beta_k x_k + \varepsilon $$  
 建立複迴歸方程式的方法也是最小平方法，原則上跟簡單線性迴歸一樣，只是因為變數很多，要微分很多次，就不展開計算過程 (反正我們也是用`lm`函數解決一切對吧)。  
   
 ### 迴歸的假設檢定  
-簡單線性迴歸與多元線性迴歸都可以進行假設檢定，且原理類似，都是使用變方分析 (ANOVA)，當我們成功預測出一條迴歸線之後，通常有變異 (誤差) 存在，總變異為$$y_i - \overline y$$，而我們的迴歸線可以解釋一部分的變異為$$\widehat y_i - \overline y$$，那麼他們相減之後就是迴歸線無法解釋的誤差。  
+簡單線性迴歸與多元線性迴歸都可以進行假設檢定，且原理類似，都是使用變方分析 (ANOVA)，當我們成功預測出一條迴歸線之後，通常有變異 (誤差) 存在。  
+實際測量的數值為$$y_i$$，我們預測的數值為$$\widehat y_i$$，並且平均值為$$\overline y$$。此時測量值與平均值的差就是總變異為 ($$y_i - \overline y$$)，而迴歸線可以解釋的變異是預測值與平均值的差 ($$\widehat y_i - \overline y$$)，通常總變異是比迴歸所解釋的變異還要高的，相減之後的差值就是迴歸線無法解釋的變異，即殘差 (residual)。為了計算變異，我們將這些數值都平方後加總為平方和 (sum of squares)。  
 $$\begin{aligned}
-y_i - \overline y &= (\widehat y_i - \overline y) + (y_i - \widehat y_i) \\
+y_i - \overline y &= (\widehat y_i - \overline y) + (y_i - \widehat y_i) 將此式左右平方並展開\\
 \sum (y_i - \overline y)^2 &= \sum(\widehat y_i - \overline y)^2 + \sum(y_i - \widehat y_i)^2 \\
-總變異 &= 迴歸解釋的變異 + 其他的變異 \\
+總變異 &= 迴歸解釋的變異 + 殘差平方和 \\
 SST &= SSR\ +\ SSE
 \end{aligned}$$  
-如果是簡單線性迴歸，這三個平方和 (sum of squares) 為  
+如果是簡單線性迴歸的話，這三個平方和可進一步表示如下  
 - SST (total)：總平方和 = $$\sum (y_i - \overline y)^2 = S_{yy}$$
 - SSR (regression)：迴歸平方和 = $$\sum(\widehat y_i - \overline y)^2 =  \sum (\beta_0 + \beta_1 x_i - \beta_0 - \beta_1 \overline x)^2 = \beta_1^2 \sum (x_i - \overline x)^2 = \beta_1^2 S_{xx} = \beta_1 S_{xy}$$  
 - SSE (error)：誤差平方和 = SST-SSR = $$S_{yy}- \beta_1 S_{xy}$$
   
-多元複迴歸時計算則要用到矩陣，比較複雜。  
+多元複迴歸時計算則要用到矩陣，比較複雜，就不展開。  
 檢定時依序可檢定 (1) 整體的迴歸效果 (2) 迴歸係數 (3) 截距  
+
 **(1) 整體的迴歸效果檢定**  
 使用ANOVA，要檢定的是迴歸所解釋的變異 (SSR) 是否比誤差的變異 (SSE) 來的多，如果由迴歸解釋的變異比較多，就代表這個迴歸是好的。  
-代表迴歸的平方和是SSR，其自由度 (degree of freedom) 是所使用的獨立變數數目k，如果是簡單線性迴歸則k = 1。  
-把平方和除以自由度則得到均方誤差 (mean squared error, MSE)，分別計算迴歸的均方誤差 (MSR) 與誤差的均方誤差 (MSE) 後相除即為F統計量 (F-statistic)，查找自由度符合的F分布相比較
-  
+- 虛無假設 (H<sub>0</sub>)：&beta;<sub>1</sub> = &beta;<sub>2</sub> = &beta;<sub>3</sub> = ... = &beta;<sub>k</sub> = 0 全部的迴歸係數都是0  
+- 對立假設 (H<sub>1</sub>)：至少一個迴歸係數不是0  
+      
+代表迴歸變異的平方和是SSR，其自由度 (degree of freedom) 是所使用的獨立變數數目k，如果是簡單線性迴歸則k = 1。  
+把平方和除以自由度則得到均方 (mean square, MS)，分別計算迴歸的均方誤差 (MSR, regression) 與誤差的均方誤差 (MSE, error) 後相除即為F統計量 (F-statistic)。  
+查找自由度為k/(n-k-1)的F分布 (F<sub>k, n-k-1</sub>) 相比較，若F<sub>0</sub> > F<sub>&alpha;, k, n-k-1</sub>則可拒絕虛無假說，接受對立假說，至少有一個迴歸係數不是0，這個迴歸模型是有效的。檢定時所需的參數整理成表格如下    
 | 變異來源 | 自由度 | 平方和 | 均方誤差 | F統計量 |
 | :---: | :---: | :---: | :---: | :---: |
-| 迴歸 | k | SSR | MSR = SSR/k | MSR/MSE |
+| 迴歸 | k | SSR | MSR = SSR/k | F<sub>0</sub> = MSR/MSE |
 | 誤差 | n-k-1 | SSE = SST-SSR | MSE = SSE/(n-k-1) |  |
-| 總計 | n-1 | SST |  |  |
-
+| 總計 | n-1 | SST |  |  |  
+  
+**(2) 迴歸係數的檢定**  
+上面的檢定只能告訴你整體的模型，但並不能告訴你個別的迴歸係數是不是0，除非是簡單線性迴歸這種k = 1的狀況，那樣的話整體的檢定就等同於迴歸係數的檢定。  
+如果有多個獨立變數的情況，**需要檢定k次**，個別檢定這些迴歸係數是否為0。  
+- 虛無假設 (H<sub>0</sub>)：&beta;<sub>i</sub> = 0 
+- 對立假設 (H<sub>1</sub>)：&beta;<sub>i</sub> &#8800; 0  
+  
+迴歸係數&beta;<sub>i</sub>的抽樣分布 (sampling distribution) 服從自由度n-2的t-distribution
 
 待續
