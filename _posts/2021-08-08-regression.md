@@ -63,11 +63,9 @@ SST &= SSR\ +\ SSE
 \end{aligned}$$  
 這三個平方和 (sum of squares) 為  
 - SST (total)：總平方和 = $$\sum (y_i - \overline y)^2 = S_{yy}$$
-- SSR (regression)：迴歸平方和 = 
-- SSE (error)：誤差平方和 = 
+- SSR (regression)：迴歸平方和 = $$\sum(\widehat y_i - \overline y)^2 =  \sum (\beta_0 + \beta_1 x_i - \beta_0 - \beta_1 \overline x)^2 = \beta_1^2 \sum (x_i - \overline x)^2 = \beta_1^2 S_{xx} = \beta_1 S_{xy}$$  
+- SSE (error)：誤差平方和 = SST-SSR = $$S_{yy}- \beta_1 S_{xy}$$
   
-\sum(y_i - \widehat y_i)^2 = \sum (y_i - \widehat \beta_0 - \widehat \beta_1 x_i)^2\\
-\sum(\widehat y_i - \overline y)^2 = 
 
 
 待續
