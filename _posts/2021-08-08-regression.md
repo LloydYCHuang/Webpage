@@ -125,7 +125,7 @@ $$Adjusted\ R^2 = 1-\frac{SSE/(n-k)}{SST/(n-1)}$$
 ### 資料的共線性 (collinearity)  
 在複迴歸裡若變數之間具共線性 (即x之間彼此相關)，則模型會具有重複的變數，讓模型的效果被高估，此時可以衡量各個變數的變異膨脹因子 (variance inflation factor, VIF)，這個數值越高代表共線性越強。  
 VIF的計算方法是將目標的變數 (例如x<sub>1</sub>) 做為依變數，剩下的其他獨立變數 (x<sub>2</sub>、x<sub>3</sub>......到x<sub>k</sub>) 對其建立複迴歸並得到決定係數R<sup>2</sup>。  
-$$x_1 = \beta'_0 + \beta'_1 x_2 + \beta'_2 x_3 + ... + \beta'_{k-1} x_k,\ R_i^2$$   
+$$x_1 = \beta'_0 + \beta'_1 x_2 + \beta'_2 x_3 + ... + \beta'_{k-1} x_k,\ with\ R_i^2$$   
 $$VIF = \frac{1}{1-R_i^2}$$   
 1-R<sup>2</sup>的倒數就是VIF值，如果完全不共線則VIF = 1，若有k個變數就會有k個VIF值，VIF越大表示這個變數的共線性越嚴重，可以考慮剔除這個變數。  
 
