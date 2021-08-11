@@ -61,11 +61,23 @@ y_i - \overline y &= (\widehat y_i - \overline y) + (y_i - \widehat y_i) \\
 總變異 &= 迴歸解釋的變異 + 其他的變異 \\
 SST &= SSR\ +\ SSE
 \end{aligned}$$  
-這三個平方和 (sum of squares) 為  
+如果是簡單線性迴歸，這三個平方和 (sum of squares) 為  
 - SST (total)：總平方和 = $$\sum (y_i - \overline y)^2 = S_{yy}$$
 - SSR (regression)：迴歸平方和 = $$\sum(\widehat y_i - \overline y)^2 =  \sum (\beta_0 + \beta_1 x_i - \beta_0 - \beta_1 \overline x)^2 = \beta_1^2 \sum (x_i - \overline x)^2 = \beta_1^2 S_{xx} = \beta_1 S_{xy}$$  
 - SSE (error)：誤差平方和 = SST-SSR = $$S_{yy}- \beta_1 S_{xy}$$
   
+多元複迴歸時計算則要用到矩陣，比較複雜。  
+檢定時依序可檢定 (1) 整體的迴歸效果 (2) 迴歸係數 (3) 截距  
+**(1) 整體的迴歸效果檢定**  
+使用ANOVA，要檢定的是迴歸所解釋的變異 (SSR) 是否比誤差的變異 (SSE) 來的多，如果由迴歸解釋的變異比較多，就代表這個迴歸是好的。  
+代表迴歸的平方和是SSR，其自由度 (degree of freedom) 是所使用的獨立變數數目k，如果是簡單線性迴歸則k = 1。  
+把平方和除以自由度則得到均方誤差 (mean squared error, MSE)，分別計算迴歸的均方誤差 (MSR) 與誤差的均方誤差 (MSE) 後相除即為F統計量 (F-statistic)，查找自由度符合的F分布相比較
+  
+| 變異來源 | 自由度 | 平方和 | 均方誤差 | F統計量 |
+| :---: | :---: | :---: | :---: | :---: |
+| 迴歸 | k | SSR | MSR = SSR/k | MSR/MSE |
+| 誤差 | n-k-1 | SSE = SST-SSR | MSE = SSE/(n-k-1) |  |
+| 總計 | n-1 | SST |  |  |
 
 
 待續
