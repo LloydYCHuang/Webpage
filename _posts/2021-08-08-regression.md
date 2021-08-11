@@ -20,7 +20,7 @@ $$y = \beta_0+ \beta_1 x + \varepsilon $$
 計算迴歸方程式最常見的方法是最小平方法 (least squares)，這個方法就是求得誤差項&epsilon;最小。  
 假設我們所要估計的方程式為$$\widehat{y} =  \widehat{\beta_0} + \widehat{\beta_1} x$$，加了帽子表示為估計，那麼誤差項就是把實際的y值減去估計值，為避免正負抵消所以平方。  
 $$S(\widehat{\beta_0},\ \widehat{\beta_1}) = \sum_{i=1}^{n} (y_i-\widehat{\beta_0}-\widehat{\beta_1}x_i)^2$$  
-計算這個含有&beta;<sub>0</sub>與&beta;<sub>1</sub>的多項式之最小值，使用微分如下  
+求這個含有&beta;<sub>0</sub>與&beta;<sub>1</sub>的多項式之最小值發生時的&beta;<sub>0</sub>與&beta;<sub>1</sub>，使用微分如下  
 $$\begin{aligned}
 \frac{\partial S(\widehat{\beta_0},\ \widehat{\beta_1})}{\partial \widehat{\beta_0}} &= -2\sum (y_i-\widehat{\beta_0}-\widehat{\beta_1}x_i)=0\\
 \frac{\partial S(\widehat{\beta_0},\ \widehat{\beta_1})}{\partial \widehat{\beta_1}} &= -2\sum (y_i-\widehat{\beta_0}-\widehat{\beta_1}x_i)x_i=0
@@ -45,7 +45,7 @@ $$\begin{aligned}
 &= \frac{\sum (x_i-\overline x)(y_i - \overline y)}{\sum (x_i - \overline x)^2}\\
 &=\frac{S_{xy}}{S_{xx}}
 \end{aligned}$$  
-如何，意不意外，迴歸係數&beta;<sub>1</sub>就是S<sub>xy</sub>/S<sub>xx</sub>，不懂這兩個平方和的可以複習[相關係數](https://lloydychuang.github.io/statistic/2021/08/05/correlation.html)，求得迴歸係數後即可得到  
+如何，意不意外，迴歸係數&beta;<sub>1</sub>就是S<sub>xy</sub>/S<sub>xx</sub>，不懂這兩個平方和的可以複習[相關係數](https://lloydychuang.github.io/statistic/2021/08/05/correlation.html)，求得迴歸係數後得到  
 $$\widehat \beta_0 = \overline y - \widehat \beta_1 \overline x$$  
   
 ### Multiple linear regression (多元線性迴歸)  
