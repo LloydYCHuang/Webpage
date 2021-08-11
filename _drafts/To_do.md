@@ -14,3 +14,5 @@ word
 
 已完成怕忘掉
 {% raw %} ... {% endraw %}：https://stackoverflow.com/questions/26819399/stop-a-specific-liquid-tag-from-being-rendered
+插入表格 https://stackoverflow.com/questions/43196541/jekyll-now-github-pages-tables-dont-show-up
+用{: .tablelines}就好
