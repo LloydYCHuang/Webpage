@@ -68,7 +68,7 @@ SST &= SSR\ +\ SSE
 - SSR (regression)：迴歸平方和 = $$\sum(\widehat y_i - \overline y)^2 =  \sum (\beta_0 + \beta_1 x_i - \beta_0 - \beta_1 \overline x)^2 = \beta_1^2 \sum (x_i - \overline x)^2 = \beta_1^2 S_{xx} = \beta_1 S_{xy}$$  
 - SSE (error)：誤差平方和 = SST-SSR = $$S_{yy}- \beta_1 S_{xy}$$
   
-多元複迴歸時計算則要用到矩陣，比較複雜，就不展開。  
+多元複迴歸時計算則要用到矩陣，比較複雜，這裡就不展開。  
 檢定時依序可檢定 (1) 整體的迴歸效果 (2) 迴歸係數 (3) 截距  
 
 **(1) 整體的迴歸效果檢定**  
@@ -77,8 +77,8 @@ SST &= SSR\ +\ SSE
 - 對立假設 (H<sub>1</sub>)：至少一個迴歸係數不是0  
       
 代表迴歸變異的平方和是SSR，其自由度 (degree of freedom) 是所使用的獨立變數數目k，如果是簡單線性迴歸則k = 1。  
-把平方和除以自由度則得到均方 (mean square, MS)，分別計算迴歸的均方誤差 (MSR, regression) 與誤差的均方誤差 (MSE, error) 後相除即為F統計量 (F-statistic)。  
-查找自由度為k/(n-k-1)的F分布 (F<sub>k, n-k-1</sub>) 相比較，若F<sub>0</sub> > F<sub>&alpha;, k, n-k-1</sub>則可拒絕虛無假說，接受對立假說，至少有一個迴歸係數不是0，這個迴歸模型是有效的。檢定時所需的參數整理成表格如下    
+把平方和除以自由度則得到均方 (mean square, MS)，分別計算迴歸的均方 (MSR, regression) 與誤差的均方 (MSE, error)，相除即為F統計量 (F-statistic)。  
+查找自由度為k/(n-k-1)的F-distribution (F<sub>k, n-k-1</sub>) 相比較，若F<sub>0</sub> > F<sub>&alpha;, k, n-k-1</sub>則可拒絕虛無假說，接受對立假說，至少有一個迴歸係數不是0，這個迴歸模型是有效的。檢定時所需的參數整理成表格如下    
   
 | 變異來源 | 自由度 | 平方和 | 均方誤差 | F統計量 |   
 | :---: | :---: | :---: | :---: | :---: |   
@@ -98,7 +98,7 @@ SST &= SSR\ +\ SSE
 迴歸係數&beta;<sub>i</sub>的抽樣分布 (sampling distribution) 服從自由度n-k-1的t-distribution，其檢定統計量為  
 $$t_0 = \frac{\beta_i-0}{\sqrt{Var(\beta_i)}} = \frac{\beta_i}{\sqrt{MSE/S_{xx}}}$$  
 若t<sub>0</sub> > t<sub>&alpha;/2, n-k-1</sub>則可拒絕虛無假說，接受對立假說，這個迴歸係數不為0，如果是簡單線性迴歸的話這個檢定結果會跟 (1) 相同，但如果是複迴歸就要注意有些變數的迴歸係數可能不顯著。  
-在建立複迴歸模型時，要確保模型內的每個變數都是有用的，也就是迴歸係數不為0，要達成這個方法常見可使用逐步迴歸 (stepwise regression) 每次增加/減少一個變數，從沒有變數開始一次增加一個顯著的變數稱為向前增加 (forward addition)，從所有變數開始一次刪除一個不顯著的變數則稱作往後刪除 (backward elimination)。  
+在建立複迴歸模型時，要確保模型內的每個變數都是有用的，也就是迴歸係數不為0，常見可使用逐步迴歸 (stepwise regression) 每次增加/減少一個變數，從沒有變數開始一次增加一個顯著的變數稱為向前增加 (forward addition)，從所有變數開始一次刪除一個不顯著的變數則稱作往後刪除 (backward elimination)。  
   
 **(3) 截距的檢定**  
 和 (2) 同樣的道理也可以檢定截距&beta;<sub>0</sub>是否為0，這裡就直接列出t統計量了，假設方面和前一個大同小異，也符合自由度n-k-1的t分布。  
@@ -118,7 +118,7 @@ $$Adjusted\ R^2 = 1-\frac{SSE/(n-k)}{SST/(n-1)}$$
 1. 獨立性 (independent)：殘差應該要是獨立的，我們可以繪製殘差圖 (residual plot) 來觀察是否有特定趨勢，若殘差有趨勢則表示有問題
 2. 常態性 (normality)：資料與殘差都應該符合常態分布
 3. 變方同質性 (homogeneity of variance)：可以使用Levene's test來檢測變方的一致性
-4. 線性關係 (linearity)：預測的獨立變數與依變數必須呈線性關係 (殘差不用)
+4. 線性關係 (linearity)：預測的獨立變數與依變數必須呈線性關係 (才有辦法使用線性迴歸)
   
 如果有基本假設未被滿足，通常可以透過轉換 (transform) 來讓資料滿足基本假設。  
   
