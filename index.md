@@ -18,12 +18,13 @@
 ### 沉思 (Meditation)  
 主要記錄研究生活中，一些感想與省思。
 
-### 文章列表
+### 最近更新
 <ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
+{% for post in site.posts limit:5 %}
+   <li>
+     <a href="{{ post.url }}">{{ post.title }}</a>
+   </li>
+{% endfor %}
 </ul>
+
 
