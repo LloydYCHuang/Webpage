@@ -20,7 +20,7 @@
 
 ### 近期更新
 <ul>
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:7 %}
    <li>
      <a href="{{ post.url }}">{{ post.title }}</a>
    </li>
