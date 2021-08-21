@@ -18,7 +18,7 @@
 ### 沉思 (Meditation)  
 主要記錄研究生活中，一些感想與省思。
 
-### 最近更新
+### 近期更新
 <ul>
 {% for post in site.posts limit:5 %}
    <li>
@@ -26,5 +26,7 @@
    </li>
 {% endfor %}
 </ul>
-
+  
+  
+[**所有文章列表**](https://lloydychuang.github.io/categories/)
 
