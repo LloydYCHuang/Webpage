@@ -28,5 +28,5 @@
 </ul>
   
   
-[**所有文章列表**](https://lloydychuang.github.io/categories/)
+[**文章列表**](https://lloydychuang.github.io/categories/)
 
