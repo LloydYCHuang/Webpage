@@ -31,8 +31,14 @@ Relief：這是描述土壤中物質的立體程度，當切片出的物質有�
 Fabric (組構) 這個詞最一開始是由微形態之父Kubiëna所提出的，這個詞所代表的是觀察微形態時所注意到土壤中各組成物的大小、排列、組織性等**整體**的性質，也是一種意象(?)，換言之觀察微形態時要注意的是組成物與組成物之間的關係。  
 說起來相當抽象，微形態的組構也的確具涵蓋各特徵的重要性，可以用於描述物質的同質性 (homogeneity) 與異質性 (heterogeneity)，在微形態中看到的各種組成都可稱為組構。  
   
-### Distribution pattern  
-
+### Coarse/fine (c/f) related distribution  
+所謂的coarse/fine related distribution (c/f-related distribution, 粗細顆粒相對分布) 就如同其字面上所講的，用於描述樣品中粗顆粒與細顆粒組成物的相對分布，有專屬的劃分命名，來自於Stoops and Jongerius (1975)。  
+非常直觀的圖示可以看<a href="http://edafologia.ugr.es/micgraf/distcfw.htm" target="_blank">這裡</a>。  
+- Monic (單晶的)：字源為希臘文的"單一"，表示只含有單一大小的物質，並沒有明顯的粗細分布。
+- Enaulic (穴藏的)：字源為希臘文"在洞穴中"，表示較細的顆粒是分散在粗顆粒間的孔洞中，卻沒有與他們密切接觸。
+- Chitonic (披裹的)：字源為希臘文"寬鬆的衣服"，表示細顆粒物質包裹在粗顆粒物質的外表，無論細顆粒是否具有雙折射性質皆可稱為chitonic。
+- Porphyric (班晶的)：由密集的
+- Gefuric (聯結的)
   
 ### Ground mass  
 **Skeleton grain**  
@@ -49,5 +55,5 @@ plasma (髓質)
 fabric (組構)
 birefringent fabric, b-fabric (雙折射組構)
 oriented arrangement (定位排列性)
-
-
+  
+Stoops, G., and Jongerius, A. 1975. Proposal for a micromorphological classification of soil materials. I. A classification of related distribution of fine and coarse particles. Geoderma, 13(3), 189–199. <a href="https://doi.org/10.1016/0016-7061(75)90017-8" target="_blank">https://doi.org/10.1016/0016-7061(75)90017-8</a>  
