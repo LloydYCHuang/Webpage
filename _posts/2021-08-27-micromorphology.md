@@ -33,14 +33,14 @@ Fabric (組構) 這個詞最一開始是由微形態之父Kubiëna所提出的�
   
 ### Coarse/fine (c/f) related distribution  
 所謂的coarse/fine related distribution (c/f-related distribution, 粗細顆粒相對分布) 就如同其字面上所講的，用於描述樣品中粗顆粒與細顆粒組成物的相對分布，有專屬的劃分命名，來自於Stoops and Jongerius (1975)。  
-非常直觀的圖示可以看<a href="http://edafologia.ugr.es/micgraf/distcfw.htm" target="_blank">這裡</a>。  
 - Monic (單晶的)：字源為希臘文的"單一"，表示只含有單一大小的物質，並沒有明顯的粗細分布。
 - Enaulic (穴藏的)：字源為希臘文"在洞穴中"，表示較細的顆粒是分散在粗顆粒間的孔洞中，卻沒有與他們密切接觸。
 - Chitonic (披裹的)：字源為希臘文"寬鬆的衣服"，表示細顆粒物質包裹在粗顆粒物質的外表，無論細顆粒是否具有雙折射性質皆可稱為chitonic。
 - Porphyric (班晶的)：由密集的細顆粒物質完整包覆粗顆粒物質，粗顆粒物質間的孔洞皆被細顆粒物質填滿，就像是將粗顆粒物質泡在溶液中一樣，又可根據粗顆粒物質之間的距離大於其直徑的兩倍 (相當分散) 稱為open porphyric或double-spaced porphyric，若粗顆粒物質相當密集則稱為close porphyric。
 - Gefuric (聯結的)：字源是希臘文的"橋"，代表細顆粒物質在粗顆粒物質之間搭橋連接，這也表示粗顆粒之間是不互相接觸的。  
   
-這五種類型是漸變的
+這五種類型是漸變的，可以表示成下圖這樣的變化。  
+<img src="https://lloydychuang.github.io/assets/cf-distribution.png">
   
 ### Ground mass  
 **Skeleton grain**  
