@@ -27,6 +27,13 @@ Relief：這是描述土壤中物質的立體程度，當切片出的物質有�
   
 我想這部分沒有捷徑，只能自己看圖片辨識了。  
   
+### Fabric (組構)  
+Fabric (組構) 這個詞最一開始是由微形態之父Kubiëna所提出的，這個詞所代表的是觀察微形態時所注意到土壤中各組成物的大小、排列、組織性等**整體**的性質，也是一種意象(?)，換言之觀察微形態時要注意的是組成物與組成物之間的關係。  
+說起來相當抽象，微形態的組構也的確具涵蓋各特徵的重要性，可以用於描述物質的同質性 (homogeneity) 與異質性 (heterogeneity)，在微形態中看到的各種組成都可稱為組構。  
+  
+### Distribution pattern  
+
+  
 ### Ground mass  
 **Skeleton grain**  
 即coarse minerals，在土壤切片中可當作較大組成分的物質。  
@@ -35,7 +42,12 @@ Relief：這是描述土壤中物質的立體程度，當切片出的物質有�
 視野中的孔隙，沒有ground mass的地方，還可區分simple packing voids (skeleton grain之間的孔隙)、compound packing voids (aggregate之間的孔隙) 及complex packing voids (在skeleton grain及aggregate之間的孔隙。  
   
 **
-
-
+Coarse/fine (c/f) related distribution (粗細顆粒相對分布)
+porphyric (班晶的)
+monic (單晶的)
+plasma (髓質)
+fabric (組構)
+birefringent fabric, b-fabric (雙折射組構)
+oriented arrangement (定位排列性)
 
 
