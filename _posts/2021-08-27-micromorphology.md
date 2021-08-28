@@ -7,7 +7,7 @@ title:  "Soil micromorphology - 土壤微形態"
 2021/08/27  
 最近很常搞混的兩個中文字，分別是**形態**以及**無定型**，這兩個才是正確的使用方法，需要小心不要搞錯。  
 我的土壤微形態切片最近剛從美國處理好寄回來，其實切片看似薄薄一片，就要2000臺幣，我一共切了九片就用掉老師快兩萬的研究經費，當然要趁此機會好好學習土壤微形態。  
-土壤的微形態學 (micromorphology) 是一門高深的學問，我可以保證其複雜程度不亞於解剖學，這篇文章雖然盡力呈現我所學到的微形態知識及描述方法，但也只是九牛一毛，期望能在未來更加精進。這篇文章內容很多參考<a href="http://edafologia.ugr.es/english/index.htm" target="_blank">西班牙格拉納達大學的教學網站</a>，對於自學非常有幫助，另外這本<a href="https://link.springer.com/book/10.1007/978-3-030-67806-7" target="_blank">A Visual Atlas for Soil Micromorphologists</a>也很推薦。  
+土壤的微形態學 (micromorphology) 是一門高深的學問，我可以保證其複雜程度不亞於解剖學，這篇文章雖然盡力呈現我所學到的微形態知識及描述方法，但也只是九牛一毛，期望能在未來更加精進。這篇文章內容很多參考<a href="http://edafologia.ugr.es/english/index.htm" target="_blank">西班牙格拉納達大學的教學網站</a>，對於自學非常有幫助，另外<a href="https://link.springer.com/book/10.1007/978-3-030-67806-7" target="_blank">A Visual Atlas for Soil Micromorphologists</a> (open access) 與<a href="https://acsess.onlinelibrary.wiley.com/doi/book/10.2136/sssaspecpub15" target="_blank">Soil Micromorphology and Soil Classification</a> (但是要錢，我們實驗室有一本) 也都很推薦。  
   
 *When something is important enough, you do it even if the odds are not in your favor.  
 &mdash;Elon Musk*
@@ -65,15 +65,16 @@ Microstructure (微結構) 用於描述在玻片底下所看到的樣子，跟�
 ### Fabric  
 Fabric (組構) 這個詞最一開始是由微形態之父Kubiëna所提出的，這個詞所代表的是觀察微形態時所注意到土壤中各組成物的大小、排列、組織性等**整體**的性質，也是一種意象(?)，換言之觀察微形態時要注意的是組成物與組成物之間的關係。  
 說起來相當抽象，微形態的組構也的確具涵蓋各特徵的重要性，可以用於描述物質的同質性 (homogeneity) 與異質性 (heterogeneity)，在微形態中看到的各種物質組成都可稱為組構。  
-若在偏光顯微鏡下可以看到雙折射現象所產生的干擾色，則組構可被稱作雙折射組構 (birefringent fabric, **b-fabric**)。常見的雙折射組構是洗入的黏粒因定位排列 (oriented arrangement) 所產生的條痕化 (striation)，例如下圖這張洗入的黏粒膜，該圖為XPL，可以看到明顯的條痕化。  
-<img src="https://lloydychuang.github.io/assets/clay_coating_press.png" width="600">   
-雙折射組構並不只黏粒膜，
-- Undifferentiated b-fabric：不具有良好排列性質，例如火山灰土壤中的無定型物質
-- Crystallitic b-fabric (結晶性組構)：結晶性良好的組構
-- Mosaic-speckled b-fabric：大塊的結晶散布其中
-- Stipple-speckled b-fabric：有許多小群的黏粒膜散布
+若在偏光顯微鏡下觀察雙折射現象所產生的干擾色，則此時觀察的是雙折射組構 (birefringent fabric, **b-fabric**)。其中一種雙折射組構是洗入的黏粒因定位排列 (oriented arrangement) 所產生的條痕化 (striation)，例如下圖這張洗入的黏粒膜，該圖為XPL，可以看到明顯的條痕化。  
+<img src="https://lloydychuang.github.io/assets/clay_coating_press.png" width="600">    
+雙折射組構並不只黏粒膜，事實上b-fabric這個詞不甚清楚，應該有許多誤用，b-fabric指的單純是XPL觀察下的組構，在1985年的<a href="https://acsess.onlinelibrary.wiley.com/doi/book/10.2136/sssaspecpub15" target="_blank">Soil Micromorphology and Soil Classification</a>附錄所給的定義是"Fabric of the fine material in soil thin section as **evaluated by the pattern of birefringence** caused by clay orientation"，顯示b-fabric一詞是**以其雙折射性質來衡量組構**，並非一定是有雙折射現象，換句話說，在XPL下的組構即為雙折射組構。  
+- Undifferentiated b-fabric：指的就是不具雙折射性質、沒有干擾色的組構，代表物質不具有良好排列且為各向同性，例如火山灰土壤中的無定型物質
+- Crystallitic b-fabric (結晶性組構)：結晶性良好的組構，但有可能結晶與結晶之間的髓質會具有其他不同的組構
+- Strial b-fabric：組構有明顯的平行條紋 (需要延伸，和黏粒膜的不一樣)
+- Striated b-fabric：組構有明顯超過30 mm的條紋，這就是上圖黏粒膜的b-fabric，多見於髓質的累積，如黏粒膜
+- Speckled b-fabric：組構有條紋但小於30 mm，比較分散的
   
-描述組構時注意其結晶性的分布，以及條痕的排列方式，更多圖片可以參考<a href="https://link.springer.com/book/10.1007/978-3-030-67806-7" target="_blank">A Visual Atlas for Soil Micromorphologists</a>的File 45、46。  
+更多更細的分類描述可以看<a href="http://edafologia.ugr.es/micgraf/keybirr.htm" target="_blank">教學網站</a>。描述組構時注意其結晶性的分布，以及條痕的排列方式，更多圖片可以參考<a href="https://link.springer.com/book/10.1007/978-3-030-67806-7" target="_blank">A Visual Atlas for Soil Micromorphologists</a>的File 45、46。  
    
 ### Coarse/fine (c/f) related distribution  
 所謂的coarse/fine related distribution (c/f-related distribution, 粗細顆粒相對分布) 是來自Stoops and Jongerius (1975)，有感於骨骼粒子/髓質這個區分有點主觀 (partly subjective) 所提出的。  
@@ -98,4 +99,6 @@ oriented arrangement (定位排列性)
 土壤特徵(pedofeatures)
 洗入(infillings)
   
+  
+### 參考資料  
 Stoops, G., and Jongerius, A. 1975. Proposal for a micromorphological classification of soil materials. I. A classification of related distribution of fine and coarse particles. Geoderma, 13(3), 189–199. <a href="https://doi.org/10.1016/0016-7061(75)90017-8" target="_blank">https://doi.org/10.1016/0016-7061(75)90017-8</a>  
