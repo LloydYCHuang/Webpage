@@ -43,11 +43,14 @@ Fabric (組構) 這個詞最一開始是由微形態之父Kubiëna所提出的�
 Voids (孔隙) 是基體中未被物質填滿的區域，但當然在解析度的限制下有些孔隙是看不到的。  
 由於土壤中多少會存在一些孔隙，微形態學也對孔隙進行觀察與描述，若在土壤中觀察到孔隙，可能的來源有 (1) 原生礦物之間的孔隙 (2) 土壤結構間的孔隙，如angular blocky，以及 (3) 生物活動造成的孔隙  
 - Channel (管隙)：由生物造成的長管狀孔隙
-- Simple packing voids (簡單型填集孔隙)：由礦物經堆疊所產生的孔隙
+- Simple packing voids (簡單型填集孔隙)：由礦物經堆疊所產生的孔隙，很常見
 - Plane
 - Intrapedal voids與interpedal voids：指的是在由土壤組成的團塊中，大團塊與大團塊之間的孔隙稱作interpedal，在團塊內的孔隙則稱作intrapedal
-- 
-
+- Tubular
+- Cylindrical
+- Chamber：代表孔隙與孔隙之間有管隙連接著
+- Vughs：不規則的孔隙  
+  
   
 ### Microstructure  
 Microstructure (微結構) 用於描述在玻片底下所看到的樣子，即是一個共通語言，常見的微結構包含：  
@@ -59,6 +62,8 @@ Microstructure (微結構) 用於描述在玻片底下所看到的樣子，即�
 - Fissure/crack
 - Granules
 - Crumbs
+  
+微結構可再加上
   
 ### Ground mass  
 **Skeleton grain**  
