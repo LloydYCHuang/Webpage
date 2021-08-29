@@ -92,7 +92,7 @@ Fabric (組構) 這個詞最一開始是由微形態之父Kubiëna所提出的�
 - Striated b-fabric：組構有明顯超過30 mm的條痕，這就是上圖黏粒膜的b-fabric，多見於髓質的累積，如黏粒膜
 - Speckled b-fabric：組構有條痕但小於30 mm，比較分散的
   
-更多更細的分類描述可以看<a href="http://edafologia.ugr.es/micgraf/keybirr.htm" target="_blank">教學網站</a>。描述組構時注意其結晶性的分布，以及條痕的排列方式，更多圖片可以參考<a href="https://link.springer.com/book/10.1007/978-3-030-67806-7" target="_blank">A Visual Atlas for Soil Micromorphologists</a>的File 45、46。  
+更細的分類描述可以看<a href="http://edafologia.ugr.es/micgraf/keybirr.htm" target="_blank">教學網站</a>。描述組構時注意其結晶性的分布，以及條痕的排列方式，更多圖片可以參考<a href="https://link.springer.com/book/10.1007/978-3-030-67806-7" target="_blank">A Visual Atlas for Soil Micromorphologists</a>的File 45、46。  
    
 ### Coarse/fine (c/f) related distribution  
 所謂的coarse/fine related distribution (c/f-related distribution, 粗細顆粒相對分布) 是來自Stoops and Jongerius (1975)，有感於骨骼粒子/髓質這個區分有點主觀 (partly subjective) 所提出的。  
@@ -112,10 +112,10 @@ Fabric (組構) 這個詞最一開始是由微形態之父Kubiëna所提出的�
 能被稱作土壤特徵的只有那些在化育過程中所產生，具有與周圍不同組構的特徵，因此原生礦物與骨骼粒子並不能被稱作土壤特徵，常見的土壤特徵包含了黏粒膜、有機物結皮、鐵膜、鐵瘤 (iron nodule) 等。  
 - Iron nodule (鐵瘤)：其實很好認，會黑黑的一坨
 - Clay coating (黏粒膜)：利用其雙折射性質可以辨識
-- Hypocoating：一樣是coating，但是發生在自然的表面 (孔隙邊)
-- Quasicoating：類似hypocoating，但是距離表面有一小段距離
+- Hypocoating：一樣是coating，但是發生在自然的表面 (孔隙邊)，若在一個管隙旁發現雙折射的隨質累積，就是hypocoating
+- Quasicoating：類似hypocoating，但是距離表面有一段間隔，並非直接相鄰
   
-不同種類的土壤，所要關注的土壤特徵也不同，這裡只能列舉一小部分，有空我將再寫一篇淋澱土的微形態特徵。
+不同種類的土壤，所要關注的土壤特徵也不同，這裡只能列舉一小部分，有空我將再寫一篇淋澱土的微形態特徵及我實際的微形態描述過程。
   
 ### 參考資料  
 Stoops, G., and Jongerius, A. 1975. Proposal for a micromorphological classification of soil materials. I. A classification of related distribution of fine and coarse particles. Geoderma, 13(3), 189–199. <a href="https://doi.org/10.1016/0016-7061(75)90017-8" target="_blank">https://doi.org/10.1016/0016-7061(75)90017-8</a>  
