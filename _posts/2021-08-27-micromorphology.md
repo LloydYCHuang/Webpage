@@ -109,13 +109,13 @@ Fabric (組構) 這個詞最一開始是由微形態之父Kubiëna所提出的�
    
 ### Pedofeature  
 如果說前面的描述是針對不同物質，那麼pedofeature (土壤特徵) 就是在描述完前面數個特徵後，針對土壤化育過程中產生的各種特徵進行的描述。   
-能被稱作土壤特徵的只有那些在化育過程中所產生，具有與周圍不同組構的特徵，因此原生礦物與骨骼粒子並不能被稱作土壤特徵，最常見的土壤特徵包含了黏粒膜、有機物結皮、鐵膜、鐵瘤 (iron nodule) 等。  
+能被稱作土壤特徵的只有那些在化育過程中所產生，具有與周圍不同組構的特徵，因此原生礦物與骨骼粒子並不能被稱作土壤特徵，常見的土壤特徵包含了黏粒膜、有機物結皮、鐵膜、鐵瘤 (iron nodule) 等。  
 - Iron nodule (鐵瘤)：其實很好認，會黑黑的一坨
 - Clay coating (黏粒膜)：利用其雙折射性質可以辨識
 - Hypocoating：一樣是coating，但是發生在自然的表面 (孔隙邊)
 - Quasicoating：類似hypocoating，但是距離表面有一小段距離
-
   
+不同種類的土壤，所要關注的土壤特徵也不同，這裡只能列舉一小部分，有空我將再寫一篇淋澱土的微形態特徵。
   
 ### 參考資料  
 Stoops, G., and Jongerius, A. 1975. Proposal for a micromorphological classification of soil materials. I. A classification of related distribution of fine and coarse particles. Geoderma, 13(3), 189–199. <a href="https://doi.org/10.1016/0016-7061(75)90017-8" target="_blank">https://doi.org/10.1016/0016-7061(75)90017-8</a>  
