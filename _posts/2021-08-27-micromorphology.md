@@ -56,7 +56,7 @@ Microstructure (微結構) 用於描述在玻片底下所看到的樣子，跟�
 - Vughy (空洞)：以大空腔為主，並使土壤粒子不太連續，呈現散落狀
 - Spongy (海綿狀)：比空洞更密集的空腔，就像海綿一般
 - Channel (管隙)
-- Champer (腔隙)
+- Chamber (腔隙)
 - Vesicular：小型空腔散布
 - Fissure/crack：些微的裂痕
 - Compact grain (緊密)
