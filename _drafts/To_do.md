@@ -15,4 +15,7 @@ word
 已完成怕忘掉
 {% raw %} ... {% endraw %}：https://stackoverflow.com/questions/26819399/stop-a-specific-liquid-tag-from-being-rendered
 插入表格 https://stackoverflow.com/questions/43196541/jekyll-now-github-pages-tables-dont-show-up
-用{: .tablelines}就好
+用{: .tablelines}就好  
+
+https://www.webdesigns.com.tw/webdesign_favicon.asp  
+https://www.cc.ntu.edu.tw/chinese/epaper/0046/20180920_4602.html  
