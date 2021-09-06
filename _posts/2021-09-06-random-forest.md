@@ -44,4 +44,5 @@ Bagging是**b**ootstrap **agg**regation的縮寫，想法相當單純，即以Bo
 隨機森林克服了過度適配的問題，成為比決策樹更加優秀的監督式學習演算法，我打算在碩士論文中使用看看，到時有心得會再更新。  
   
 ### 參考資料  
-<a href="https://link.springer.com/book/10.1007/978-1-4614-6849-3" target="_blank">Applied Predictive Modeling</a>
+<a href="https://link.springer.com/book/10.1007/978-1-4614-6849-3" target="_blank">Applied Predictive Modeling</a>  
+Breiman, L. 2001. Random Forests. Machine Learning, 45, 5–32. <a href="https://doi.org/10.1023/A:1010933404324" target="_blank">https://doi.org/10.1023/A:1010933404324</a>  
