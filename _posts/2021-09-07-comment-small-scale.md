@@ -54,8 +54,25 @@ SEP &= \sqrt{\frac{\sum_{i=1}^n(\widehat{y}_i-y_i-Bias)^2 }{n-1}}
 **校正結果**  
 地區性校正的結果普遍以clay及SOC表現最好，而各地區的預測效果有所差異，但最重要的是和其他組別的比較。總體來說，地區性校正的RMSEP幾乎都是最小的，其他指標也幾乎是，尤其是跟國家資料庫比時，資料數龐大的國家資料庫並無法對小範圍的變異做出鑑別，甚至其RMSEP幾乎都是全部組別裡最高的。  
   
-雖然地區性樣本只有25個，卻能比國家資料庫表現更好，縮小的全國資料庫的50個點表現也跟全國資料庫差不多。然而，spike過後的資料庫卻呈現驚人的結果，光是添加5個地區性樣本到全國資料庫，通常就能降低RMSEP，在有的組別中添加5個地區性樣本竟然能降低超過一半的RMSEP。  
+雖然地區性樣本只有25個，卻能比國家資料庫表現更好，縮小的全國資料庫的50個點表現也跟全國資料庫差不多。然而，spike過後的資料庫卻呈現驚人的結果，光是添加5個地區性樣本到全國資料庫，通常就能降低RMSEP，在有的組別中添加5個地區性樣本竟然能降低超過一半的RMSEP。相較於RMSEP的下降，SEP的下降就沒有那麼明顯，代表spike樣本所能降低的主要是bias的部分。其他指標例如R<sup>2</sub>也多是以地區性樣本最佳，而spike組別也高於原本的資料庫。  
   
-相較於RMSEP的下降，SEP的下降就沒有那麼明顯，
-
-
+### Discussion  
+**變數預測**  
+SOC與clay都具有最好的預測能力，這也跟NIR本身的性質符合，在三種土壤質地中clay的預測能力也優於silt及sand，又以silt最差，sand中含有的石英及長石通常是具有較大的反射，因此測量時反應較silt良好。  
+土壤pH值主要透過非直接的相關性來測量，因此測量效果較差，而P-AL也遇到相似的問題，因為他們都沒有辦法直接被NIR量測到。  
+  
+**地區性VS.國家級**  
+前面提過，國家資料庫所產出的校正模型通常受到較大的bias影響，但有些地方R<sup>2</sub>也比較低。在國家資料庫中spike樣品時，幾乎是全部組別都提高了預測準確度 (RMSEP大幅下降，R<sup>2</sub>小幅度上升)，並顯示bias的降低。  
+先前Brown (2007) 利用世界性的光譜資料庫來測量烏干達的土壤，並嘗試spike當地樣本進去，也發現在spike後的bias降低，他們推估是因為全球資料庫裡高度風化的土壤較少所導致。  
+在spike後的樣品組別，都與地區性校正的結果接近，然而在Sankey et al. (2008) 的研究中，spike後的全國資料庫卻能表現得比地區性樣本還要好，這是由於Sankey et al. (2008) 所調查的地區較大且變異性較高 (相對於本文的農場)，且地區性樣本的分布也較廣，因此，本文中集中小範圍的密集採樣具有較好的地區性校正效果。  
+  
+**國家級VS.縮小的國家級**  
+根據主成分分析挑選的50個樣品所組成的縮小資料庫多具有較整體國家資料庫更好的預測效果，在spike後的資料庫也只有少數是國家級spike較好，這幾個由國家級資料庫勝出的原因可能是因為那些地區有較多國家資料庫的樣品分布，也就是說那幾個地區有較多"較接近的樣品"。  
+  
+### Conclusions  
+總結來說，地區性資料庫的表現是比國家資料庫還要好的，即使地區性資料庫僅包含25個樣本。  
+地區性資料收集 (25樣本) 是比國家資料庫 (396樣本) 與挑選出的資料庫 (50樣本) 都還要好，且在原本的資料庫裡spike樣本還會直接降低bias，進而降低RMSEP，這代表地區性的資料收集，可能比國家級的資料庫還要能預測土壤性質，這是個相當有趣的觀點。  
+  
+### 參考資料  
+Brown, D.J. 2007. Using a global VNIR soil-spectral library for local soil characterization and landscape modeling in a 2nd-order Uganda watershed. Geoderma, 140, 444–453. <a href="https://doi.org/10.1016/j.geoderma.2007.04.021" target="_blank">https://doi.org/10.1016/j.geoderma.2007.04.021</a>   
+Sankey, J.B., Brown, D.J., Bernard, M.L., and Lawrence, R.L. 2008. Comparing local vs. global visible and near-infrared (VisNIR) diffuse reflectance spectroscopy (DRS) calibrations for the prediction of soil clay, organic C and inorganic C. Geoderma, 148, 149–158. <a href="https://doi.org/10.1016/j.geoderma.2008.09.019" target="_blank">https://doi.org/10.1016/j.geoderma.2008.09.019</a>   
