@@ -80,7 +80,7 @@ POD的名字來源是因為在原本俄語的Podzol與英文的Spodosol都含有
 原文裡有流程圖更容易懂，建議去看，總之POD指數的計算方法可以簡單表示成  
 $$POD \ index = \Sigma \Delta V \cdot 2 ^{\Delta H}$$  
 &Delta;V代表E層與B層間value的差異，&Delta;H代表hue的差異。這個指標不能用在有Ap層的土壤 (耕犁過的)，沒有E層的土壤也不能用。  
-在Schaetzl (2013) 對於美國723個淋澱化土壤剖面進行計算的結果中，非淋澱土 (但都有E層，具淋澱化現象) 的POD多在2以下，在Typic Haplorthods中平均為11.6，介於中間的Entic Haplorthods則為2-6。  
+在Schaetzl (1988) 對於美國723個淋澱化土壤剖面進行計算的結果中，非淋澱土 (但都有E層，具淋澱化現象) 的POD多在2以下，在Typic Haplorthods中平均為11.6，介於中間的Entic Haplorthods則為2-6。  
 因此可設立一個標準，即非淋澱土者POD < 2，Entic Haplorthods的POD介於2-6，Typic Haplorthods則具有POD > 6的性質，但當然也存在一些離群值。  
 作者進一步對344個其他文獻描述的淋澱化土壤進行測驗，且故意選擇非美國的淋澱化土壤，約有60%的正確率，這驗證了POD指標的實用性。  
   
