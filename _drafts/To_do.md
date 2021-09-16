@@ -3,6 +3,7 @@
 - Levene's test
 - The calculation of discriminating power for a series of correlated attributes
 - Clustering and classification of analytical data  
+- PLSR是啥?
   
 置入Latex的方法
 Align的方法：https://stackoverflow.com/questions/51977563/aligning-multiple-equations-in-mathjax
