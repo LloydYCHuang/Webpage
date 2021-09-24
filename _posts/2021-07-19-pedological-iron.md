@@ -92,8 +92,9 @@ title:  "Iron (Fe) selective extraction - 土壤中鐵的選擇性抽出方法"
 0.1 M 焦磷酸鈉：將44.61 g Na-pyrophosphate (10水合，分子量446.06) 溶於約800 mL水中，並使用NaOH調整至pH = 10後定量至1000 mL (理論上pH是9.6，但我實際配出來pH超過10，只好用鹽酸調回來)。  
   
 ### 總結
-這三種萃取法都是常見的實驗，務必搞懂他們的限制與應用，然後不要把這三種定義當作神聖的，而只是操作性的劃分，最重要的是奠基於萃取的化學性質作出解釋即可。  
-由於萃取劑的強弱與化學上的劃分，理論上Fe<sub>d</sub>包含Fe<sub>o</sub>與Fe<sub>p</sub>，而Fe<sub>o</sub>包含Fe<sub>p</sub>，但有些有機錯合物太多或是無定型物質太多的土壤中，也會有差異。實際利用上，(Fe<sub>d</sub> - Fe<sub>o</sub>)/Fe<sub>d</sub>可以做為鐵結晶程度的指標，而Al<sub>o</sub> + 0.5Fe<sub>o</sub>則可作為淋澱土的分類依據之一。  
+這三種萃取法都是常見的實驗，務必搞懂他們的限制與應用，然後不要把這三種定義當作神聖的，而只是操作性的劃分，最重要的是奠基於萃取的化學性質作出解釋即可。由於萃取劑的強弱與化學上的劃分，理論上Fe<sub>d</sub>包含Fe<sub>o</sub>與Fe<sub>p</sub>，而Fe<sub>o</sub>包含Fe<sub>p</sub>，如下圖。  
+<img src="https://lloydychuang.github.io/assets/iron.jpg" width="700">   
+但有些有機錯合物太多或是無定型物質太多的土壤中，也會有差異，有時也會測到有機態鐵高於無定型鐵的數據。實際利用上，(Fe<sub>d</sub> - Fe<sub>o</sub>)/Fe<sub>d</sub>可以做為鐵結晶程度的指標，而Al<sub>o</sub> + 0.5Fe<sub>o</sub>則可作為淋澱土的分類依據之一。  
   
 另外本文常提到的Soil Science Society of America出版的方法書指的是Methods of Soil Analysis, Part 3: Chemical Methods，我們實驗室內有常備一本，照著這本書基本上不會出錯，鐵的部分是Loeppert and Inskeep (1996)，裡面也有簡介原理，非常實用。  
   
