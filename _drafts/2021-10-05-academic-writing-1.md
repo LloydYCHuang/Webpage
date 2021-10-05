@@ -46,7 +46,8 @@ Academic writing所要考慮的重點有六個，分別為Audience, Purpose, Org
   
 **Complexity**  
 在academic writing中，文法通常較為複雜且較多複合句，且包含下列這幾種規矩。  
-Single verb: 單一的動詞 >> 動詞片語，能使用一個動詞精確描述的就不要用一個動詞片語，舉幾個可替換的例子，左邊是verb + proposition，在口語中較常見，但不適合用於academic writing，通常可替換到右邊的單一動詞，簡單來說能用一個字就不要用兩個字。
+- Single verb: 單一的動詞 >> 動詞片語，能使用一個動詞精確描述的就不要用一個動詞片語，舉幾個可替換的例子，左邊是verb + proposition，在口語中較常見，但不適合用於academic writing，通常可替換到右邊的單一動詞，簡單來說能用一個字就不要用兩個字。  
+  
 | verb + proposition (X) | Single verb (O) |     
 | :---: | :---: |      
 | put up with | tolerate |       
@@ -61,11 +62,12 @@ Single verb: 單一的動詞 >> 動詞片語，能使用一個動詞精確描述
 | think about | consider |   
 {: .tablelines}     
   
-Nominalization: 子句名詞化，在平時講話時我們多使用動詞子句，但在academic writing中以名詞子句來描述較佳。  
-Lexically dense: 詞語及資訊量較密集 (lexically dense)，單一觀念以單一名詞子句解釋即可。嘗試將動詞以名詞表達，就可以在同一句話裡塞入更多的概念，也就提升lexical density。
+- Nominalization: 子句名詞化，在平時講話時我們多使用動詞子句，但在academic writing中以名詞子句來描述較佳。  
+- Lexically dense: 詞語及資訊量較密集 (lexically dense)，單一觀念以單一名詞子句解釋即可。嘗試將動詞以名詞表達，就可以在同一句話裡塞入更多的概念，也就提升lexical density。  
+  
 可能有點難懂，那麼舉個例子：  
 English has *emerged as* the international language of scientific communication. This phenomenon has been widely documented.  
-上面這段話分成了兩句，且其中使用了動詞片語*emerged as*，如果要將其改寫成為較精簡的文句如下  
+上面這段話分成了兩句，且其中使用了動詞片語*emerged as*，如果要其改寫成為較精簡的文句如下  
 The emergence of English as the international language of scientific communication has been widely documented.  
 把動詞的*emerged as*直接轉成名詞子句The emergence of English (達成nominalization)，如此第一句話變成了一個nominal group，字詞更加精簡，並接上這個現象是widely documanted，兩句合成一句 (達成lexically dense)。  
   
