@@ -50,19 +50,19 @@ Academic writing所要考慮的重點有六個，分別為Audience, Purpose, Org
 在academic writing中，文法通常較為複雜且較多複合句，且包含下列這幾種規矩。  
 - Single verb: 單一的動詞 >> 動詞片語，能使用一個動詞精確描述的就不要用一個動詞片語，舉幾個可替換的例子，左邊是verb + proposition，在口語中較常見，但不適合用於academic writing，通常可替換到右邊的單一動詞，簡單來說能用一個字就不要用兩個字。  
   
-| verb + proposition (X) | Single verb (O) |     
-| :---: | :---: |      
-| put up with | tolerate |       
-| look into | investigate |      
-| figure out | determine |      
-| come up with | develop |     
-| make up | constitute |      
-| get rid of | eliminate |   
-| go up to | reach |   
-| keep up | maintain |   
-| go down | decrease |   
-| think about | consider |   
-{: .tablelines}     
+  | verb + proposition (X) | Single verb (O) |     
+  | :---: | :---: |      
+  | put up with | tolerate |       
+  | look into | investigate |      
+  | figure out | determine |      
+  | come up with | develop |     
+  | make up | constitute |      
+  | get rid of | eliminate |   
+  | go up to | reach |   
+  | keep up | maintain |   
+  | go down | decrease |   
+  | think about | consider |   
+  {: .tablelines}     
   
 - Nominalization: 子句名詞化，在平時講話時我們多使用動詞子句，但在academic writing中以名詞子句來描述較佳。  
 - Lexically dense: 詞語及資訊量較密集 (lexically dense)，單一觀念以單一名詞子句解釋即可。嘗試將動詞以名詞表達，就可以在同一句話裡塞入更多的概念，也就提升lexical density。  
