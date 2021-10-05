@@ -40,4 +40,34 @@ Academic writing所要考慮的重點有六個，分別為Audience, Purpose, Org
   
 **Formality**  
 與讀者相關，專業期刊/科普文章就有不同的等級，由TA而定，TA了解你的領域嗎？他們需要額外知識嗎？。  
-再來也需要決定Purpose，和前面一樣
+  
+**Clarity**  
+避免使用模糊不清或是多餘的字詞，且避免提供不必要的資訊，例如etc.這種讓讀者自己推測後續內容的方法，就會降低Clarity。
+  
+**Complexity**  
+在academic writing中，文法通常較為複雜且較多複合句，且包含下列這幾種規矩。  
+Single verb: 單一的動詞 >> 動詞片語，能使用一個動詞精確描述的就不要用一個動詞片語，舉幾個例子來說明的話就是
+| verb + proposition (X) | Single verb (O) |     
+| :---: | :---: |      
+| put up with | tolerate |       
+| 58 | 90 |      
+| 65 | 99 |      
+| 96 | 63 |     
+| 57 | 86 |      
+| 80 | 70 |      
+{: .tablelines}     
+Nominalization: 子句名詞化，在平時講話時我們多使用動詞子句，而在academic writing中以名詞子句來描述較佳。  
+Lexically dense: 詞語及資訊量較密集，單一觀念以單一名詞子句解釋即可。
+
+舉個例子：  
+English has *emerged as* the international language of scientific communication. This phenomenon has been widely documented.  
+上面這段話
+
+
+
+
+
+
+
+
+
