@@ -81,7 +81,14 @@ Hedging/Cautious：保留語氣，不要太過肯定你的結論，所以語氣�
 - Formal negative forms: 避免使用口語化的否定詞 (not, any)，轉而使用正式的否定詞如no, little, few。</br>This study **did not** observe **any** examples…改成This study observed **no** examples較佳。 </br>There is **not much** evidence…改成There is **little** evidence…較佳。
 - 不要使用問句，改成使用indirect question，除非對自己的寫作很有把握，否則千萬不要加入問句。
 - Mid-position adverbs: 副詞的位置通常被放在句子的中間，不要出現在前面或是句尾，因為這些位置代表要強調的重點，若副詞只是用於修飾，那麼就放中間即可。
-- Coordinating conjunction
+- Coordinating conjunction: 有七個常用的連接詞for, and, nor, but, or, yet, and so (FANBOYS)，這些連接詞可以用來連接句子，但不要使用在開頭，因為用在開頭時寫出來的句子通常是不完整的。
+- 很多個東西串聯，最後為, and…，此時前面的逗號可加可不加，美式英文較常加，作為serial comma可以避免混淆的情形，但沒有硬性規定。
+  
+### Flow  
+主要有關如何將文章順暢的連接在一起，以下是一些可以增加流暢度的技巧。  
+- 重複使用Key words (且不要隨便改動專業字詞)。
+- 多替換同義詞 (synonym)，不是重要的字則可以多變化。
+- 
 
 
 
