@@ -80,7 +80,9 @@ Hedging/Cautious: 保留語氣，不要太過肯定你的結論，所以語氣�
   
 **其他Convention**  
 - 不要使用縮寫，例如doesn't, don't都不要去使用。
-- **Formal negative forms**: 避免使用口語化的否定詞 (not, any)，轉而使用正式的否定詞如no, little, few。</br>This study **did not** observe **any** examples…改成This study observed **no** examples較佳。 </br>There is **not much** evidence…改成There is **little** evidence…較佳。
+- **Formal negative forms**: 避免使用口語化的否定詞 (not, any)，轉而使用正式的否定詞如no, little, few。  
+  This study **did not** observe **any** examples…改成This study observed **no** examples較佳。  
+  There is **not much** evidence…改成There is **little** evidence…較佳。
 - 不要使用問句，改成使用indirect question，除非對自己的寫作很有把握，否則千萬不要加入問句。
 - **Mid-position adverbs**: 副詞的位置通常被放在句子的中間，不要出現在前面或是句尾，因為這些位置代表要強調的重點，若副詞只是用於修飾，那麼就放中間即可。
 - Coordinating conjunction: 有七個常用的連接詞for, and, nor, but, or, yet, and so (FANBOYS)，這些連接詞可以用來連接句子，但不要使用在開頭，因為用在開頭時寫出來的句子通常是不完整的。
