@@ -7,7 +7,8 @@ title:  "Academic writing #1"
 2021/10/05  
 這學期修了臺大寫作教學中心的"學術英文論文寫作與發表"，雖然我已經有寫過一篇正式發表的期刊，但是在寫的過程中可以說是血淚縱橫，不斷地被老師退回重寫或是挑出錯誤，後來也送過英文編修才交出去，這學期一定要透過這堂課來增強我的寫作能力。要成為一名學者，發表是不可或缺的，讓我們在這條路上更進一步。  
   
-學習過程中的教科書是使用<a href="https://www.press.umich.edu/2173936/academic_writing_for_graduate_students_3rd_edition" target="_blank">Academic Writing for Graduate Students, 3rd Edition</a>，另外我也找到了一個可以參考的<a href="http://sana.aalto.fi/awe/index.html" target="_blank">學習網站</a>。
+學習過程中的教科書是使用<a href="https://www.press.umich.edu/2173936/academic_writing_for_graduate_students_3rd_edition" target="_blank">Academic Writing for Graduate Students, 3rd Edition</a>，另外我也找到了一個可以參考的<a href="http://sana.aalto.fi/awe/index.html" target="_blank">學習網站</a>。  
+雖然我的教科書在買來的第一天就被我身旁的同學打翻咖啡在上面了QQ，但我還是會認真把這本書讀完並且記錄學習的過程，最後這本書再留在土調實驗室吧~  
   
 *An amateur practices until they can play it correctly, a professional practices until they can't play it incorrectly.  
 &mdash;Unknown*  
@@ -90,7 +91,7 @@ Hedging/Cautious：保留語氣，不要太過肯定你的結論，所以語氣�
 主要有關如何將文章順暢的連接在一起，以下是一些可以增加流暢度的技巧。  
 - 重複使用Key words (且不要隨便改動專業字詞)。
 - 多替換同義詞 (synonym)，不是重要的字則可以多變化。
-- 
+- Old-to-new infromation flow: 掌握將句子以舊資訊-新資訊的順序連接在一起，也就是在新的一句裡面提到上一句的內容，如此文句的flow會較為通順，是一個常使用的方法。
 
 
 
