@@ -46,24 +46,42 @@ Academic writing所要考慮的重點有六個，分別為Audience, Purpose, Org
   
 **Complexity**  
 在academic writing中，文法通常較為複雜且較多複合句，且包含下列這幾種規矩。  
-Single verb: 單一的動詞 >> 動詞片語，能使用一個動詞精確描述的就不要用一個動詞片語，舉幾個例子來說明的話就是
+Single verb: 單一的動詞 >> 動詞片語，能使用一個動詞精確描述的就不要用一個動詞片語，舉幾個可替換的例子，左邊是verb + proposition，在口語中較常見，但不適合用於academic writing，通常可替換到右邊的單一動詞，簡單來說能用一個字就不要用兩個字。
 | verb + proposition (X) | Single verb (O) |     
 | :---: | :---: |      
 | put up with | tolerate |       
-| 58 | 90 |      
-| 65 | 99 |      
-| 96 | 63 |     
-| 57 | 86 |      
-| 80 | 70 |      
+| look into | investigate |      
+| figure out | determine |      
+| come up with | develop |     
+| make up | constitute |      
+| get rid of | eliminate |   
+| go up to | reach |   
+| keep up | maintain |   
+| go down | decrease |   
+| think about | consider |   
 {: .tablelines}     
-Nominalization: 子句名詞化，在平時講話時我們多使用動詞子句，而在academic writing中以名詞子句來描述較佳。  
-Lexically dense: 詞語及資訊量較密集，單一觀念以單一名詞子句解釋即可。
-
-舉個例子：  
+  
+Nominalization: 子句名詞化，在平時講話時我們多使用動詞子句，但在academic writing中以名詞子句來描述較佳。  
+Lexically dense: 詞語及資訊量較密集 (lexically dense)，單一觀念以單一名詞子句解釋即可。嘗試將動詞以名詞表達，就可以在同一句話裡塞入更多的概念，也就提升lexical density。
+可能有點難懂，那麼舉個例子：  
 English has *emerged as* the international language of scientific communication. This phenomenon has been widely documented.  
-上面這段話
-
-
+上面這段話分成了兩句，且其中使用了動詞片語*emerged as*，如果要將其改寫成為較精簡的文句如下  
+The emergence of English as the international language of scientific communication has been widely documented.  
+把動詞的*emerged as*直接轉成名詞子句The emergence of English (達成nominalization)，如此第一句話變成了一個nominal group，字詞更加精簡，並接上這個現象是widely documanted，兩句合成一句 (達成lexically dense)。  
+  
+**Objectivity**  
+通常使用impersonal的敘事手法，即不使用人稱代名詞 (I, you等)，經過時間的演進，We則逐漸可以使用在academic writing，但也還是避免。  
+  
+被動語態能夠表達客觀性，在材料與方法部分幾乎都是使用被動式，雖然其他模式的寫作會將被動式視為不好的 (例如一些校正軟體)，但是被動式可以表達文句的客觀性，在academic writing反而應該積極使用。  
+  
+Hedging/Cautious：保留語氣，不要太過肯定你的結論，所以語氣有時會像建議。  
+  
+**其他Convention**  
+- 不要使用縮寫，例如doesn't, don't都不要去使用。
+- Formal negative forms: 避免使用口語化的否定詞 (not, any)，轉而使用正式的否定詞如no, little, few。</br>This study **did not** observe **any** examples…改成This study observed **no** examples較佳。 </br>There is **not much** evidence…改成There is **little** evidence…較佳。
+- 不要使用問句，改成使用indirect question，除非對自己的寫作很有把握，否則千萬不要加入問句。
+- Mid-position adverbs: 副詞的位置通常被放在句子的中間，不要出現在前面或是句尾，因為這些位置代表要強調的重點，若副詞只是用於修飾，那麼就放中間即可。
+- Coordinating conjunction
 
 
 
