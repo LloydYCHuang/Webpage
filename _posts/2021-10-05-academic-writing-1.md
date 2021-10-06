@@ -79,7 +79,7 @@ The *emergence* of English as the international language of scientific communica
 Hedging/Cautious: 保留語氣，不要太過肯定你的結論，所以語氣有時會像建議。  
   
 **其他Convention**  
-- 不要使用縮寫，例如doesn't, don't都不要去使用。
+- No contraction: 不要使用口語的縮寫，例如doesn't, don't都不要去使用。
 - **Formal negative forms**: 避免使用口語化的否定詞 (not, any)，轉而使用正式的否定詞如no, little, few。  
   This study **did not** observe **any** examples…改成This study observed **no** examples較佳。  
   There is **not much** evidence…改成There is **little** evidence…較佳。
