@@ -14,7 +14,7 @@ title:  "Academic writing #2 General to Specific"
 複習一點上次的內容，寫作時不是寫越多越好，需要把握幾個重點，首先要讓自己的文字簡明概要 (conciseness)，代表簡短但清楚表達，此外讓自己的文字精準 (preciseness)，代表避免模糊不清的文字敘述，例如many things這種不明所以的文字，要講就要清楚寫明白。  
   
 ### General to Specific (G-S) Organization  
-這是一個很常使用的結構安排，就和他的名字一樣，代表從較為廣泛 (general) 的內容開始，再慢慢縮小到精確 (specific) 的重點，這是因為如果起頭就提到重點的話可能無法說服別人這件事情的重要性。如果仔細觀察許多文章的Introduction很容易發現類似的架構。通常要限縮你的內容時會採用這樣的順序：  
+這是一個很常使用的結構安排，就和他的名字一樣，代表從較為廣泛 (general) 的內容開始，再慢慢縮小到精確 (specific) 的重點，這是因為如果起頭就提到重點的話可能無法說服別人這件事情的重要性。如果仔細觀察許多文章的Introduction很容易發現類似的架構。通常會採用這樣的順序：  
 1. General statement
 2. Elaboration on the statement
 3. More detailed elaboration
@@ -30,7 +30,7 @@ G-S所使用的策略之一是使用上次提過的old-to-new information flow�
 寫文章時，如果是大家都知道的事實就不用cite了，但特別提出的證據或資訊 (例如排名、統計數字) 就需要cite。  
   
 **Purpose Statement**  
-當本研究目的是在探討方法學的時候，可能會提出Purpose statement，但這種情況並不常見。  
+當研究目的是在探討方法學的時候，可能會提出Purpose statement，但這種情況並不常見。  
   
 **Definition**  
 最後一種是提出Definitions，以定義來開頭，當讀者並不清楚或是這個定義具有爭議性的時候較常使用。Definition可以做為文章的"hook"，讓後續的內容可以跟隨而上，一般而言一個Definition可以表示為**Term = verb + defining information**，後續還會仔細講解。  
@@ -47,21 +47,42 @@ Definition這個詞來自拉丁文*definio*，代表限縮或限制、以詞語�
 - refer to
 - denoted 
   
-**Formal sentence definitions**  
-以完整句子解釋該名詞，需要清楚的使用一個歸類性的名詞 (summary word)。架構如下
+**Formal Sentence Definitions**  
+以完整句子解釋該名詞，需要清楚的使用一個歸類性的名詞 (summary word)。架構如下：  
 | Term | Verb | a/an class | relative pronoun | distinguishing detail |    
 | :--- | :--- | :--- | :--- | :--- |
 | A solar cell | is | a device | that/which | converts the energy of sunlight into electric energy. |  
 {: .tablelines}  
    
-注意要先使用summary word，這個summary word應該是在目標名詞更上一層的概括性名詞，然後再用細節去把目標名詞從概括性名詞裡區別出來。  
-文法的部分，注意需要使用indefinite article (不定冠詞)，也就是a/an，如果使用定冠詞the意思將會改變，就不是在講定義了。至於relative pronoun (關係代名詞)，使用that或是which都可以，但如果是有介係詞 (例如in which)，就一定要使用which。  
+Summary word應該是在目標名詞更上一層的概括性名詞，然後再用細節去把目標名詞從概括性名詞裡區別出來，例如先提到太陽能電池是一種裝置，再說明他和其他的裝置又有什麼不同 (是一種將太陽能轉換成電能的裝置)。常用的summary word包含technique, method, process, device, system。  
   
-當定義文句太長的時候，可以利用一些技巧縮短文句，第一種是Deletion，當定義內容
-
-
-
-
-
-
-
+文法的部分，注意需要使用indefinite article (不定冠詞)，也就是a/an，如果使用定冠詞the意思將會改變，會變成在說太陽能電池就是唯一一種可以將太陽能轉換成電能的裝置 (當然如果事實如此的話也可以寫)。至於relative pronoun (關係代名詞)，使用that或是which都可以，但如果是有介係詞 (例如in which)，就一定要使用which，另外by which, by means of which, through which在正式英文中都會寫成**whereby**。    
+  
+當定義文句太長的時候，可以利用兩種技巧縮短文句，第一種是Deletion，如果單純的以be動詞描述distinguishing detail，可以省略relative pronoun與be動詞，例如底下的例子：  
+1. A theater is a white protein *that is formed* by fibroblasts.
+2. A theater is a white protein **formed** by fibroblasts.    
+  
+或是      
+1. A wharf is a structure *that is along* a waterfront providing...
+2. A wharf is a structure **along** a waterfront providing... 
+  
+另一種方法是Change the word form，例如將relative pronoun+動詞have (有) 改成with即可，或是將某個正在進行的relative pronoun+動詞改成動詞-ing即可，例如底下的例子：  
+1. A parliament is a national governing body *which has* the highest level of legislative power within a state.
+2. A parliament is a national governing body **with** the highest level of legislative power within a state.  
+  
+以及  
+1. A moon is a natural satellite *which orbits* a planet.
+2. A moon is a natural satellite **orbiting** a planet.
+  
+但有些時候，如果不是表達完全確定的事實而添加了may, can這些助動詞，就不可以隨便省略。  
+  
+**Extended Definitions**  
+當定義可能有許多爭議或是後續發展時，可能需要一個段落。Term = Class + Characteristics + Details (application/example)。Details包含Process analysis, History, Applications, Components/types, Examples, Problems, Exceptions/future predictions  
+  
+### Variations in Definitions  
+定義有Competing, Comparative, or Contrastive三種可能的變化，有時不同學者有不同的定義，此時就要寫清楚你是使用誰的定義。Competing definition使用詞語例如…remain unclear, little agreement on…, require further…。剩下兩種都在比較  
+  
+待續
+  
+### References  
+Swales, J.M. and Feak, C.B. 2012. Academic Writing for Graduate Students, 3rd Edition. Ann Arbor, MI: University of Michigan Press ELT. <a href="https://doi.org/10.3998/mpub.2173936" target="_blank">https://doi.org/10.3998/mpub.2173936</a>  
