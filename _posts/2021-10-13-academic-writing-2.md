@@ -49,10 +49,11 @@ Definition這個詞來自拉丁文*definio*，代表限縮或限制、以詞語�
   
 **Formal Sentence Definitions**  
 以完整句子解釋該名詞，需要清楚的使用一個歸類性的名詞 (summary word)。架構如下：  
+    
 | Term | Verb | a/an class | relative pronoun | distinguishing detail |    
-| :--- | :--- | :--- | :--- | :--- |
-| A solar cell | is | a device | that/which | converts the energy of sunlight into electric energy. |  
-{: .tablelines}  
+| :--- | :--- | :--- | :--- | :--- |      
+| A solar cell | is | a device | that/which | converts the energy of sunlight into electric energy. |    
+{: .tablelines}   
    
 Summary word應該是在目標名詞更上一層的概括性名詞，然後再用細節去把目標名詞從概括性名詞裡區別出來，例如先提到太陽能電池是一種裝置，再說明他和其他的裝置又有什麼不同 (是一種將太陽能轉換成電能的裝置)。常用的summary word包含technique, method, process, device, system。  
   
