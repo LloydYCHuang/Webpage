@@ -81,9 +81,10 @@ Summary word應該是在目標名詞更上一層的概括性名詞，然後再�
 當定義可能有許多爭議或是後續發展時，可能需要一個段落來解釋，此時這種較長的解釋就被稱作Extended Definitions。主要架構為Term = Class + Characteristics + Details (application/example)。根據文章的不同，Details包含Process analysis, History, Applications, Components/types, Examples, Problems, Exceptions/future predictions等，可以更加完整的展示你的定義。    
    
 ### Variations in Definitions  
-定義有Competing, Comparative, or Contrastive三種可能的變化，有時不同學者有不同的定義，此時就要寫清楚你是使用誰的定義。Competing definition使用詞語例如…remain unclear, little agreement on…, require further…。剩下兩種都在比較  
-  
-待續
-  
+定義有幾種三種可能的變化，有時不同學者有不同的定義，這時就可以提出不同的定義來比較，然而最後要記得說清楚我們使用的是誰的定義。  
+- Competing Definition: 代表同個字詞有不同的定義而尚未明瞭。使用詞語例如remain unclear, little agreement on..., require further...。
+- Comparative Definition: 代表兩個字詞很接近但有些不同，例如: patents vs. copyrights。  
+- Contrastive Definition: 就是展示你對這個主題有多了解，鋪陳出許多相關的歷史、多方觀點等。  
+    
 ### References  
 Swales, J.M. and Feak, C.B. 2012. Academic Writing for Graduate Students, 3rd Edition. Ann Arbor, MI: University of Michigan Press ELT. <a href="https://doi.org/10.3998/mpub.2173936" target="_blank">https://doi.org/10.3998/mpub.2173936</a>  
