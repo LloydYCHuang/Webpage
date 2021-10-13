@@ -78,8 +78,8 @@ Summary word應該是在目標名詞更上一層的概括性名詞，然後再�
 但有些時候，如果不是表達完全確定的事實而添加了may, can這些助動詞，就不可以隨便省略。  
   
 **Extended Definitions**  
-當定義可能有許多爭議或是後續發展時，可能需要一個段落。Term = Class + Characteristics + Details (application/example)。Details包含Process analysis, History, Applications, Components/types, Examples, Problems, Exceptions/future predictions  
-  
+當定義可能有許多爭議或是後續發展時，可能需要一個段落來解釋，此時這種較長的解釋就被稱作Extended Definitions。主要架構為Term = Class + Characteristics + Details (application/example)。根據文章的不同，Details包含Process analysis, History, Applications, Components/types, Examples, Problems, Exceptions/future predictions等，可以更加完整的展示你的定義。    
+   
 ### Variations in Definitions  
 定義有Competing, Comparative, or Contrastive三種可能的變化，有時不同學者有不同的定義，此時就要寫清楚你是使用誰的定義。Competing definition使用詞語例如…remain unclear, little agreement on…, require further…。剩下兩種都在比較  
   
