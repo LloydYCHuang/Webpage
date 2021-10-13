@@ -57,10 +57,10 @@ Definition這個詞來自拉丁文*definio*，代表限縮或限制、以詞語�
    
 Summary word應該是在目標名詞更上一層的概括性名詞，然後再用細節去把目標名詞從概括性名詞裡區別出來，例如先提到太陽能電池是一種裝置，再說明他和其他的裝置又有什麼不同 (是一種將太陽能轉換成電能的裝置)。常用的summary word包含technique, method, process, device, system。  
   
-文法的部分，注意需要使用indefinite article (不定冠詞)，也就是a/an，如果使用定冠詞the意思將會改變，會變成在說太陽能電池就是唯一一種可以將太陽能轉換成電能的裝置 (當然如果事實如此的話也可以寫)。至於relative pronoun (關係代名詞)，使用that或是which都可以，但如果是有介係詞 (例如in which)，就一定要使用which，另外by which, by means of which, through which在正式英文中都會寫成**whereby**。    
+文法的部分，注意需要使用indefinite article (不定冠詞)，也就是a/an，如果使用定冠詞the意思將會改變，會變成在說太陽能電池就是唯一一種可以將太陽能轉換成電能的裝置 (當然如果事實如此的話也可以寫)。至於relative pronoun (關係代名詞)，使用that或是which都可以，但如果是有介係詞 (例如in which)，就一定要使用which，另外by which, by means of which, through which在正式英文中都會寫成**whereby**。另外要注意避免使用where和when，這兩個詞會讓語句變得不專業。    
   
 當定義文句太長的時候，可以利用兩種技巧縮短文句，第一種是Deletion，如果單純的以be動詞描述distinguishing detail，可以省略relative pronoun與be動詞，例如底下的例子：  
-1. A theater is a white protein *that is formed* by fibroblasts.
+1. A theater is a white protein *that is formed* by fibroblasts.  
 2. A theater is a white protein **formed** by fibroblasts.    
   
 或是      
