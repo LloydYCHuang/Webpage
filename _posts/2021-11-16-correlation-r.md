@@ -5,8 +5,7 @@ title:  "相關係數與其視覺化工具的R實作"
 ---  
 ## 相關係數與其視覺化工具的R實作   
 2021/11/16  
-這篇建議搭配網誌內的[相關係數文章](https://lloydychuang.github.io/statistic/2021/08/05/correlation.html)一起看。用R算相關係數相當容易，這篇文章也會包含資料視覺化 (data visualization) 的工具。  
-可以參考<a href="https://cran.r-project.org/web/packages/ggcorrplot/readme/README.html" target="_blank">R官方的readme</a>。  
+這篇建議搭配網誌內的[相關係數文章](https://lloydychuang.github.io/statistic/2021/08/05/correlation.html)一起看。用R算相關係數相當容易，這篇文章也會包含資料視覺化 (data visualization) 的工具，可以參考<a href="https://cran.r-project.org/web/packages/ggcorrplot/readme/README.html" target="_blank">R官方的readme</a>，相當的有幫助。  
   
 *If you really believe in what you're doing, work hard, take nothing personally and if something blocks one route, find another. Never give up.  
 &mdash;Laurie Notaro*  
@@ -34,6 +33,7 @@ Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
 - <a href="http://myowelt.blogspot.com/2008/04/beautiful-correlation-tables-in-r.html" target="_blank">Beautiful Correlation Tables in R</a>    
 - <a href="https://stat.ethz.ch/pipermail/r-help/2008-March/156583.html" target="_blank">Correlation matrix one side with significance</a>   
 - <a href="https://www.r-bloggers.com/2020/07/create-a-publication-ready-correlation-matrix-with-significance-levels-in-r/" target="_blank">Create a publication-ready correlation matrix, with significance levels, in R</a>   
+   
 These codes do not originate from me. You can freely use these codes but please pay tribute to the websites above.  
 ```
 # 建立函數
