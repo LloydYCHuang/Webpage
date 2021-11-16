@@ -1,9 +1,9 @@
 ---
 layout: default
 categories: R
-title:  "相關係數的R實作"
+title:  "相關係數與其視覺化工具的R實作"
 ---  
-## 相關係數的R實作   
+## 相關係數與其視覺化工具的R實作   
 2021/11/16  
 這篇建議搭配網誌內的[相關係數文章](https://lloydychuang.github.io/statistic/2021/08/05/correlation.html)一起看。用R算相關係數相當容易，這篇文章也會包含資料視覺化 (data visualization) 的工具。  
   
