@@ -1,6 +1,6 @@
 ---
 layout: English
-title:  "Hi! I am Lloyd!"
+title:  "About Lloyd"
 ---  
 # About Lloyd  
 ### 
