@@ -1,5 +1,9 @@
+---
+layout: English
+title:  "CV"
+---  
 # Lloyd Huang  
-_所謂夢想，就是不忘初衷的走在與自己約定的道路上_  
+
 
 ***
 ## Education  
