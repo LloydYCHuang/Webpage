@@ -3,8 +3,7 @@ layout: English
 title:  "Hi! I am Lloyd!"
 ---  
 ## Hi, I am Lloyd. <br> I am a Master's student, soil surveyor, wildlife lover, and future scientist.  
-  
-  
+***  
 <h3 align="center">We choose to go to the Moon in this decade and do the other things.<br>Not because they are easy, but because they are hard.<br>John F. Kennedy</h3>  
   
 <img align="left" width="264" height="480" style="margin-right:20px" src="https://lloydychuang.github.io/assets/me.jpg">
