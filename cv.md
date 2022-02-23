@@ -9,6 +9,7 @@ A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/sit
 **National Taiwan University**  
 *Candidate for Master of Science in Agricultural Chemistry (Sept. 2020 - present)*  
 - GPA 4.29/4.30
+- Advisor: Dr. Zeng-Yei Hseu
 - Thesis: Characterization of podzolic soils using proximal sensing in subtropical subalpine forests   
 
 **National Taiwan University**   
