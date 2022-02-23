@@ -4,6 +4,7 @@ title:  "CV"
 ---  
 # Yin-Chung (Lloyd) Huang 黃胤中  
 ***  
+A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/site_CV.pdf" target="_blank">here</a>  
 ## Education  
 **National Taiwan University**  
 *Candidate for Master of Science in Agricultural Chemistry (Sept. 2020 - present)*  
