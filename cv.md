@@ -13,7 +13,7 @@ A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/sit
 - Thesis: Characterization of podzolic soils using proximal sensing in subtropical subalpine forests   
 
 **National Taiwan University**   
-*Biological Statistics Program (Sept. 2019 - Feb. 2022)*  
+*Biological Statistics Program (Sept. 2019 - Jan. 2022)*  
 -	Completed 20 designated credits, including Advanced Statistics, Applied Linear Algebra, Experimental Design, Artificial Neural Networks, and Spatial Analysis  
 
 **National Taiwan University**  
