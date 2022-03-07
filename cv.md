@@ -47,7 +47,7 @@ A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/sit
   
 **Hsin Tian Kong Long-term Scholarship**  
 *1500 USD each semester (July 2019 – June 2022)*  
--	Acquired financial support from the Cultural and Educational Foundation of the largest temple in Taiwan  
+-	Acquired financial support from the Cultural and Educational Foundation of the largest religious group in Taiwan  
    
 ## Conference experience  
 **Pedometrics Webinar**  
