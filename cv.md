@@ -54,7 +54,7 @@ A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/sit
 *Oral presentation (June 2021)*  
 *Virtual*  
 - Webinar held by the Pedometrics commission of the International Union of Soil Sciences (IUSS)  
--	Topic: Characterization of podzolic soils using digital morphometrics in a subtropical subalpine forest of Taiwan  
+-	Topic: Characterization of podzolic soils using digital soil morphometrics in a subtropical subalpine forest of Taiwan  
   
 **Annual Meeting of the Geography Society of China (中國地理學會年會暨學術研討會)**  
 *Oral presentation (May 2021)*  
