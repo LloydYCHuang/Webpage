@@ -15,7 +15,7 @@ To date, I have published one peer-reviewed paper on the journal Geoderma Region
    
 My major extracurricular activity is Model United Nations (MUN). I participated as a delegate in Harvard World MUN at Montreal, Canada, as a lecturer in club courses, and as a chair in an official MUN held by New Taipei City Government. In my spare time, I enjoy jogging and hiking, and I participated in the NTU Campus Marathon (5 km) over three years. Also, I like to play video games, and my favorites include Horizon Zero Dawn, Monster Hunter, and Sekiro.
    
-I am a dreamer and looking forward to a PhD adventure. In late 2022, I will start my application for PhD program! For more information, check out my CV and Research pages. You can also contact me through email (r09623007@ntu.edu.tw) and Twitter (<a href="https://twitter.com/LloydYCHuang" target="_blank">@LloydYCHuang</a>).   
+I am a dreamer and looking forward to a PhD adventure. In late 2022, I will start my application for PhD program! For more information, check out my CV and Research pages. You can also contact me through email (r09623007@ntu.edu.tw) and Twitter (<a href="https://twitter.com/LloydYCHuang" target="_blank">@LloydYCHuang</a>).    
   
   
   
