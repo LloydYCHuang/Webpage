@@ -46,7 +46,7 @@ A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/sit
 ## Awards & honors  
 **Travel Grants supported by International Union of Soil Sciences (IUSS)**  
 *Up to 1000 USD as reimbursements of travel costs for early-career scientists*  
--	Accepted on May 3, 20221
+-	Accepted on May 3, 2022
 -	Acquired travel grant for 22<sup>nd</sup> World Congress of Soil Science
   
 **Honorable Mention for Academic Thesis Competition**  
