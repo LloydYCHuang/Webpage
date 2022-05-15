@@ -1,7 +1,7 @@
 ---
 layout: default
-title:  "嗨！我是Lloyd！"
----  
+title:  "About"
+---   
 ![image](https://drive.google.com/uc?export=view&id=1lbI7eFqkzlFXrK4juCg6eiaw-4fSvEiF)  
 
 ## About Lloyd  
