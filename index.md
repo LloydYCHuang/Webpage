@@ -2,9 +2,9 @@
 layout: English
 title:  "Hi! I am Lloyd!"
 ---  
+![image](https://drive.google.com/uc?export=view&id=1iwENMBG_3MUy_sm-xH7yNixWI8MGG3Ck)  
 ## Hi, I am Lloyd. <br> I am a Master's student, soil surveyor, and future scientist.  
 ***  
-<h3 align="center">We choose to go to the Moon in this decade and do the other things.<br>Not because they are easy, but because they are hard.<br>John F. Kennedy</h3>  
    
 <img align="left" width="352" height="640" style="margin-right:20px" src="https://lloydychuang.github.io/assets/me.jpg">
 I am Yin-Chung (Lloyd) Huang, a Master's student at the Department of Agricultural Chemistry, National Taiwan University. I have a broad interest in questions involved in the biogeochemical cycle and seek an opportunity to pursue a Doctoral degree overseas. In short, I want to be a scientist in the future.  
