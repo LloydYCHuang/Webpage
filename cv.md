@@ -2,7 +2,6 @@
 layout: English
 title:  "CV"
 ---  
-![image](https://drive.google.com/uc?export=view&id=1lbI7eFqkzlFXrK4juCg6eiaw-4fSvEiF)  
 # Yin-Chung (Lloyd) Huang 黃胤中  
 ***  
 A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/site_CV.pdf" target="_blank">here</a>  
