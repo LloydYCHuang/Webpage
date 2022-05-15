@@ -2,7 +2,8 @@
 layout: English
 title:  "Hi! I am Lloyd!"
 ---  
-![image](https://drive.google.com/uc?export=view&id=1iwENMBG_3MUy_sm-xH7yNixWI8MGG3Ck)  
+<img src="https://lloydychuang.github.io/assets/cover1.jpg">   
+
 ## Hi, I am Lloyd. <br> I am a Master's student, soil surveyor, and future scientist.  
 ***  
    
