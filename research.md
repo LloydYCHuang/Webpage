@@ -29,7 +29,7 @@ My undergraduate project was mainly about silicon (Si) availability in the paddy
 ***
 
 ## Anthropology  
-<img align="left" src="https://drive.google.com/uc?export=view&id=1Eiibv6daK4Zb_-SYNffZjG8HXOwAWzxk" width="300" style="margin-right:20px">
+<img align="left" src="https://drive.google.com/uc?export=view&id=1Eiibv6daK4Zb_-SYNffZjG8HXOwAWzxk" width="280" style="margin-right:20px">
 When I was a sophomore, I started to have continuous cooperation between my laboratory and the Department of Anthropology, NTU. The site we are focusing on is the Hutoushan Park site from Linkou Terrace, Taiwan. The Hutoushan Park site belongs to the Botanical Garden Culture of the Late Neolithic Period, and it’s believed to last approximately from 2,800~1,800 BP. My participation was mainly assisting soil analysis, and it was such a cool experience to see people studying archaeology in soil pits. The way we see soil profiles are different, and our interpretations are different. Until now, the exchange of ideas keeps giving me a lot of pleasure.  
   
 
