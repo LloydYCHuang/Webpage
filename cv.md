@@ -42,7 +42,7 @@ A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/sit
 *July 2017 - present*  
 *Will work as Full Time Research Assistant from Sept. 2022*  
 - Lab website: <a href="https://ssrlab.com.tw/" target="_blank">https://ssrlab.com.tw/</a>
-- Combined portable X-ray fluorescence and Vis/NIR/SWIR spectroradiometers to predict soil organic carbon, clay, amorphous iron, and optical density of oxalate extractant (ODOE)
+- Combined portable X-ray fluorescence spectrometer and Vis/NIR/SWIR spectroradiometers to predict soil organic carbon, clay, amorphous iron, and optical density of oxalate extractant (ODOE)
 -	Investigated the differentiation of podzolic soils in subalpine forests in Taiwan using selective extraction, micromorphology, and multivariate statistics
 -	Analyzed the distribution of Silicon availability and its difference in forest soils and paddy fields of Taiwan
 -	Carried out physical and chemical analysis on the soils from an archeological site on a joint project with the department of Anthropology, National Taiwan University (NTU)  
@@ -111,13 +111,13 @@ A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/sit
   
 ## Skills  
 **Computer Programming**  
--	R (Carried out machine learning, spectra pre-processing, and geostastics)
+-	R (Carried out machine learning, spectra pre-processing, and geostatistics)
 -	QGIS
 -	HTML (Lab website maintenance)
   
 **Laboratory Instruments**  
 -	Field-portable Vis/NIR/SWIR spectroradiometers (ASD FieldSpec 3)
--	Portable X-ray fluorescence spectroscopy (Olympus DELTA Premium pXRF)
+-	Portable X-ray fluorescence spectrometer (Olympus DELTA Premium pXRF)
 -	Atomic absorption spectroscopy
 -	Inductively coupled plasma - optical emission spectrometry (ICP-OES)
 -	X-ray diffraction (XRD)
