@@ -10,7 +10,7 @@ A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/sit
 *Master of Science in Agricultural Chemistry (Sept. 2020 - July 2022)*  
 - GPA 4.24/4.30
 - Advisor: Prof. Zeng-Yei Hseu
-- Thesis: Using pXRF and Vis-NIR reflectance spectra to predict the diagnostic criteria of podzolic soils in subalpine areas of Taiwan
+- Thesis: A feasibility study of using pXRF and Vis-NIR reflectance spectra as the diagnostic criteria of podzolic soils in subalpine areas of Taiwan
 - Relevant courses: Principles of Remote Sensing, Geostatistics, Soil Physical Chemistry, and English Writing for Academic Purposes   
   
 **National Taiwan University**   
