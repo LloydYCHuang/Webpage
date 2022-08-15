@@ -24,14 +24,14 @@ A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/sit
 -	Relevant courses: Physical Chemistry, Analytical Chemistry, Organic Chemistry, Soil Chemistry, Soil Morphology and Classification, Biochemistry, Plant Nutrition, and Molecular Biology
   
 ## Publications  
-*Submitted*  
+*Revised and Submitted*  
 - **Huang, Y. C.,** Chen, Z. S., Hsu, J. Y., Chiu, C. M., & Hseu, Z. Y. (2022). Differentiation of fine-textured podzolic soils controlled by climate and landscape in Taiwan. Geoderma **(SCI, IF = 7.422, ranked 4/37 in Soil Science)**. (manuscript number: GEODER-D-22-00525)  
   
 *Published*  
 - **Huang, Y. C.,** & Hseu, Z. Y. (2021). Silicon availability in relation to soil properties in Inceptisols on uncultivated lands and paddy fields in Taiwan. Geoderma Regional, 26: e00406. **(SCI, IF = 4.201)**  
   
 *International conference publications*  
-- **Huang, Y. C.,** Huang, C. Y., & Hseu, Z. Y. (2022). Characterization of podzolic soils using digital soil morphometrics in subtropical subalpine forests. Abstract Proceedings of 22<sup>nd</sup> World Congress of Soil Science. International Union of Soil Science. Glasgow, UK. July 31-Aug. 5, 2022. (oral presentation in person; accepted on Feb. 10, 2022)  
+- **Huang, Y. C.,** Huang, C. Y., & Hseu, Z. Y. (2022). Characterization of podzolic soils using digital soil morphometrics in subtropical subalpine forests. Abstract Proceedings of 22<sup>nd</sup> World Congress of Soil Science. International Union of Soil Science. Glasgow, UK. July 31-Aug. 5, 2022. (oral presentation in person)  
 - **Huang, Y. C.,** Huang, C. Y., & Hseu, Z. Y. (2022). Characterization of organometallic complexes in podzolic soils in subalpine forest using proximal sensors. Abstract Proceedings of 8<sup>th</sup> International Symposium on Soil Organic Matter. Korean Society of Soil Science and Fertilizer. Seoul, Korea. June 26-30, 2022. (oral presentation by pre-recorded video)
 - **Huang, Y. C.,** & Hseu, Z. Y. (2021). Characterization of podzolic soils using digital morphometrics in a subtropical subalpine forest of Taiwan. Abstract Proceedings of Pedometric Webinar. International Union of Soil Science. June 16-17, 2021. (oral presentation)  
 - **Huang, Y. C.,** & Hseu, Z. Y. (2019). Silicon availability and its relation to other properties of soils in Taiwan. Abstract Proceedings of 14<sup>th</sup> International Conference of the East and Southeast Asia Federation of Soil Science Societies (ESAFS). National Taiwan University. Taipei, Taiwan. Nov. 3-8, 2019. (oral presentation)
@@ -70,7 +70,7 @@ A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/sit
    
 ## Conference experience  
 **22<sup>nd</sup> World Congress of Soil Science**  
-*Oral presentation (accepted on Feb. 10, 2022, will present in person on Aug. 2, 2022)*  
+*Oral presentation in person (Aug. 2022)*  
 *Glasgow, UK*  
 -	The leading international conference in soil science with over 3000 participants worldwide
 -	Topic: Characterization of podzolic soils using digital soil morphometrics in subtropical subalpine forests
