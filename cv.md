@@ -4,10 +4,10 @@ title:  "CV"
 ---  
 # Yin-Chung (Lloyd) Huang 黃胤中  
 ***  
-A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/site_CV.pdf" target="_blank">here</a>  
+<a href="https://lloydychuang.github.io/assets/site_CV.pdf" target="_blank">A pdf file of CV is available here</a>  
 ## Education  
 **National Taiwan University (NTU)**  
-*Master of Science in Agricultural Chemistry (Sept. 2020 - July 2022)*  
+*Master of Science in Agricultural Chemistry (Sept. 2020 - June 2022)*  
 - GPA 4.24/4.30
 - Advisor: Prof. Zeng-Yei Hseu
 - Thesis: A feasibility study of using pXRF and Vis-NIR reflectance spectra as the diagnostic criteria of podzolic soils in subalpine areas of Taiwan
@@ -24,11 +24,9 @@ A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/sit
 -	Relevant courses: Physical Chemistry, Analytical Chemistry, Organic Chemistry, Soil Chemistry, Soil Morphology and Classification, Biochemistry, Plant Nutrition, and Molecular Biology
   
 ## Publications  
-*Revised and Submitted*  
-- **Huang, Y. C.,** Chen, Z. S., Hsu, J. Y., Chiu, C. M., & Hseu, Z. Y. (2022). Differentiation of fine-textured podzolic soils controlled by climate and landscape in Taiwan. Geoderma **(SCI, IF = 7.422, ranked 4/37 in Soil Science)**. (manuscript number: GEODER-D-22-00525)  
-  
-*Published*  
-- **Huang, Y. C.,** & Hseu, Z. Y. (2021). Silicon availability in relation to soil properties in Inceptisols on uncultivated lands and paddy fields in Taiwan. Geoderma Regional, 26: e00406. **(SCI, IF = 4.201)**  
+*Refereed journals*  
+- **Huang, Y. C.,** Chen, Z. S., Hsu, J. Y., Chiu, C. M., & Hseu, Z. Y. (2022). Differentiation of fine-textured podzolic soils controlled by climate and landscape in Taiwan. Geoderma, 428, 116155. **(SCI, IF = 7.422, ranked 3/142 in Soil Science by SJR)** https://doi.org/10.1016/j.geoderma.2022.116155  
+- **Huang, Y. C.,** & Hseu, Z. Y. (2021). Silicon availability in relation to soil properties in Inceptisols on uncultivated lands and paddy fields in Taiwan. Geoderma Regional, 26, e00406. **(SCI, IF = 4.201)** https://doi.org/10.1016/j.geodrs.2021.e00406  
   
 *International conference publications*  
 - **Huang, Y. C.,** Huang, C. Y., & Hseu, Z. Y. (2022). Characterization of podzolic soils using digital soil morphometrics in subtropical subalpine forests. Abstract Proceedings of 22<sup>nd</sup> World Congress of Soil Science. International Union of Soil Science. Glasgow, UK. July 31-Aug. 5, 2022. (oral presentation in person)  
@@ -37,10 +35,13 @@ A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/sit
 - **Huang, Y. C.,** & Hseu, Z. Y. (2019). Silicon availability and its relation to other properties of soils in Taiwan. Abstract Proceedings of 14<sup>th</sup> International Conference of the East and Southeast Asia Federation of Soil Science Societies (ESAFS). National Taiwan University. Taipei, Taiwan. Nov. 3-8, 2019. (oral presentation)
 - **Huang, Y. C.,** Tsui, C. C., Chiang, C. H., & Hseu, Z. Y. (2018). Element composition of the colluvial soils at an archeological site from Linkou Terrace, Taiwan. Abstract Proceedings of Joint Seminar on Environmental Ecology and Restoration. Ishikawa Prefectural University. Hakodate, Japan. Sept. 3-6, 2018. (oral presentation)  
   
+*In preparation*  
+- **Huang, Y. C.,** Huang, C. Y., Chen, Z. S., & Hseu, Z. Y. (2022). Using proximal sensing for characterizing diagnostic horizons of fine-textured podzolic soils in subtropical forests. CATENA. (SCI, IF = 6.367)
+  
 ## Research experience  
 **Soil Survey and Remediation Laboratory, NTU**  
 *July 2017 - present*  
-*Will work as Full Time Research Assistant from Sept. 2022*  
+*Full Time Research Assistant from Sept. 2022*  
 - Lab website: <a href="https://ssrlab.com.tw/" target="_blank">https://ssrlab.com.tw/</a>
 - Combined portable X-ray fluorescence spectrometer and Vis/NIR/SWIR spectroradiometers to predict soil organic carbon, clay, amorphous iron, and optical density of oxalate extractant (ODOE)
 -	Investigated the differentiation of podzolic soils in subalpine forests in Taiwan using selective extraction, micromorphology, and multivariate statistics
@@ -49,8 +50,7 @@ A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/sit
   
 ## Awards & honors  
 **Travel Grants supported by International Union of Soil Sciences (IUSS)**  
-*Up to 1000 USD as reimbursements of travel costs for early-career scientists*  
--	Accepted in May, 2022
+*1000 USD as reimbursements of travel costs for early-career scientists*  
 -	Acquired travel grant for 22<sup>nd</sup> World Congress of Soil Science
   
 **Honorable Mention for Academic Thesis Competition**  
@@ -66,7 +66,8 @@ A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/sit
   
 **Hsin Tian Kong Long-term Scholarship**  
 *1500 USD each semester (July 2019 – June 2022)*  
--	Acquired financial support from the Cultural and Educational Foundation of the largest religious group in Taiwan  
+-	Acquired financial support from one of the most famous charity groups in Taiwan  
+-	Long-term mentorship program for young scientists  
    
 ## Conference experience  
 **22<sup>nd</sup> World Congress of Soil Science**  
@@ -156,7 +157,7 @@ A pdf file of CV is available <a href="https://lloydychuang.github.io/assets/sit
 -	Discussed with the Representative (Ambassador) on the topic of youth education  
   
 **Harvard World Model United Nations (MUN)**  
-*Delegate of Iraq from NTU MUN Society (Mar. 2017)*  
+*Delegate from NTU MUN Society (Mar. 2017)*  
 *Montreal, Canada*  
 -	Committee: World Health Organization (WHO)
 -	Topic: Reforming the Global Pharmaceutical Industry
