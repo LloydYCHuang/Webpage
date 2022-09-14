@@ -25,8 +25,8 @@ title:  "CV"
   
 ## Publications  
 *Refereed journals*  
-- **Huang, Y. C.,** Chen, Z. S., Hsu, J. Y., Chiu, C. M., & Hseu, Z. Y. (2022). Differentiation of fine-textured podzolic soils controlled by climate and landscape in Taiwan. Geoderma, 428, 116155. **(SCI, IF = 7.422, ranked 3/142 in Soil Science by SJR)** https://doi.org/10.1016/j.geoderma.2022.116155  
-- **Huang, Y. C.,** & Hseu, Z. Y. (2021). Silicon availability in relation to soil properties in Inceptisols on uncultivated lands and paddy fields in Taiwan. Geoderma Regional, 26, e00406. **(SCI, IF = 4.201)** https://doi.org/10.1016/j.geodrs.2021.e00406  
+- **Huang, Y. C.,** Chen, Z. S., Hsu, J. Y., Chiu, C. M., & Hseu, Z. Y. (2022). Differentiation of fine-textured podzolic soils controlled by climate and landscape in Taiwan. Geoderma, 428, 116155. **(SCI, IF = 7.422, ranked 3/142 in Soil Science by SJR)** <a href="https://doi.org/10.1016/j.geoderma.2022.116155" target="_blank">https://doi.org/10.1016/j.geoderma.2022.116155</a>  
+- **Huang, Y. C.,** & Hseu, Z. Y. (2021). Silicon availability in relation to soil properties in Inceptisols on uncultivated lands and paddy fields in Taiwan. Geoderma Regional, 26, e00406. **(SCI, IF = 4.201)** <a href="https://doi.org/10.1016/j.geodrs.2021.e00406" target="_blank">https://doi.org/10.1016/j.geodrs.2021.e00406</a>  
   
 *International conference publications*  
 - **Huang, Y. C.,** Huang, C. Y., & Hseu, Z. Y. (2022). Characterization of podzolic soils using digital soil morphometrics in subtropical subalpine forests. Abstract Proceedings of 22<sup>nd</sup> World Congress of Soil Science. International Union of Soil Science. Glasgow, UK. July 31-Aug. 5, 2022. (oral presentation in person)  
