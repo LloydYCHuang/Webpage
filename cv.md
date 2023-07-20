@@ -6,9 +6,13 @@ title:  "CV"
 ***  
 <a href="https://lloydychuang.github.io/assets/site_CV.pdf" target="_blank">A pdf file of CV is available here</a>  
 ## Education  
+**University of Sydney (USYD)**  
+*PhD Student (Start from Oct. 2023)*  
+- Advisor: Prof. Budiman Minasny
+- Fully funded by Postgraduate Research Scholarship in Soil Monitoring and USYD International Tuition Fee Scholarship
+  
 **National Taiwan University (NTU)**  
 *Master of Science in Agricultural Chemistry (Sept. 2020 - June 2022)*  
-- GPA 4.24/4.30
 - Advisor: Prof. Zeng-Yei Hseu
 - Thesis: A feasibility study of using pXRF and Vis-NIR reflectance spectra as the diagnostic criteria of podzolic soils in subalpine areas of Taiwan
 - Relevant courses: Principles of Remote Sensing, Geostatistics, Soil Physical Chemistry, and English Writing for Academic Purposes   
@@ -19,36 +23,38 @@ title:  "CV"
 
 **National Taiwan University**  
 *Bachelor of Science in Agricultural Chemistry (Sept. 2016 - June 2020)*  
--	GPA 4.24/4.30
--	Rank 1/55 **(summa cum laude)**  
+-	Honors: **Summa Cum Laude** (Rank 1/34)
 -	Relevant courses: Physical Chemistry, Analytical Chemistry, Organic Chemistry, Soil Chemistry, Soil Morphology and Classification, Biochemistry, Plant Nutrition, and Molecular Biology
   
 ## Publications  
 *Refereed journals*  
-- **Huang, Y. C.,** Chen, Z. S., Hsu, J. Y., Chiu, C. M., & Hseu, Z. Y. (2022). Differentiation of fine-textured podzolic soils controlled by climate and landscape in Taiwan. Geoderma, 428, 116155. **(SCI, IF = 7.422, ranked 3/142 in Soil Science by SJR)** <a href="https://doi.org/10.1016/j.geoderma.2022.116155" target="_blank">https://doi.org/10.1016/j.geoderma.2022.116155</a>  
-- **Huang, Y. C.,** & Hseu, Z. Y. (2021). Silicon availability in relation to soil properties in Inceptisols on uncultivated lands and paddy fields in Taiwan. Geoderma Regional, 26, e00406. **(SCI, IF = 4.201)** <a href="https://doi.org/10.1016/j.geodrs.2021.e00406" target="_blank">https://doi.org/10.1016/j.geodrs.2021.e00406</a>  
+- **Huang, Y. C.,** Huang, C. Y., Minasny. B., Chen, Z. S., & Hseu, Z. Y. (2023). Using pXRF and Vis-NIR for characterizing diagnostic horizons of fine-textured podzolic soils in subtropical forests. Geoderma, 437, 116582. <a href="https://doi.org/10.1016/j.geoderma.2023.116582" target="_blank">https://doi.org/10.1016/j.geoderma.2023.116582</a>
+- **Huang, Y. C.,** Chen, Z. S., Hsu, J. Y., Chiu, C. M., & Hseu, Z. Y. (2022). Differentiation of fine-textured podzolic soils controlled by climate and landscape in Taiwan. Geoderma, 428, 116155. <a href="https://doi.org/10.1016/j.geoderma.2022.116155" target="_blank">https://doi.org/10.1016/j.geoderma.2022.116155</a>  
+- **Huang, Y. C.,** & Hseu, Z. Y. (2021). Silicon availability in relation to soil properties in Inceptisols on uncultivated lands and paddy fields in Taiwan. Geoderma Regional, 26, e00406. <a href="https://doi.org/10.1016/j.geodrs.2021.e00406" target="_blank">https://doi.org/10.1016/j.geodrs.2021.e00406</a>  
   
 *International conference publications*  
-- **Huang, Y. C.,** Huang, C. Y., & Hseu, Z. Y. (2022). Characterization of podzolic soils using digital soil morphometrics in subtropical subalpine forests. Abstract Proceedings of 22<sup>nd</sup> World Congress of Soil Science. International Union of Soil Science. Glasgow, UK. July 31-Aug. 5, 2022. (oral presentation in person)  
+- **Huang, Y. C.,** Huang, C. Y., Minasny. B., Chen, Z. S., & Hseu, Z. Y. (2023). Characterizing diagnostic horizons of podzolic soils in Taiwan using pXRF and Vis-NIR. Abstract Proceedings of 4th Global Soil Security Conference. Korean Society of Soil Science and Fertilizer. Seoul, Korea. June 26-29, 2023 (oral presentation)
+- **Huang, Y. C.,** Huang, C. Y., Chen, Z. S., & Hseu, Z. Y. (2023). Using pXRF and Vis-NIR as an interpretable model to predict soil properties in podzolic soils of subtropical forest. Abstract Proceedings of 2nd joint Workshop of the IUSS Working Groups Digital Soil Mapping and Global Soil Map. International Union of Soil Science. Orléans, France. Feb. 7-9, 2023. (oral presentation)
+- **Huang, Y. C.,** Huang, C. Y., & Hseu, Z. Y. (2022). Characterization of podzolic soils using digital soil morphometrics in subtropical subalpine forests. Abstract Proceedings of 22<sup>nd</sup> World Congress of Soil Science. International Union of Soil Science. Glasgow, UK. July 31-Aug. 5, 2022. (oral presentation)  
 - **Huang, Y. C.,** Huang, C. Y., & Hseu, Z. Y. (2022). Characterization of organometallic complexes in podzolic soils in subalpine forest using proximal sensors. Abstract Proceedings of 8<sup>th</sup> International Symposium on Soil Organic Matter. Korean Society of Soil Science and Fertilizer. Seoul, Korea. June 26-30, 2022. (oral presentation by pre-recorded video)
 - **Huang, Y. C.,** & Hseu, Z. Y. (2021). Characterization of podzolic soils using digital morphometrics in a subtropical subalpine forest of Taiwan. Abstract Proceedings of Pedometric Webinar. International Union of Soil Science. June 16-17, 2021. (oral presentation)  
 - **Huang, Y. C.,** & Hseu, Z. Y. (2019). Silicon availability and its relation to other properties of soils in Taiwan. Abstract Proceedings of 14<sup>th</sup> International Conference of the East and Southeast Asia Federation of Soil Science Societies (ESAFS). National Taiwan University. Taipei, Taiwan. Nov. 3-8, 2019. (oral presentation)
 - **Huang, Y. C.,** Tsui, C. C., Chiang, C. H., & Hseu, Z. Y. (2018). Element composition of the colluvial soils at an archeological site from Linkou Terrace, Taiwan. Abstract Proceedings of Joint Seminar on Environmental Ecology and Restoration. Ishikawa Prefectural University. Hakodate, Japan. Sept. 3-6, 2018. (oral presentation)  
   
-*In preparation*  
-- **Huang, Y. C.,** Huang, C. Y., Chen, Z. S., & Hseu, Z. Y. (2022). Using proximal sensing for characterizing diagnostic horizons of fine-textured podzolic soils in subtropical forests. CATENA. (SCI, IF = 6.367)
-  
 ## Research experience  
 **Soil Survey and Remediation Laboratory, NTU**  
-*July 2017 - present*  
-*Full Time Research Assistant from Sept. 2022*  
-- Lab website: <a href="https://ssrlab.com.tw/" target="_blank">https://ssrlab.com.tw/</a>
-- Combined portable X-ray fluorescence spectrometer and Vis/NIR/SWIR spectroradiometers to predict soil organic carbon, clay, amorphous iron, and optical density of oxalate extractant (ODOE)
+*Aug. 2022 – Aug. 2023*  
+*Research Assistant*  
+- Lab website: <a href="http://teacher.ac.ntu.edu.tw/zh_tw/zyhseu" target="_blank">http://teacher.ac.ntu.edu.tw/zh_tw/zyhseu</a>
+-	Lab PI: Prof. Zeng-Yei Hseu
+-	Established spectral library for Taiwanese soils and built a partial least squared regression model to predict the organic carbon content in soils
+-	Combined portable X-ray fluorescence spectrometer and Vis-NIR spectroradiometers to predict soil organic carbon, clay, amorphous iron, and optical density of oxalate extractant in podzolic soils
 -	Investigated the differentiation of podzolic soils in subalpine forests in Taiwan using selective extraction, micromorphology, and multivariate statistics
--	Analyzed the distribution of Silicon availability and its difference in forest soils and paddy fields of Taiwan
--	Carried out physical and chemical analysis on the soils from an archeological site on a joint project with the department of Anthropology, National Taiwan University (NTU)  
   
 ## Awards & honors  
+**First Place for Poster Competition**  
+*Annual Meeting of the Chinese Society of Soil and Fertilizer Sciences*  
+  
 **Travel Grants supported by International Union of Soil Sciences (IUSS)**  
 *1000 USD as reimbursements of travel costs for early-career scientists*  
 -	Acquired travel grant for 22<sup>nd</sup> World Congress of Soil Science
@@ -59,7 +65,7 @@ title:  "CV"
 **Honorable Mention for Poster Competition**  
 *Annual Meeting of the Chinese Society of Soil and Fertilizer Sciences (Nov. 2020)*  
   
-**Dean’s List Award (Academic Excellence Award)**  
+**Presidential Award (Academic Excellence Award)**  
 *Top 5% of class (Oct. 2020; Oct. & Apr. 2019; Oct. & Apr. 2018; Oct. & Apr. 2017)*  
 -	Demonstrated diligence on every subject
 -	Completed all credits with outstanding grades  
@@ -69,47 +75,6 @@ title:  "CV"
 -	Acquired financial support from one of the most famous charity groups in Taiwan  
 -	Long-term mentorship program for young scientists  
    
-## Conference experience  
-**22<sup>nd</sup> World Congress of Soil Science**  
-*Oral presentation in person (Aug. 2022)*  
-*Glasgow, UK*  
--	The leading international conference in soil science with over 3000 participants worldwide
--	Topic: Characterization of podzolic soils using digital soil morphometrics in subtropical subalpine forests
-  
-**8<sup>th</sup> International Symposium on Soil Organic Matter**  
-*Oral presentation by pre-recorded video (June 2022)*  
-*Seoul, Korea*  
--	Topic: Characterization of organometallic complexes in podzolic soils in subalpine forest using proximal sensors
-  
-**Pedometrics Webinar**  
-*Oral presentation (June 2021)*  
-*Virtual*  
-- Webinar held by the Pedometrics commission of the International Union of Soil Sciences (IUSS)  
--	Topic: Characterization of podzolic soils using digital soil morphometrics in a subtropical subalpine forest of Taiwan  
-  
-**Annual Meeting of the Geography Society of China (中國地理學會年會暨學術研討會)**  
-*Oral presentation (May 2021)*  
-*Virtual*  
--	Topic: Characterization of podzolic soils in Shanlinshi using digital soil morphometrics  
-  
-**Annual Meeting of the Chinese Society of Soil and Fertilizer Sciences (中華土壤肥料學會年會)**  
-*Poster presentation (Nov. 2020)*  
-*Taichung, Taiwan*  
--	Topic: Using Vis-NIR spectroscopy and pXRF to pedogenesis
--	Presented research progress of a collaborative project with the Department of Geology, NTU  
-  
-**14<sup>th</sup> International Conference of the East and Southeast Asia Federation of Soil Science Societies (ESAFS)**  
-*Oral presentation (Nov. 2019)*  
-*Taipei, Taiwan*  
--	Topic: Silicon availability and its relation to other properties of soils in Taiwan  
-  
-**Joint Seminar on Environmental Ecology and Restoration**  
-*Oral presentation (Aug. 2018)*  
-*Hakodate, Japan*  
--	Joint seminar between NTU and Ishikawa Prefectural University
--	Topic: Element composition of the colluvial soils at an archeological site from Linkou terrace, Taiwan
--	Presented research progress of a collaborative project with the Department of Anthropology, NTU  
-  
 ## Skills  
 **Computer Programming**  
 -	R (Carried out machine learning, spectra pre-processing, and geostatistics)
@@ -117,7 +82,7 @@ title:  "CV"
 -	HTML (Lab website maintenance)
   
 **Laboratory Instruments**  
--	Field-portable Vis/NIR/SWIR spectroradiometers (ASD FieldSpec 3)
+- Field-portable Vis-NIR spectroradiometer (ASD FieldSpec 3)
 -	Portable X-ray fluorescence spectrometer (Olympus DELTA Premium pXRF)
 -	Atomic absorption spectroscopy
 -	Inductively coupled plasma - optical emission spectrometry (ICP-OES)
