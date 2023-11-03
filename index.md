@@ -14,7 +14,7 @@ I study soil spectroscopy with a domain knowledge of pedogenesis. With the under
   
 To date, I have published three peer-reviewed papers. The most recent one is published in the journal Geoderma (IF = 6.1) titled "Using pXRF and Vis-NIR for characterizing diagnostic horizons of fine-textured podzolic soils in subtropical forests." We used proximal sensors and algorithms to classify the horizons of podzolic soils, which have a significant accumulation of organo-metallic complexes. The k-means clustering successfully separated O/A, E, B, and C horizons, and we expect such methods can be applied in situ in the future.  
    
-I am a dreamer and am ready for a PhD adventure. I am conducting my PhD under the supervision of Prof. Budiman Minasny. For more information, check out my CV and Research pages. You can also contact me through email (lloyd.yc.huang@gmail.com or yhua0959@uni.sydney.edu.au) and Twitter (<a href="https://twitter.com/LloydYCHuang" target="_blank">@LloydYCHuang</a>).    
+I am a dreamer and am ready for a PhD adventure. I am conducting my PhD under the supervision of Prof. Budiman Minasny. For more information, check out my CV and Research pages. You can also contact me through email (<a href=mailto:“lloyd.yc.huang@gmail.com”>lloyd.yc.huang@gmail.com</a> or <a href=mailto:“yhua0959@uni.sydney.edu.au”>yhua0959@uni.sydney.edu.au</a>) and Twitter (<a href="https://twitter.com/LloydYCHuang" target="_blank">@LloydYCHuang</a>).    
   
   
   
