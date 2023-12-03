@@ -8,7 +8,7 @@ title:  "Hi! I am Lloyd!"
 ***  
    
 <img align="left" width="352" height="640" style="margin-right:20px" src="https://lloydychuang.github.io/assets/me.jpg">
-I am Yin-Chung (Lloyd) Huang, a PhD student at the University of Sydney. I come from Taiwan and did my master's at National Taiwan University. I have a broad interest in questions involved in the biogeochemical cycle and am thrilled to start my academic journey here in Sydney. I am passionate about research work and hold enthusiasm toward soil science. In short, I want to be a scientist in the future.  
+I am Yin-Chung (Lloyd) Huang, a PhD student at the University of Sydney. I come from Taiwan and got my master's degree from National Taiwan University. I have a broad interest in questions involved in the biogeochemical cycle and am thrilled to start my academic journey here in Sydney. I am passionate about research work and hold enthusiasm toward soil science. In short, I want to be a scientist in the future.  
    
 I study soil spectroscopy with a domain knowledge of pedogenesis. With the understanding of soil formation, I am expecting to deal with issues including climate change, sustainable production, smart agriculture, and even planetary exploration! My present research focuses on the application of mid-infrared on soil mineralogy and the use of low-cost spectrometers to estimate soil carbon stock.   
   
