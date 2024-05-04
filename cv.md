@@ -7,7 +7,7 @@ title:  "CV"
 <a href="https://lloydychuang.github.io/assets/site_CV.pdf" target="_blank">A pdf file of CV is available here</a>  
 ## Education  
 **University of Sydney (USYD)**  
-*PhD Student (Start from Oct. 2023)*  
+*PhD Student (Oct. 2023 - now)*  
 - Advisor: Prof. Budiman Minasny
 - Fully funded by Postgraduate Research Scholarship in Soil Monitoring and USYD International Tuition Fee Scholarship
   
